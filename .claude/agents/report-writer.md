@@ -89,7 +89,16 @@ tools: Read, Write
    - 同じ分に複数ある場合は末尾に `_2`, `_3` を付ける
 2. `reports/index.txt` に 1 行追記：
        YYYY-MM-DD HH:MM | [商品名] | reports/search_YYYYMMDD_HHMM.txt
-3. 保存後、ファイルへの相対パスをユーザーに提示
+3. 保存後、**GitHub リポジトリのハイパーリンク**（ワンクリックで開ける
+   形）をユーザーに提示する。具体的には以下の 3 種類を提示：
+   - 今回のレポートファイル：
+     `https://github.com/KazuyaMurayama/shopping_product_search/blob/[BRANCH]/reports/search_YYYYMMDD_HHMM.txt`
+   - `reports/index.txt`（履歴インデックス）：
+     `https://github.com/KazuyaMurayama/shopping_product_search/blob/[BRANCH]/reports/index.txt`
+   - `reports/` ディレクトリ：
+     `https://github.com/KazuyaMurayama/shopping_product_search/tree/[BRANCH]/reports`
+   - [BRANCH] は `git branch --show-current` で取得した現行ブランチ名
+   - Markdown チャットでは `[表示名](URL)` 形式で提示
 
 ## 自己チェック（レポート確定前必須）
 
