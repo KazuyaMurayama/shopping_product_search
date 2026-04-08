@@ -1,0 +1,214 @@
+== 検索結果レポート ==
+
+検索条件:
+  商品: 財布に入る超小型位置情報トラッカー（Apple AirTag 代替品）
+  必須条件:
+    - 条件 A: 現在地情報が把握できる（GPS または Bluetooth スマートタグ）
+    - 条件 B: 財布に入るサイズ（カード型または超薄型、厚さ 5mm 以下が望ましい）
+    - 条件 C: スマートフォンアプリから場所確認できる（iOS/Android 両対応が望ましい）
+    - 条件 D: Apple AirTag 以外の商品
+  望ましい条件:
+    - 条件 E: 登録・運用の手間が少ない
+    - 条件 F: できるだけ薄く小さい
+  予算: 指定なし
+  対象チャネル: Amazon.co.jp / 楽天市場 / メルカリ
+  優先順位: 小ささ（薄さ）優先、次に登録・運用の手間
+  除外条件: Apple AirTag、月額サブスク必須の業務用 GPS
+  検索日時: 2026-04-08 10:46
+
+-- 条件チェックリスト --
+  □ 条件 A: 現在地情報が把握できる（GPS または Bluetooth スマートタグ）
+  □ 条件 B: 財布に入るサイズ（カード型または超薄型、厚さ 5mm 以下が望ましい）
+  □ 条件 C: スマートフォンアプリから場所確認できる（iOS/Android 両対応が望ましい）
+  □ 条件 D: Apple AirTag 以外の商品
+
+-- 推奨 TOP3（全ゲート通過品のみ） --
+
+順位 | チャネル | 商品名                      | 価格             | 評価       | 在庫 | 条件充足 | リンク
+-----+---------+----------------------------+------------------+-----------+-----+---------+--------
+1    | 楽天    | MAMORIO CARD Black          | 要最新確認       | 件数取得不可 | 有  | 全充足  | https://item.rakuten.co.jp/mamorio/mamd-001-bk/
+2    | 楽天    | Tile Slim (Gen3) 2mm        | 要最新確認       | 件数取得不可 | 有  | 全充足  | https://item.rakuten.co.jp/acstore/tileslim161213/
+3    | 楽天    | Chipolo CARD                | MAX2000円OFF対象 | 件数取得不可 | 有  | 全充足  | https://item.rakuten.co.jp/sincere-watch/chipolocard/
+
+[推奨] MAMORIO CARD Black
+  理由:
+    - 本検索で最薄の厚さ 1.7mm（薄さ優先方針に最適合）
+    - 日本製・国内サポートあり、紛失時補償付き
+    - Qi 充電対応で電池交換不要、運用負荷が最小
+    - 公式ストア出品のため真贋・サポート面で安心
+    - iOS/Android 両対応アプリ
+
+-- 各商品の条件充足詳細 --
+
+商品 1: MAMORIO CARD Black（楽天 / mamorio 公式ストア）
+  - 条件 A: 確認済み（根拠: Bluetooth スマートタグ、MAMORIO アプリで位置情報把握可）
+  - 条件 B: 確認済み（根拠: 54mm × 85.5mm × 厚さ 1.7mm、カード型で財布収納可）
+  - 条件 C: 確認済み（根拠: MAMORIO アプリ iOS/Android 両対応）
+  - 条件 D: 確認済み（根拠: MAMORIO 社製品で Apple AirTag ではない）
+  - 条件 E（望）: 充足（Qi 充電で電池交換不要、運用負荷低）
+  - 条件 F（望）: 充足（厚さ 1.7mm は本検索で最薄）
+
+商品 2: Tile Slim (Gen3) 2mm（楽天 / acstore）
+  - 条件 A: 確認済み（根拠: Bluetooth スマートタグ、Tile アプリで位置情報把握可）
+  - 条件 B: 確認済み（根拠: クレカサイズ、厚さ 2mm）
+  - 条件 C: 確認済み（根拠: Tile アプリ iOS/Android 両対応）
+  - 条件 D: 確認済み（根拠: Tile 社製品で Apple AirTag ではない）
+  - 条件 E（望）: 充足（アプリ登録のみで運用開始可能）
+  - 条件 F（望）: 充足（厚さ 2mm、クレカサイズ）
+
+商品 3: Chipolo CARD（楽天 / sincere-watch）
+  - 条件 A: 確認済み（根拠: Bluetooth スマートタグ、Chipolo アプリで位置情報把握可）
+  - 条件 B: 確認済み（根拠: 37mm × 68mm × 厚さ 2.15mm）
+  - 条件 C: 確認済み（根拠: Chipolo アプリ iOS/Android 両対応版）
+  - 条件 D: 確認済み（根拠: Chipolo 社製品で Apple AirTag ではない）
+  - 条件 E（望）: 充足（アプリ登録のみで運用開始可能）
+  - 条件 F（望）: 充足（厚さ 2.15mm、防水）
+
+-- 全候補一覧 --
+
+[Amazon]
+  - Tile Slim (2022)
+      ASIN: B09HTW9MVK
+      URL: https://www.amazon.co.jp/dp/B09HTW9MVK
+      仕様: 厚さ 2.4mm、日本正規代理店品、最大 3 年、IP67
+      条件充足: 全充足
+  - MAMORIO CARD
+      ASIN: B08LL17T6D
+      URL: https://www.amazon.co.jp/dp/B08LL17T6D
+      仕様: カード型、Qi 充電、紛失時補償付き
+      条件充足: 全充足
+  - Chipolo CARD (2020)
+      ASIN: B084KY1J15
+      URL: https://www.amazon.co.jp/dp/B084KY1J15
+      仕様: 厚さ 2.4mm、電池寿命約 2 年、iOS/Android 両対応版
+      条件充足: 全充足
+
+[楽天]
+  - MAMORIO CARD Black
+      URL: https://item.rakuten.co.jp/mamorio/mamd-001-bk/
+      仕様: 厚さ 1.7mm、公式ストア出品
+      条件充足: 全充足（TOP3 1 位）
+  - MAMORIO CARD Black Qi 充電器同梱セット
+      URL: https://item.rakuten.co.jp/mamorio/mamd-001-bk-qc/
+      仕様: 厚さ 1.7mm、Qi 充電器同梱、公式ストア出品
+      条件充足: 全充足
+  - Tile Slim (Gen3) 2mm
+      URL: https://item.rakuten.co.jp/acstore/tileslim161213/
+      仕様: クレカサイズ、厚さ 2mm
+      条件充足: 全充足（TOP3 2 位）
+  - Tile Slim (2022)
+      URL: https://item.rakuten.co.jp/keitai/111-601622/
+      仕様: 厚さ 2.4mm
+      条件充足: 全充足
+  - Tile Slim (2022) スーパー DEAL
+      URL: https://item.rakuten.co.jp/superdeal/11895rt-4100120220804/
+      仕様: 厚さ 2.4mm、スーパー DEAL 対象
+      条件充足: 全充足
+  - Chipolo CARD
+      URL: https://item.rakuten.co.jp/sincere-watch/chipolocard/
+      仕様: 厚さ 2.15mm、MAX2000 円 OFF クーポン対象
+      条件充足: 全充足（TOP3 3 位）
+  - Chipolo CARD CH-C17B-WE-R
+      URL: https://item.rakuten.co.jp/synnexstore/c4n0007/
+      仕様: 厚さ 2.15mm、iOS/Android 両対応版
+      条件充足: 全充足
+
+[メルカリ]
+  （全候補ゲート 3 失敗のため選外一覧を参照）
+
+[iHerb]
+  （本検索対象外）
+
+[オオサカ堂]
+  （本検索対象外）
+
+-- 選外商品と理由 --
+
+ゲート 1 失敗（URL 問題）:
+  - 該当なし
+
+ゲート 2 失敗（存在・在庫）:
+  - 該当なし
+
+ゲート 3 失敗（条件不充足）:
+  [Amazon]
+    - Chipolo Spot BUNDLE / ASIN B09ZTZPM3R
+        理由: iOS 専用（Apple 探すネットワーク連携）で条件 C 不充足
+    - Chipolo Point CARD (2023) / ASIN B0DW49K87S
+        理由: Android 専用で条件 C 不充足
+    - Dyoac 1.6mm / ASIN B0D41HZQL1
+        理由: iOS 専用で条件 C 不充足、ノーブランド懸念
+    - VOCOlinc 1.6mm / ASIN B0BZVCK6WJ
+        理由: iOS 専用で条件 C 不充足
+  [楽天]
+    - Chipolo CARD Android 専用 / synnexstore/c4n000b
+        理由: Android 専用で条件 C 不充足
+  [メルカリ]
+    - Tile スターターパック 2022 (Mate+Slim) / m22918446933
+        価格: 8,800 円、新品未使用、出品者評価 155
+        理由: Mate が厚さ 6.2mm 混在セットで条件 B 要確認
+    - Tile Mate & Slim 3 個セット / m11970635855
+        価格: 9,800 円、新品未使用、出品者評価 569
+        理由: Mate 厚さ 6.2mm 混在セットで条件 B 要確認
+    - 中華系 AirTag 互換カード型 / m61077151508
+        価格: 999 円、新品未使用
+        理由: iOS のみで条件 C 不充足、技適/MFi 未明示で条件 D 要確認
+    - Tile Mate 2020 / m48402022948
+        価格: 1,900 円、目立った傷なし
+        理由: 厚さ 6.2mm で条件 B 不充足
+    - Tile Mate 単品 / m95673031828
+        価格: 2,400 円、新品未使用
+        理由: 厚さ 6.2mm で条件 B 不充足
+    - Tile Mate 2 個 / m37834041085
+        価格: 3,300 円、新品未使用
+        理由: 厚さ 6.2mm で条件 B 不充足
+
+選外理由集計:
+  - ゲート 1（URL）失敗: 0 件
+  - ゲート 2（存在・在庫）失敗: 0 件
+  - ゲート 3（条件不充足）失敗: 11 件
+      内訳:
+        - iOS/Android 片対応: 5 件
+        - Mate 厚さ 6.2mm: 3 件
+        - Mate/Slim 混在セット: 2 件
+        - 技適/MFi 不明: 1 件
+
+-- Apple AirTag との比較考察 --
+
+Apple AirTag の基本情報:
+  - 形状: コイン型、直径約 31.9mm、厚さ約 8mm
+  - 方式: Bluetooth + Apple 探すネットワーク
+  - 対応 OS: iOS 専用（Android 非対応）
+  - 特徴: U1 超広帯域チップ搭載で正確方向探知（Precision Finding）が可能
+
+推奨 TOP3 が AirTag より優位な点:
+  - 薄さ: AirTag 約 8mm に対し、MAMORIO 1.7mm / Tile Slim 2mm / Chipolo 2.15mm
+  - Android 対応: AirTag は iOS 専用、TOP3 は全て iOS/Android 両対応
+  - 価格: Tile / MAMORIO / Chipolo は AirTag 同等〜やや安価（要最新確認）
+  - 形状: カード型で財布に自然に収納可能、コイン型の AirTag は財布収納に不向き
+
+AirTag が TOP3 より優位な点:
+  - 探索ネットワーク規模: iPhone ユーザー数が莫大で広域トラッキング範囲が広い
+  - U1 チップによる正確方向探知（Precision Finding）機能
+  - MAMORIO / Tile / Chipolo は独自ネットワークで、ユーザー数は AirTag より小規模
+  - Apple 純正エコシステムとの統合度
+
+使い分けの指針:
+  - iPhone 単独運用、屋内精密探索重視 → AirTag
+  - Android 併用、または薄さ重視 → MAMORIO / Tile / Chipolo
+  - 国内サポート・紛失補償重視 → MAMORIO
+  - グローバル探索網重視 → Tile
+  - OS ロックインを避けたい → Chipolo
+
+-- 補足情報 --
+
+  - 価格・在庫は 2026-04-08 10:46 時点のものです。変動する可能性があります
+  - 楽天は EUC-JP の影響で自動検証に制約があるため、最終購入前に必ず商品ページで
+    最新の価格・在庫・レビュー件数を確認してください
+  - メルカリに出品されている Tile / MAMORIO / Chipolo は、譲渡解除（旧出品者からの
+    紐付け解除）手続きが必要なケースがあります。購入前にコメントで確認することを推奨します
+  - メルカリは中古品のため、状態表記・出品者評価を必ずご確認ください
+  - 中華系カード型互換タグは技適マーク・MFi 認証の有無を必ず確認してください
+  - 最終確認はユーザー自身で行ってください
+
+== レポート終端 ==
