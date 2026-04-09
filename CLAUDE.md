@@ -73,64 +73,27 @@ Claude Code は本ファイルの規約を**必ず**遵守してください。
 
 ---
 
-## 1. 対象チャネルと URL 形式
+## 1. 対象チャネル（一覧）
 
-### Amazon.co.jp
+| チャネル | ドメイン | 個別商品 URL パターン |
+|---|---|---|
+| Amazon.co.jp | www.amazon.co.jp | /dp/[ASIN 10 文字] |
+| メルカリ | jp.mercari.com | /item/[ITEM_ID] |
+| 楽天市場 | item.rakuten.co.jp | /[SHOP]/[ITEM_ID]/ |
+| iHerb | jp.iherb.com | /pr/[slug-id] |
+| オオサカ堂 | osakado.org | /products/[id].html |
+| Yahoo!ショッピング | store.shopping.yahoo.co.jp | /[SHOP]/[ITEM_ID].html |
+| Yahoo!オークション | page.auctions.yahoo.co.jp | /jp/auction/[ITEM_ID] |
 
-- 個別商品 URL：`https://www.amazon.co.jp/dp/[ASIN]`
-- ASIN 形式：`[A-Z0-9]{10}`
-- robots.txt により直接フェッチ不可。検索スニペット内から ASIN を抽出して
-  URL を組み立てる
-- 「Currently unavailable」「在庫切れ」は除外
+全チャネル共通の禁止 URL パターン：
+`search`, `?k=`, `?s=`, `?keyword=`, `?kw=`, `?q=`, `/search/`, `/s?`
 
-### メルカリ
+チャネル固有の注意点（EUC-JP、在庫表記、個人輸入、PayPay 還元、譲渡解除等）
+および URL パターンの詳細は `docs/channels.md` を参照。実動作の定義は
+各スカウトエージェント `.claude/agents/*-scout.md` を参照。
 
-- 個別商品 URL：`https://jp.mercari.com/item/[ITEM_ID]`
-- ITEM_ID 形式：`m[0-9]{10,}` または英数字の商品 ID
-- 出品終了・売り切れ（SOLD）は除外
-- 中古品のため**状態（新品 / 未使用 / 目立った傷なし 等）必須記載**
-- 出品者評価が確認できる場合は付記
-
-### 楽天市場
-
-- 個別商品 URL：`https://item.rakuten.co.jp/[SHOP]/[ITEM_ID]/`
-- 文字化け（EUC-JP）対応：URL 存在確認は検索スニペットで行う
-- ショップレビュー / 商品レビューの両方を確認
-- 「あす楽」対応の有無を付記
-
-### iHerb
-
-- 個別商品 URL：`https://jp.iherb.com/pr/[商品名スラッグ-ID]`
-- サプリ・健康食品中心。**成分表記の確認が重要**
-- 在庫状況（In Stock / Out of Stock）必須確認
-- セール価格表示時は**通常価格も併記**
-
-### オオサカ堂
-
-- 個別商品 URL：`https://osakado.org/products/[ITEM_ID].html`
-- 海外医薬品・ジェネリック中心
-- **成分・用量の明記必須**
-- 在庫状況と発送国を確認
-- **個人輸入の注意事項を必ず付記**
-
-### Yahoo!ショッピング（中古・並行輸入を含む価格比較に有効）
-
-- 個別商品 URL：`https://store.shopping.yahoo.co.jp/[SHOP]/[ITEM_ID].html`
-- マスター商品：`https://shopping.yahoo.co.jp/products/[PRODUCT_ID]`
-- 検索結果 URL：`https://shopping.yahoo.co.jp/search?p=...` ← **絶対禁止**
-- PayPay ポイント還元率を取得できれば付記
-- 「ストア評価」「商品レビュー」を確認
-
-### Yahoo!オークション（中古市場として利用）
-
-- 個別商品 URL：`https://page.auctions.yahoo.co.jp/jp/auction/[ITEM_ID]`
-- 検索結果 URL：`https://auctions.yahoo.co.jp/search/search?p=...` ← **絶対禁止**
-- 即決価格・現在価格・入札数を取得
-- 残り時間と終了済み区分を確認
-
-### 追加チャネル（ユーザー指示時のみ）
-
-Qoo10 / AliExpress / eBay 等。追加時は同一の 3 ゲート検証ルールを適用。
+追加チャネル（Qoo10 / AliExpress / eBay 等）はユーザー指示時のみ対応。
+`/add-channel` スラッシュコマンドで雛形を生成する。
 
 ---
 
@@ -197,15 +160,9 @@ Qoo10 / AliExpress / eBay 等。追加時は同一の 3 ゲート検証ルール
 6. レポートを `reports/search_YYYYMMDD_HHMM.txt` に保存
 7. `reports/index.txt` に履歴追記
 
-### 中古が成立しない / 推奨しないカテゴリ例
-
-- サプリ・ビタミン・プロテイン等の口に入れるもの
-- 医薬品・医療機器
-- 化粧品・衛生用品
-- 下着・水着
-- 開封済みで価値が落ちる消耗品
-
-これらは中古サーチをスキップし、レポートに「中古対象外」と明記する。
+中古対象外カテゴリ（サプリ / 医薬品 / 化粧品 / 衛生用品 / 下着 / 食品 等）
+および中古相場セクションの書式詳細は `docs/used-market-rules.md` を参照。
+該当カテゴリでは本フェーズをスキップし「中古対象外」と明記する。
 
 ---
 
@@ -256,20 +213,7 @@ Qoo10 / AliExpress / eBay 等。追加時は同一の 3 ゲート検証ルール
 
 ---
 
-## 7. リポジトリ構成
-
-    .claude/
-      agents/             ... チャネル別スカウト・検証・出力エージェント
-      commands/           ... カスタムスラッシュコマンド
-    reports/
-      TEMPLATE.txt        ... レポート雛形
-      index.txt           ... 検索履歴インデックス
-      search_*.txt        ... 個別検索レポート（タイムスタンプ付き）
-    CLAUDE.md             ... 本ファイル
-
----
-
-## 8. 行動規範
+## 7. 行動規範
 
 - 検索は必ずチャネルごとに分割して段階的に実行
 - 各チャネル完了時に進捗を報告
