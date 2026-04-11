@@ -18,5 +18,6 @@
 2026-04-10 07:30 | 財布用超小型位置情報トラッカー（AirTag 代替）最終版 | reports/search_20260408_1046_final.md
 2026-04-10 09:40 | 幼児向けストロー付き水筒 300〜400ml v1 | reports/search_20260410_0940_waterbottle_v1.md
 2026-04-10 12:00 | 幼児向けストロー付き水筒 300〜400ml 安価帯+中古調査 v1 | reports/search_20260410_1200_waterbottle_budget_v1.txt
+2026-04-11 02:16 | SIM フリースマートフォン（Pixel/Galaxy/Xiaomi、大画面・AI・カメラ重視）v1 | reports/search_20260411_0216_smartphone_v1.md
 
 == インデックス終端 ==
