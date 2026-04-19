@@ -22,5 +22,7 @@
 2026-04-11 08:37 | スマートスピーカー/ディスプレイ（Alexa/Google/Siri 比較）v1 | reports/search_20260411_0837_smartspeaker_v1.md
 2026-04-19 12:00 | ロキソニンSテープ 7cm×10cm・14cm×10cm 全 SKU 調査（Amazon 専用） | reports/search_20260419_1200_loxonin_tape.txt
 2026-04-19 04:22 | ロキソニンSテープ 7cm・14cm 1枚単価最安値 TOP3（Amazon+Yahoo!）v1 | reports/search_20260419_0422_loxonin_tape_v1.md
+2026-04-19 15:00 | こどもが歯磨きしたくなる絵本（楽天市場）v1 | reports/search_20260419_1500_hamigaki_ehon_v1.txt
+2026-04-19 04:30 | こどもが歯磨きしたくなる絵本 最終版（楽天+Yahoo!+Amazon）v1 | reports/search_20260419_hamigaki_ehon_v1.md
 
 == インデックス終端 ==
