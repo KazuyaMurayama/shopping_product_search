@@ -29,8 +29,9 @@
   - tasks.md を新規作成（本ファイル）
   - file_index.md を新規作成
   - main ブランチへ移行（git push origin HEAD:main）
-- [x] 商品検索: ロキソニンSテープ 7cm・14cm（2026-04-19）
-  - 成果物: reports/search_20260419_1200_loxonin_tape.txt
+- [x] 商品検索: ロキソニンSテープ 7cm・14cm 1枚単価最安値調査（2026-04-19）
+  - 成果物: reports/search_20260419_0422_loxonin_tape_v1.md（最終）
+  - Amazon + Yahoo!ショッピング 2チャネル調査（楽天はタイムアウトにより除外）
 
 ---
 

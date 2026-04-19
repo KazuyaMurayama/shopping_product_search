@@ -75,4 +75,6 @@
 | reports/search_20260410_1200_waterbottle_budget_v1.txt | 水筒（バジェット版）テキストレポート | 2026-04-10 | 低 |
 | reports/search_20260411_0216_smartphone_v1.md | スマートフォン検索レポート | 2026-04-11 | 低 |
 | reports/search_20260411_0837_smartspeaker_v1.md | スマートスピーカー検索レポート | 2026-04-11 | 低 |
+| reports/search_20260419_1200_loxonin_tape.txt | ロキソニンSテープ Amazon調査（中間） | 2026-04-19 | 低 |
+| reports/search_20260419_0422_loxonin_tape_v1.md | ロキソニンSテープ 7cm・14cm 最安値TOP3（最終版） | 2026-04-19 | 中 |
 | reports/search_20260419_1200_loxonin_tape.txt | ロキソニンSテープ 7cm・14cm 全 SKU 調査（Amazon 専用） | 2026-04-19 | 中 |

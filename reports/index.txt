@@ -21,5 +21,6 @@
 2026-04-11 02:16 | SIM フリースマートフォン（Pixel/Galaxy/Xiaomi、大画面・AI・カメラ重視）v1 | reports/search_20260411_0216_smartphone_v1.md
 2026-04-11 08:37 | スマートスピーカー/ディスプレイ（Alexa/Google/Siri 比較）v1 | reports/search_20260411_0837_smartspeaker_v1.md
 2026-04-19 12:00 | ロキソニンSテープ 7cm×10cm・14cm×10cm 全 SKU 調査（Amazon 専用） | reports/search_20260419_1200_loxonin_tape.txt
+2026-04-19 04:22 | ロキソニンSテープ 7cm・14cm 1枚単価最安値 TOP3（Amazon+Yahoo!）v1 | reports/search_20260419_0422_loxonin_tape_v1.md
 
 == インデックス終端 ==
