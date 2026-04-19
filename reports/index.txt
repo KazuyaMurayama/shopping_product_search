@@ -24,5 +24,7 @@
 2026-04-19 04:22 | ロキソニンSテープ 7cm・14cm 1枚単価最安値 TOP3（Amazon+Yahoo!）v1 | reports/search_20260419_0422_loxonin_tape_v1.md
 2026-04-19 15:00 | こどもが歯磨きしたくなる絵本（楽天市場）v1 | reports/search_20260419_1500_hamigaki_ehon_v1.txt
 2026-04-19 04:30 | こどもが歯磨きしたくなる絵本 最終版（楽天+Yahoo!+Amazon）v1 | reports/search_20260419_hamigaki_ehon_v1.md
+2026-04-19 05:00 | ロキソプロフェンNaテープ 代替・ジェネリック品調査（Amazon） | reports/search_20260419_loxoprofen_tape_v1.txt
+2026-04-19 05:30 | ロキソプロフェンNaテープ 最安値TOP3 v2（代替品含む全比較） | reports/search_20260419_loxonin_tape_v2.md
 
 == インデックス終端 ==

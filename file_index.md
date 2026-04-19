@@ -79,4 +79,5 @@
 | reports/search_20260419_0422_loxonin_tape_v1.md | ロキソニンSテープ 7cm・14cm 最安値TOP3（最終版） | 2026-04-19 | 中 |
 | reports/search_20260419_1500_hamigaki_ehon_v1.txt | 歯磨き絵本 楽天市場調査（中間） | 2026-04-19 | 低 |
 | reports/search_20260419_hamigaki_ehon_v1.md | こどもが歯磨きしたくなる絵本 TOP3（最終版） | 2026-04-19 | 中 |
-| reports/search_20260419_1500_hamigaki_ehon_v1.txt | こどもが歯磨きしたくなる絵本（楽天市場）v1 | 2026-04-19 | 中 |
+| reports/search_20260419_loxoprofen_tape_v1.txt | ロキソプロフェンNa湿布テープ（代替・ジェネリック）調査 | 2026-04-19 | 低 |
+| reports/search_20260419_loxonin_tape_v2.md | ロキソプロフェンNaテープ 最安値TOP3 v2（代替品含む最終版） | 2026-04-19 | 中 |
