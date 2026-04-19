@@ -29,14 +29,14 @@
   - tasks.md を新規作成（本ファイル）
   - file_index.md を新規作成
   - main ブランチへ移行（git push origin HEAD:main）
+- [x] 商品検索: ロキソニンSテープ 7cm・14cm（2026-04-19）
+  - 成果物: reports/search_20260419_1200_loxonin_tape.txt
 
 ---
 
 ## 進行中タスク
 
-- [~] 商品検索: ロキソニンSテープ 7cm・14cm（2026-04-19）
-  - 楽天市場専属スカウトエージェントで両サイズを調査中
-  - 成果物予定: reports/search_20260419_HHMM_loxonins_tape.txt
+なし
 
 ---
 
