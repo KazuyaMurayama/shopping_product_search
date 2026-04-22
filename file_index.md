@@ -81,4 +81,5 @@
 | reports/search_20260419_hamigaki_ehon_v1.md | こどもが歯磨きしたくなる絵本 TOP3（最終版） | 2026-04-19 | 中 |
 | reports/search_20260419_loxoprofen_tape_v1.txt | ロキソプロフェンNa湿布テープ（代替・ジェネリック）調査 | 2026-04-19 | 低 |
 | reports/search_20260419_loxonin_tape_v2.md | ロキソプロフェンNaテープ 最安値TOP3 v2（代替品含む最終版） | 2026-04-19 | 中 |
-| reports/search_20260422_1200_room_socks_summer_v1.txt | 室内用靴下（夏用・薄手・27cm以上）Yahoo!ショッピング v1 | 2026-04-22 | 中 |
+| reports/search_20260422_1200_room_socks_summer_v1.txt | 室内用靴下 Yahoo!中間調査 | 2026-04-22 | 低 |
+| reports/search_20260422_room_socks_v1.md | 室内用靴下（夏用・27cm以上）TOP3 最終版 | 2026-04-22 | 中 |

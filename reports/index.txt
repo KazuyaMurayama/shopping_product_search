@@ -27,5 +27,6 @@
 2026-04-19 05:00 | ロキソプロフェンNaテープ 代替・ジェネリック品調査（Amazon） | reports/search_20260419_loxoprofen_tape_v1.txt
 2026-04-19 05:30 | ロキソプロフェンNaテープ 最安値TOP3 v2（代替品含む全比較） | reports/search_20260419_loxonin_tape_v2.md
 2026-04-22 12:00 | 室内用靴下（夏用・薄手・27cm以上）Yahoo!ショッピング v1 | reports/search_20260422_1200_room_socks_summer_v1.txt
+2026-04-22 12:30 | 室内用靴下（夏用・薄手・27cm以上）最終版（楽天+Yahoo!）v1 | reports/search_20260422_room_socks_v1.md
 
 == インデックス終端 ==
