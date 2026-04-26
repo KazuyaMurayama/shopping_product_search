@@ -84,3 +84,4 @@
 | reports/search_20260422_1200_room_socks_summer_v1.txt | 室内用靴下 Yahoo!中間調査 | 2026-04-22 | 低 |
 | reports/search_20260422_room_socks_v1.md | 室内用靴下（夏用・27cm以上）TOP3 最終版 | 2026-04-22 | 中 |
 | reports/search_20260426_1500_mens_turtleneck_longt_v1.txt | メンズ タートルネック/ハイネック ロングTシャツ Yahoo!ショッピング v1 | 2026-04-26 | 中 |
+| reports/search_20260426_1800_mens_turtleneck_amazon_v1.txt | メンズ タートルネック/ハイネック ロングTシャツ 胸ポケット付き Amazon.co.jp 専属調査 v1 | 2026-04-26 | 中 |
