@@ -63,6 +63,14 @@
   - 成果物（最終）: reports/search_20260426_turtleneck_pocket_v1.md
   - Yahoo!+Amazon+楽天 3チャネル調査、胸ポケット付き確認済み5件
   - TOP3: ARUGE(¥1,198・Yahoo!) / アタックベース850-15(¥1,430・Amazon・綿100%・サクラ合格) / GOODWEAR MOCKNECK(¥3,980・楽天・Made in USA)
+- [x] 商品検索: スマートフォン接続対応 小型プロジェクター（格安・WiFiミラーリング対応）Amazon.co.jp 専属調査（2026-04-27）
+  - 成果物: reports/search_20260427_1200_projector_smartphone_v1.txt
+  - Amazon.co.jp 単独チャネル調査（サクラチェッカー検証付き）
+  - カテゴリ全体でサクラ製品64%という危険カテゴリを調査
+- [x] 商品検索: スマートフォン接続対応 小型プロジェクター（格安）最終版（2026-04-27）
+  - 成果物（最終）: reports/search_20260427_projector_smartphone_v1.md
+  - Yahoo!+楽天+Amazon 3チャネル調査（Amazon はサクラリスク高のため参考扱い）
+  - TOP3: SOPPY z700024(¥9,580・Yahoo!・Android TV内蔵・4.48/292件) / Era-Pioneer YT100-E(¥6,480・Yahoo!・最安値) / スリス dppj1052(¥9,980・楽天・4.42/671件)
 
 ---
 

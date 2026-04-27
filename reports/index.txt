@@ -32,5 +32,7 @@
 2026-04-26 18:00 | メンズ タートルネック/ハイネック ロングTシャツ 胸ポケット付き（Amazon.co.jp 専属）v1 | reports/search_20260426_1800_mens_turtleneck_amazon_v1.txt
 2026-04-26 19:00 | メンズ タートルネック/ハイネック/モックネック ロングTシャツ 胸ポケット付き（Yahoo!ショッピング）v1 | reports/search_20260426_1900_mens_turtleneck_pocket_v1.txt
 2026-04-26 20:00 | メンズ タートルネック/ハイネック/モックネック ロングTシャツ 胸ポケット付き 最終版（Yahoo!+Amazon+楽天 3チャネル） | reports/search_20260426_turtleneck_pocket_v1.md
+2026-04-27 12:00 | スマートフォン接続対応 小型プロジェクター（格安・WiFiミラーリング対応）Amazon.co.jp 専属 v1 | reports/search_20260427_1200_projector_smartphone_v1.txt
+2026-04-27 13:00 | スマートフォン接続対応 小型プロジェクター 最終版（Yahoo!+楽天+Amazon 3チャネル） | reports/search_20260427_projector_smartphone_v1.md
 
 == インデックス終端 ==
