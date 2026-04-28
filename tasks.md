@@ -71,6 +71,9 @@
   - 成果物（最終）: reports/search_20260427_projector_smartphone_v1.md
   - Yahoo!+楽天+Amazon 3チャネル調査（Amazon はサクラリスク高のため参考扱い）
   - TOP3: SOPPY z700024(¥9,580・Yahoo!・Android TV内蔵・4.48/292件) / Era-Pioneer YT100-E(¥6,480・Yahoo!・最安値) / スリス dppj1052(¥9,980・楽天・4.42/671件)
+- [x] リサーチ: 楽天市場における偽レビュー・サクラレビューの実態と割合推計（2026-04-28）
+  - 成果物: reports/research_20260428_rakuten_fake_reviews_v1.md
+  - サクラチェッカー対応状況・ポイント制度変遷・DC8事件・ステマ規制後対応を調査
 
 ---
 

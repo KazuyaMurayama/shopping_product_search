@@ -34,5 +34,6 @@
 2026-04-26 20:00 | メンズ タートルネック/ハイネック/モックネック ロングTシャツ 胸ポケット付き 最終版（Yahoo!+Amazon+楽天 3チャネル） | reports/search_20260426_turtleneck_pocket_v1.md
 2026-04-27 12:00 | スマートフォン接続対応 小型プロジェクター（格安・WiFiミラーリング対応）Amazon.co.jp 専属 v1 | reports/search_20260427_1200_projector_smartphone_v1.txt
 2026-04-27 13:00 | スマートフォン接続対応 小型プロジェクター 最終版（Yahoo!+楽天+Amazon 3チャネル） | reports/search_20260427_projector_smartphone_v1.md
+2026-04-28 00:00 | 楽天市場における偽レビュー・サクラレビューの実態と割合推計 リサーチレポート | reports/research_20260428_rakuten_fake_reviews_v1.md
 
 == インデックス終端 ==
