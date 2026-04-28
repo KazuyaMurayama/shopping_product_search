@@ -77,6 +77,10 @@
 - [x] リサーチ: Yahoo!ショッピング偽レビュー実態・消費者庁ECサイト横断調査（2026-04-28）
   - 成果物: reports/research_20260428_fake_reviews_yahoo_ec.txt
   - サクラチェッカーYahoo!対応状況、LINEヤフー公式削除実績、消費者庁・FTC横断データ、ツール比較
+- [x] リサーチ: ECサイト別 偽レビュー実態比較 最終版（2026-04-28）
+  - 成果物（最終）: reports/research_20260428_fake_reviews_ec_comparison_v1.md
+  - Amazon/楽天/Yahoo! 3サイト横断比較・サクラ判定軸・割合推計・ツール対応比較
+  - 結論: サクラチェッカー合格Amazon商品を選ぶ戦略が最も合理的
 
 ---
 

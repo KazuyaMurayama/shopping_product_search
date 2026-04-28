@@ -37,5 +37,6 @@
 2026-04-28 00:00 | 楽天市場における偽レビュー・サクラレビューの実態と割合推計 リサーチレポート | reports/research_20260428_rakuten_fake_reviews_v1.md
 
 2026-04-28 12:00 | リサーチ: Yahoo!ショッピング偽レビュー実態・消費者庁ECサイト横断調査 | reports/research_20260428_fake_reviews_yahoo_ec.txt
+2026-04-28 13:00 | ECサイト別 偽レビュー実態比較 最終版（Amazon/楽天/Yahoo!横断・サクラ判定軸・ツール比較） | reports/research_20260428_fake_reviews_ec_comparison_v1.md
 
 == インデックス終端 ==

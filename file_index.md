@@ -91,3 +91,4 @@
 | reports/search_20260427_projector_smartphone_v1.md | スマートフォン接続対応 小型プロジェクター TOP3 最終版（Yahoo!+楽天+Amazon 3チャネル） | 2026-04-27 | 高 |
 | reports/research_20260428_rakuten_fake_reviews_v1.md | 楽天市場偽レビュー・サクラレビュー実態調査（サクラチェッカー対応状況・ポイント制度変遷・推計データ） | 2026-04-28 | 高 |
 | reports/research_20260428_fake_reviews_yahoo_ec.txt | Yahoo!ショッピング偽レビュー実態・消費者庁ECサイト横断調査（LINEヤフー公式データ・ツール比較・FTC調査） | 2026-04-28 | 高 |
+| reports/research_20260428_fake_reviews_ec_comparison_v1.md | ECサイト別偽レビュー実態比較 最終版（Amazon/楽天/Yahoo!横断・サクラ判定軸・ツール比較・推奨戦略） | 2026-04-28 | 高 |
