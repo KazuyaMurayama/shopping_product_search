@@ -79,8 +79,17 @@
   - サクラチェッカーYahoo!対応状況、LINEヤフー公式削除実績、消費者庁・FTC横断データ、ツール比較
 - [x] リサーチ: ECサイト別 偽レビュー実態比較 最終版（2026-04-28）
   - 成果物（最終）: reports/research_20260428_fake_reviews_ec_comparison_v1.md
-  - Amazon/楽天/Yahoo! 3サイト横断比較・サクラ判定軸・割合推計・ツール対応比較
+  - Amazon/楽天/Yahoo! 3サイト横断比較・サクラ判定軸・割合推計・ツール比較
   - 結論: サクラチェッカー合格Amazon商品を選ぶ戦略が最も合理的
+- [x] 商品検索: スマートフォン接続対応プロジェクター サクラ合格品限定調査（2026-04-28）
+  - 成果物: reports/search_20260428_1500_projector_sakura_v1.txt
+  - Amazon.co.jp 専属・サクラチェッカー合格ランキング全41件確認
+  - 結論: ¥20,000以下・WiFiミラーリング対応・サクラ合格品はゼロ（カテゴリ構造的問題）
+  - 参考: FUNLOGY Projector(¥9,980・合格・WiFi非搭載) / JEJILL(¥31,999・注意・WiFi対応)
+- [x] 商品検索: スマートフォン接続対応プロジェクター サクラ合格品 TOP3 v2（2026-04-28）
+  - 成果物（最終）: reports/search_20260428_projector_sakura_v2.md
+  - Amazon サクラ合格限定・¥20,000以下合格品ゼロのため予算拡大版
+  - TOP3: Anker Nebula Astro(¥32,980・合格・424件) / Xiaomi L1(¥29,980・合格・63件) / FUNLOGY+FireTV(¥14,960・合格・間接接続)
 
 ---
 
