@@ -36,4 +36,6 @@
 2026-04-27 13:00 | スマートフォン接続対応 小型プロジェクター 最終版（Yahoo!+楽天+Amazon 3チャネル） | reports/search_20260427_projector_smartphone_v1.md
 2026-04-28 00:00 | 楽天市場における偽レビュー・サクラレビューの実態と割合推計 リサーチレポート | reports/research_20260428_rakuten_fake_reviews_v1.md
 
+2026-04-28 12:00 | リサーチ: Yahoo!ショッピング偽レビュー実態・消費者庁ECサイト横断調査 | reports/research_20260428_fake_reviews_yahoo_ec.txt
+
 == インデックス終端 ==

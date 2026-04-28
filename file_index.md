@@ -90,3 +90,4 @@
 | reports/search_20260427_1200_projector_smartphone_v1.txt | スマートフォン接続対応 小型プロジェクター（格安・WiFiミラーリング対応）Amazon.co.jp 専属 v1 | 2026-04-27 | 低 |
 | reports/search_20260427_projector_smartphone_v1.md | スマートフォン接続対応 小型プロジェクター TOP3 最終版（Yahoo!+楽天+Amazon 3チャネル） | 2026-04-27 | 高 |
 | reports/research_20260428_rakuten_fake_reviews_v1.md | 楽天市場偽レビュー・サクラレビュー実態調査（サクラチェッカー対応状況・ポイント制度変遷・推計データ） | 2026-04-28 | 高 |
+| reports/research_20260428_fake_reviews_yahoo_ec.txt | Yahoo!ショッピング偽レビュー実態・消費者庁ECサイト横断調査（LINEヤフー公式データ・ツール比較・FTC調査） | 2026-04-28 | 高 |
