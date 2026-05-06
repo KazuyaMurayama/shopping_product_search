@@ -39,5 +39,6 @@
 2026-04-28 13:00 | ECサイト別 偽レビュー実態比較 最終版（Amazon/楽天/Yahoo!横断・サクラ判定軸・ツール比較） | reports/research_20260428_fake_reviews_ec_comparison_v1.md
 2026-04-28 15:00 | スマートフォン接続対応プロジェクター サクラ合格品限定調査（合格品ゼロ・カテゴリ構造問題） | reports/search_20260428_1500_projector_sakura_v1.txt
 2026-04-28 16:00 | スマートフォン接続対応 小型プロジェクター TOP3 v2（Amazon・サクラ合格限定） | reports/search_20260428_projector_sakura_v2.md
+2026-05-06 10:00 | グレー無地ゆったりクルー丈靴下 27〜29cm（楽天市場 全5チャネル調査）v1 | reports/search_20260506_1000_socks_grey_v1.txt
 
 == インデックス終端 ==
