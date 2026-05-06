@@ -39,5 +39,7 @@
 2026-04-28 13:00 | ECサイト別 偽レビュー実態比較 最終版（Amazon/楽天/Yahoo!横断・サクラ判定軸・ツール比較） | reports/research_20260428_fake_reviews_ec_comparison_v1.md
 2026-04-28 15:00 | スマートフォン接続対応プロジェクター サクラ合格品限定調査（合格品ゼロ・カテゴリ構造問題） | reports/search_20260428_1500_projector_sakura_v1.txt
 2026-04-28 16:00 | スマートフォン接続対応 小型プロジェクター TOP3 v2（Amazon・サクラ合格限定） | reports/search_20260428_projector_sakura_v2.md
+2026-05-06 12:00 | UVカット・フェイスカバー付き・接触冷感パーカー（Amazon.co.jp 専属）v1 | reports/search_20260506_1200_uv_face_cover_parka_v1.txt
+2026-05-06 13:00 | UVカット・フェイスカバー付き・接触冷感パーカー 最終版（楽天+Yahoo!+Amazon 3チャネル）v1 | reports/search_20260506_uv_face_cover_parka_v1.md
 
 == インデックス終端 ==
