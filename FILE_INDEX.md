@@ -1,27 +1,8 @@
-# FILE_INDEX — shopping_product_search
+# FILE INDEX - shopping_product_search
 
-> ⚠️ このファイルは自動生成です。手動編集は次回更新で上書きされます。
+> 最終更新: 2026-05-06 | ファイル数: 63
 
-| 項目 | 値 |
-|---|---|
-| リポジトリ | KazuyaMurayama/shopping_product_search |
-| ブランチ | main |
-| 総ファイル数 | 59 |
-| 最終更新 | 2026-05-02 |
-| 管理者 | 男座員也（Kazuya Oza） |
-
----
-
-## カテゴリ別サマリー
-
-| カテゴリ | ファイル数 |
-|---|---|
-| Documentation | 58 |
-| Config | 1 |
-
----
-
-## ディレクトリ構成
+## ディレクトリ構造 (depth=4)
 
 ```
 .
@@ -42,23 +23,30 @@
 │       ├── generate-report.md
 │       ├── search-product.md
 │       └── verify-url.md
+├── .gitignore
+├── CLAUDE.md
+├── FILE_INDEX.md
+├── README.md
+├── Timeout_Prevention.md
 ├── docs/
 │   ├── channels.md
 │   ├── rules-search-product.md
 │   └── used-market-rules.md
+├── file_index.md
 ├── reports/
+│   ├── TEMPLATE.txt
 │   ├── dog_breed_comparison_20260413.md
 │   ├── hair_removal_guide_20260417.md
 │   ├── index.txt
 │   ├── research_20260428_fake_reviews_ec_comparison_v1.md
 │   ├── research_20260428_fake_reviews_yahoo_ec.txt
 │   ├── research_20260428_rakuten_fake_reviews_v1.md
+│   ├── search_20260408_1046.txt
 │   ├── search_20260408_1046_final.md
 │   ├── search_20260408_1046_v2.md
 │   ├── search_20260408_1046_v2.txt
 │   ├── search_20260408_1046_v3.md
 │   ├── search_20260408_1046_v4.md
-│   ├── search_20260408_1046.txt
 │   ├── search_20260409_0607_finasteride_v1.md
 │   ├── search_20260410_0717_picturebooks_v1.md
 │   ├── search_20260410_0940_waterbottle_v1.md
@@ -82,88 +70,88 @@
 │   ├── search_20260427_projector_smartphone_v1.md
 │   ├── search_20260428_1500_projector_sakura_v1.txt
 │   ├── search_20260428_projector_sakura_v2.md
-│   └── TEMPLATE.txt
-├── .gitignore
-├── CLAUDE.md
-├── file_index.md
-├── README.md
-├── tasks.md
-└── Timeout_Prevention.md
+│   ├── search_20260506_1000_socks_grey_v1.txt
+│   ├── search_20260506_1200_uv_face_cover_parka_v1.txt
+│   └── search_20260506_uv_face_cover_parka_v1.md
+└── tasks.md
 ```
 
----
+## カテゴリ別ファイル一覧
 
-## ファイル詳細
+### Documentation (62件)
 
-### Documentation (58件)
+<details><summary>62件（クリックして展開）</summary>
 
-| ファイル | サイズ | 説明 |
+| ファイルパス | サイズ(bytes) | SHA |
 |---|---|---|
-| `.claude/agents/amazon-scout.md` | 6.4 KB | Claude Code 設定・スキル |
-| `.claude/agents/condition-checker.md` | 2.6 KB | Claude Code 設定・スキル |
-| `.claude/agents/iherb-scout.md` | 2.6 KB | Claude Code 設定・スキル |
-| `.claude/agents/mercari-scout.md` | 3.3 KB | Claude Code 設定・スキル |
-| `.claude/agents/osakado-scout.md` | 2.7 KB | Claude Code 設定・スキル |
-| `.claude/agents/rakuten-scout.md` | 3.7 KB | Claude Code 設定・スキル |
-| `.claude/agents/report-writer.md` | 5.9 KB | Claude Code 設定・スキル |
-| `.claude/agents/url-validator.md` | 2.7 KB | Claude Code 設定・スキル |
-| `.claude/agents/yahoo-shopping-scout.md` | 3.6 KB | Claude Code 設定・スキル |
-| `.claude/commands/add-channel.md` | 1.9 KB | Claude Code 設定・スキル |
-| `.claude/commands/check-conditions.md` | 1.1 KB | Claude Code 設定・スキル |
-| `.claude/commands/generate-report.md` | 1.2 KB | Claude Code 設定・スキル |
-| `.claude/commands/search-product.md` | 2.6 KB | Claude Code 設定・スキル |
-| `.claude/commands/verify-url.md` | 1.3 KB | Claude Code 設定・スキル |
-| `CLAUDE.md` | 4.9 KB | Claude Code プロジェクト設定・命名ルール |
-| `docs/channels.md` | 3.8 KB | Markdown ドキュメント |
-| `docs/rules-search-product.md` | 12.5 KB | Markdown ドキュメント |
-| `docs/used-market-rules.md` | 2.0 KB | Markdown ドキュメント |
-| `file_index.md` | 7.6 KB | Markdown ドキュメント |
-| `README.md` | 2.1 KB | リポジトリ概要・セットアップ手順 |
-| `reports/dog_breed_comparison_20260413.md` | 12.7 KB | Markdown ドキュメント |
-| `reports/hair_removal_guide_20260417.md` | 15.0 KB | Markdown ドキュメント |
-| `reports/index.txt` | 5.4 KB | ファイル |
-| `reports/research_20260428_fake_reviews_ec_comparison_v1.md` | 9.4 KB | Markdown ドキュメント |
-| `reports/research_20260428_fake_reviews_yahoo_ec.txt` | 18.1 KB | ファイル |
-| `reports/research_20260428_rakuten_fake_reviews_v1.md` | 12.0 KB | Markdown ドキュメント |
-| `reports/search_20260408_1046_final.md` | 6.3 KB | Markdown ドキュメント |
-| `reports/search_20260408_1046_v2.md` | 24.8 KB | Markdown ドキュメント |
-| `reports/search_20260408_1046_v2.txt` | 23.3 KB | ファイル |
-| `reports/search_20260408_1046_v3.md` | 22.9 KB | Markdown ドキュメント |
-| `reports/search_20260408_1046_v4.md` | 15.7 KB | Markdown ドキュメント |
-| `reports/search_20260408_1046.txt` | 10.4 KB | ファイル |
-| `reports/search_20260409_0607_finasteride_v1.md` | 28.9 KB | Markdown ドキュメント |
-| `reports/search_20260410_0717_picturebooks_v1.md` | 12.9 KB | Markdown ドキュメント |
-| `reports/search_20260410_0940_waterbottle_v1.md` | 7.6 KB | Markdown ドキュメント |
-| `reports/search_20260410_1200_waterbottle_budget_v1.txt` | 15.7 KB | ファイル |
-| `reports/search_20260411_0216_smartphone_v1.md` | 9.0 KB | Markdown ドキュメント |
-| `reports/search_20260411_0837_smartspeaker_v1.md` | 9.8 KB | Markdown ドキュメント |
-| `reports/search_20260411_1053_bike_cooling_v1.md` | 11.6 KB | Markdown ドキュメント |
-| `reports/search_20260419_0422_loxonin_tape_v1.md` | 6.0 KB | Markdown ドキュメント |
-| `reports/search_20260419_1200_loxonin_tape.txt` | 11.1 KB | ファイル |
-| `reports/search_20260419_1500_hamigaki_ehon_v1.txt` | 10.7 KB | ファイル |
-| `reports/search_20260419_hamigaki_ehon_v1.md` | 6.5 KB | Markdown ドキュメント |
-| `reports/search_20260419_loxonin_tape_v2.md` | 6.9 KB | Markdown ドキュメント |
-| `reports/search_20260419_loxoprofen_tape_v1.txt` | 24.9 KB | ファイル |
-| `reports/search_20260422_1200_room_socks_summer_v1.txt` | 14.2 KB | ファイル |
-| `reports/search_20260422_room_socks_v1.md` | 5.2 KB | Markdown ドキュメント |
-| `reports/search_20260426_1500_mens_turtleneck_longt_v1.txt` | 12.5 KB | ファイル |
-| `reports/search_20260426_1800_mens_turtleneck_amazon_v1.txt` | 11.8 KB | ファイル |
-| `reports/search_20260426_1900_mens_turtleneck_pocket_v1.txt` | 11.3 KB | ファイル |
-| `reports/search_20260426_turtleneck_pocket_v1.md` | 6.8 KB | Markdown ドキュメント |
-| `reports/search_20260427_1200_projector_smartphone_v1.txt` | 14.1 KB | ファイル |
-| `reports/search_20260427_projector_smartphone_v1.md` | 7.2 KB | Markdown ドキュメント |
-| `reports/search_20260428_1500_projector_sakura_v1.txt` | 10.1 KB | ファイル |
-| `reports/search_20260428_projector_sakura_v2.md` | 7.6 KB | Markdown ドキュメント |
-| `reports/TEMPLATE.txt` | 3.5 KB | ファイル |
-| `tasks.md` | 7.6 KB | タスク管理・セッション履歴 |
-| `Timeout_Prevention.md` | 4.9 KB | タイムアウト対策ガイド |
+| `.claude/agents/amazon-scout.md` | 6533 | d46ddb4 |
+| `.claude/agents/condition-checker.md` | 2652 | a7747a0 |
+| `.claude/agents/iherb-scout.md` | 2670 | d8abb66 |
+| `.claude/agents/mercari-scout.md` | 3401 | 38fa1fa |
+| `.claude/agents/osakado-scout.md` | 2740 | d005727 |
+| `.claude/agents/rakuten-scout.md` | 3766 | c528ea7 |
+| `.claude/agents/report-writer.md` | 6044 | aba8f76 |
+| `.claude/agents/url-validator.md` | 2770 | c168a22 |
+| `.claude/agents/yahoo-shopping-scout.md` | 3651 | 785634a |
+| `.claude/commands/add-channel.md` | 1924 | 98771e0 |
+| `.claude/commands/check-conditions.md` | 1118 | c47ce27 |
+| `.claude/commands/generate-report.md` | 1245 | 9419d30 |
+| `.claude/commands/search-product.md` | 2673 | 1ce1cd5 |
+| `.claude/commands/verify-url.md` | 1308 | 1d79779 |
+| `CLAUDE.md` | 5025 | 0424392 |
+| `docs/channels.md` | 3938 | a737441 |
+| `docs/rules-search-product.md` | 12844 | eabd2fe |
+| `docs/used-market-rules.md` | 2035 | 15cf73d |
+| `file_index.md` | 8160 | 5637ff9 |
+| `FILE_INDEX.md` | 8404 | 0f1e88c |
+| `README.md` | 2151 | 7543200 |
+| `reports/dog_breed_comparison_20260413.md` | 12986 | 95d9730 |
+| `reports/hair_removal_guide_20260417.md` | 15399 | 18cfe43 |
+| `reports/index.txt` | 5858 | 80b3f8c |
+| `reports/research_20260428_fake_reviews_ec_comparison_v1.md` | 9604 | 4c16834 |
+| `reports/research_20260428_fake_reviews_yahoo_ec.txt` | 18579 | 12fbd46 |
+| `reports/research_20260428_rakuten_fake_reviews_v1.md` | 12312 | 1fa2bc8 |
+| `reports/search_20260408_1046_final.md` | 6483 | 819584e |
+| `reports/search_20260408_1046_v2.md` | 25377 | c7d2a19 |
+| `reports/search_20260408_1046_v2.txt` | 23904 | bffffb1 |
+| `reports/search_20260408_1046_v3.md` | 23414 | 6fc8d2d |
+| `reports/search_20260408_1046_v4.md` | 16053 | 9b2853e |
+| `reports/search_20260408_1046.txt` | 10606 | 32a74e6 |
+| `reports/search_20260409_0607_finasteride_v1.md` | 29599 | f9985ba |
+| `reports/search_20260410_0717_picturebooks_v1.md` | 13195 | 9bde7b1 |
+| `reports/search_20260410_0940_waterbottle_v1.md` | 7772 | 65072f9 |
+| `reports/search_20260410_1200_waterbottle_budget_v1.txt` | 16107 | 51dfd8b |
+| `reports/search_20260411_0216_smartphone_v1.md` | 9261 | 1a0ae4b |
+| `reports/search_20260411_0837_smartspeaker_v1.md` | 10074 | 2b07650 |
+| `reports/search_20260411_1053_bike_cooling_v1.md` | 11901 | f24ea0d |
+| `reports/search_20260419_0422_loxonin_tape_v1.md` | 6142 | 03084d8 |
+| `reports/search_20260419_1200_loxonin_tape.txt` | 11338 | 767d238 |
+| `reports/search_20260419_1500_hamigaki_ehon_v1.txt` | 10959 | 3923d15 |
+| `reports/search_20260419_hamigaki_ehon_v1.md` | 6693 | 33fa4d1 |
+| `reports/search_20260419_loxonin_tape_v2.md` | 7017 | 27940cf |
+| `reports/search_20260419_loxoprofen_tape_v1.txt` | 25479 | b4e4706 |
+| `reports/search_20260422_1200_room_socks_summer_v1.txt` | 14494 | 8a7ce62 |
+| `reports/search_20260422_room_socks_v1.md` | 5310 | 1b68646 |
+| `reports/search_20260426_1500_mens_turtleneck_longt_v1.txt` | 12799 | eb197c3 |
+| `reports/search_20260426_1800_mens_turtleneck_amazon_v1.txt` | 12127 | 4c44765 |
+| `reports/search_20260426_1900_mens_turtleneck_pocket_v1.txt` | 11564 | c4cdd99 |
+| `reports/search_20260426_turtleneck_pocket_v1.md` | 6970 | d05acd8 |
+| `reports/search_20260427_1200_projector_smartphone_v1.txt` | 14417 | 8011ad7 |
+| `reports/search_20260427_projector_smartphone_v1.md` | 7356 | 6e178aa |
+| `reports/search_20260428_1500_projector_sakura_v1.txt` | 10314 | 931a53c |
+| `reports/search_20260428_projector_sakura_v2.md` | 7797 | a5fd3bc |
+| `reports/search_20260506_1000_socks_grey_v1.txt` | 11042 | 667f533 |
+| `reports/search_20260506_1200_uv_face_cover_parka_v1.txt` | 15724 | 271ad9f |
+| `reports/search_20260506_uv_face_cover_parka_v1.md` | 8344 | debf52c |
+| `reports/TEMPLATE.txt` | 3594 | 3acff6b |
+| `tasks.md` | 8806 | 252fa7b |
+| `Timeout_Prevention.md` | 4989 | d690243 |
+
+</details>
 
 ### Config (1件)
 
-| ファイル | サイズ | 説明 |
+| ファイルパス | サイズ(bytes) | SHA |
 |---|---|---|
-| `.gitignore` | 65 B | Git 除外設定 |
+| `.gitignore` | 65 | ec7a17f |
 
----
-
-_自動生成: 2026-05-02 | 管理者: 男座員也（Kazuya Oza）_
