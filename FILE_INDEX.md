@@ -1,6 +1,6 @@
 # FILE INDEX - shopping_product_search
 
-> 最終更新: 2026-05-06 | ファイル数: 63
+> 最終更新: 2026-05-07 | ファイル数: 63
 
 ## ディレクトリ構造 (depth=4)
 
@@ -80,7 +80,7 @@
 
 ### Documentation (62件)
 
-<details><summary>62件（クリックして展開）</summary>
+<details><summary>62件</summary>
 
 | ファイルパス | サイズ(bytes) | SHA |
 |---|---|---|
@@ -103,7 +103,7 @@
 | `docs/rules-search-product.md` | 12844 | eabd2fe |
 | `docs/used-market-rules.md` | 2035 | 15cf73d |
 | `file_index.md` | 8160 | 5637ff9 |
-| `FILE_INDEX.md` | 8404 | 0f1e88c |
+| `FILE_INDEX.md` | 7339 | 2e9a9f8 |
 | `README.md` | 2151 | 7543200 |
 | `reports/dog_breed_comparison_20260413.md` | 12986 | 95d9730 |
 | `reports/hair_removal_guide_20260417.md` | 15399 | 18cfe43 |
