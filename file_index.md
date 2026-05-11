@@ -96,3 +96,7 @@
 | reports/search_20260428_projector_sakura_v2.md | スマートフォン接続対応 小型プロジェクター TOP3 v2（Amazon・サクラ合格限定・Anker/Xiaomi/FUNLOGY+FireTV） | 2026-04-28 | 高 |
 | reports/search_20260506_1200_uv_face_cover_parka_v1.txt | UVカット・フェイスカバー付き・接触冷感パーカー TOP3（Amazon.co.jp 専属・サクラチェッカー検証済み） | 2026-05-06 | 高 |
 | reports/search_20260506_uv_face_cover_parka_v1.md | UVカット・フェイスカバー付き・接触冷感パーカー TOP3 最終版（楽天+Yahoo!+Amazon 3チャネル） | 2026-05-06 | 高 |
+
+<!-- ブランチマージで追加 2026-05-11 -->
+- reports/search_20260507_1200_triple_combo_skincare_v1.md
+- reports/search_20260508_1200_diclofenac_topical_costcomp_v1.md
