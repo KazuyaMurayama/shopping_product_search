@@ -43,3 +43,5 @@
 2026-05-06 13:00 | UVカット・フェイスカバー付き・接触冷感パーカー 最終版（楽天+Yahoo!+Amazon 3チャネル）v1 | reports/search_20260506_uv_face_cover_parka_v1.md
 
 == インデックス終端 ==
+search_20260507_1200_triple_combo_skincare_v1.md
+search_20260508_1200_diclofenac_topical_costcomp_v1.md
