@@ -2,7 +2,7 @@
 
 新規ファイル作成時は即座にこのインデックスを更新すること。
 
-最終更新: 2026-05-06
+最終更新: 2026-05-17
 
 ---
 
@@ -11,8 +11,8 @@
 | パス | 説明 | 最終更新 | 優先度 |
 |---|---|---|---|
 | CLAUDE.md | リポジトリ運用ガイド（軽量コア） | 2026-04-19 | 高 |
-| tasks.md | タスク管理（完了/進行中/バックログ） | 2026-05-06 | 高 |
-| file_index.md | このファイル。全ファイル一覧 | 2026-05-06 | 高 |
+| tasks.md | タスク管理（完了/進行中/バックログ） | 2026-05-17 | 高 |
+| file_index.md | このファイル。全ファイル一覧 | 2026-05-17 | 高 |
 | .gitignore | Git 除外設定 | - | 低 |
 
 ---
@@ -59,7 +59,7 @@
 
 | パス | 説明 | 最終更新 | 優先度 |
 |---|---|---|---|
-| reports/index.txt | レポート履歴インデックス | 随時更新 | 高 |
+| reports/index.txt | レポート履歴インデックス | 2026-05-17 | 高 |
 | reports/TEMPLATE.txt | プレーンテキストレポート雛形 | - | 中 |
 | reports/dog_breed_comparison_20260413.md | 犬種比較レポート（柴犬/コーギー/スピッツ/ボーダー/ハスキー） | 2026-04-13 | 中 |
 | reports/hair_removal_guide_20260417.md | 脱毛ガイド（眉毛 Kenon + 渋谷美容外科 / VIO SBC） | 2026-04-17 | 中 |
@@ -96,6 +96,8 @@
 | reports/search_20260428_projector_sakura_v2.md | スマートフォン接続対応 小型プロジェクター TOP3 v2（Amazon・サクラ合格限定・Anker/Xiaomi/FUNLOGY+FireTV） | 2026-04-28 | 高 |
 | reports/search_20260506_1200_uv_face_cover_parka_v1.txt | UVカット・フェイスカバー付き・接触冷感パーカー TOP3（Amazon.co.jp 専属・サクラチェッカー検証済み） | 2026-05-06 | 高 |
 | reports/search_20260506_uv_face_cover_parka_v1.md | UVカット・フェイスカバー付き・接触冷感パーカー TOP3 最終版（楽天+Yahoo!+Amazon 3チャネル） | 2026-05-06 | 高 |
+| reports/search_20260517_1000_pet_deodorizer_v1.txt | 犬のうんち臭対策 ゴミ箱・消臭グッズ TOP3（Amazon.co.jp 専属・サクラチェッカー検証済み） | 2026-05-17 | 高 |
+| reports/search_20260517_pet_deodorizer_v1.md | 犬のうんち臭対策 ゴミ箱・消臭グッズ TOP3 最終版（楽天+Yahoo!+Amazon 3チャネル） | 2026-05-17 | 高 |
 
 <!-- ブランチマージで追加 2026-05-11 -->
 - reports/search_20260507_1200_triple_combo_skincare_v1.md

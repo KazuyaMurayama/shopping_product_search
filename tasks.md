@@ -99,6 +99,15 @@
   - 成果物（最終）: reports/search_20260506_uv_face_cover_parka_v1.md
   - 楽天+Yahoo!+Amazon 3チャネル調査
   - TOP3: smart-shop(¥1,880~・楽天・2,115件・TV紹介) / えるえる(¥1,980・Yahoo!・4.44/194件・送料無料) / matsucame忍者パーカー(¥3,480~・楽天・Q-MAX0.3+・1,479件)
+- [x] 商品検索: 犬のうんち臭対策ゴミ箱・消臭グッズ（ゴミ箱蓋・取り付け型消臭剤）Amazon.co.jp 専属調査（2026-05-17）
+  - 成果物: reports/search_20260517_1000_pet_deodorizer_v1.txt
+  - Amazon.co.jp 専属調査 / 8 ASIN 調査・サクラチェッカー検証
+  - サクラ除外 4 件（ドギーマン/OFT/ペットリア/コモライフ）
+  - TOP3: GEX デオケア消臭ペール犬用(B084ZYCPV9・¥2,300~・合格) / GEX デオケア貼る消臭剤(B09YCGJ1BT・¥300~/個) / デオワンダー ペット用(B0B1PS6FQ5・¥866/2個・合格)
+- [x] 商品検索: 犬のうんち臭対策ゴミ箱・消臭グッズ 最終版（2026-05-17）
+  - 成果物（最終）: reports/search_20260517_pet_deodorizer_v1.md
+  - 楽天+Yahoo!+Amazon 3チャネル調査
+  - TOP3: GEX デオケア消臭ペール犬用(楽天¥2,206~・Amazon合格・Wブロック) / GEX デオケア貼る消臭剤(Amazon¥300~/個・蓋内側貼り付け) / デオワンダー ペット用2個入(Amazon¥866・CLO2・3チャネル全取扱)
 
 ---
 
