@@ -40,5 +40,7 @@
 2026-04-28 15:00 | スマートフォン接続対応プロジェクター サクラ合格品限定調査（合格品ゼロ・カテゴリ構造問題） | reports/search_20260428_1500_projector_sakura_v1.txt
 2026-04-28 16:00 | スマートフォン接続対応 小型プロジェクター TOP3 v2（Amazon・サクラ合格限定） | reports/search_20260428_projector_sakura_v2.md
 2026-05-06 10:00 | グレー無地ゆったりクルー丈靴下 27〜29cm（楽天市場 全5チャネル調査）v1 | reports/search_20260506_1000_socks_grey_v1.txt
+2026-05-18 14:00 | 屋外用・耐UV・耐候性粘着テープ メルカリ専属調査（アルミブチルテープ TOP3） | reports/search_20260518_1400_uv_tape_mercari_v1.txt
+2026-05-18 14:00 | 屋外用耐UV・耐候性粘着テープ 全5チャネル最終版 | reports/search_20260518_1400_uv_tape_final.txt
 
 == インデックス終端 ==

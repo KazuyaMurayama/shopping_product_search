@@ -95,3 +95,4 @@
 | reports/search_20260428_1500_projector_sakura_v1.txt | スマートフォン接続対応プロジェクター サクラ合格品限定調査（合格品ゼロの調査結果・カテゴリ構造問題分析） | 2026-04-28 | 高 |
 | reports/search_20260428_projector_sakura_v2.md | スマートフォン接続対応 小型プロジェクター TOP3 v2（Amazon・サクラ合格限定・Anker/Xiaomi/FUNLOGY+FireTV） | 2026-04-28 | 高 |
 | reports/search_20260518_1400_uv_tape_v1.txt | 屋外用・耐UV・耐候性粘着テープ TOP3（Amazon専属・サクラ合格品・因幡電工UVT/ゴリラテープClear） | 2026-05-18 | 高 |
+| reports/search_20260518_1400_uv_tape_mercari_v1.txt | 屋外用・耐UV・耐候性粘着テープ TOP3（メルカリ専属・アルミブチルテープ3件） | 2026-05-18 | 高 |
