@@ -105,6 +105,11 @@
   - 成果物: reports/search_20260518_1400_uv_tape_final.txt
   - Amazon・楽天 候補採用（メルカリ: 耐UV明示なし全除外 / iHerb・オオサカ堂: 取扱なし）
   - TOP3: 因幡電工UVT-50-I(¥1,110・Amazon) / KISS STRONGER(¥737・楽天) / ゴリラテープClear(¥1,230〜・Amazon)
+- [x] 商品検索: 屋外用・耐UV・耐候性の透明（クリア）粘着テープ Amazon.co.jp 専属調査（2026-05-18）
+  - 成果物: reports/search_20260518_1800_uv_tape_clear_amazon_v1.txt
+  - Amazon.co.jp 単独チャネル調査（サクラチェッカー検証付き）
+  - 透明（クリア）＋耐UV明示＋屋外防水の厳格条件で調査
+  - TOP3候補: KURE ゴリラテープ クリスタルクリア(B0DZNMYYML) / コニシ ストームガードクリヤー(B002YMOU8A) / シリコン防水テープ 耐紫外線(B09GNKCDY2)
 
 ---
 
