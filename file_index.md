@@ -97,3 +97,4 @@
 | reports/search_20260518_1400_uv_tape_v1.txt | 屋外用・耐UV・耐候性粘着テープ TOP3（Amazon専属・サクラ合格品・因幡電工UVT/ゴリラテープClear） | 2026-05-18 | 高 |
 | reports/search_20260518_1400_uv_tape_mercari_v1.txt | 屋外用・耐UV・耐候性粘着テープ TOP3（メルカリ専属・アルミブチルテープ3件） | 2026-05-18 | 高 |
 | reports/search_20260518_1800_uv_tape_clear_amazon_v1.txt | 屋外用・耐UV・耐候性の透明（クリア）粘着テープ TOP3（Amazon専属・KURE ゴリラテープ クリスタルクリア/コニシ ストームガードクリヤー/シリコン防水テープ 耐紫外線） | 2026-05-18 | 高 |
+| reports/search_20260518_2100_socks_grey_amazon_v1.txt | メンズ靴下 グレー無地・27-29cm・ハーフ/クルー丈・口ゆったり TOP3（Amazon専属・コベス/神戸生絲・サクラ注意3件） | 2026-05-18 | 高 |
