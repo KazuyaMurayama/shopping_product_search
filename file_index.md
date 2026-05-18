@@ -98,6 +98,9 @@
 | reports/search_20260506_uv_face_cover_parka_v1.md | UVカット・フェイスカバー付き・接触冷感パーカー TOP3 最終版（楽天+Yahoo!+Amazon 3チャネル） | 2026-05-06 | 高 |
 | reports/search_20260517_1000_pet_deodorizer_v1.txt | 犬のうんち臭対策 ゴミ箱・消臭グッズ TOP3（Amazon.co.jp 専属・サクラチェッカー検証済み） | 2026-05-17 | 高 |
 | reports/search_20260517_pet_deodorizer_v1.md | 犬のうんち臭対策 ゴミ箱・消臭グッズ TOP3 最終版（楽天+Yahoo!+Amazon 3チャネル） | 2026-05-17 | 高 |
+| reports/search_20260518_1000_usb_earphone_meeting_v1.txt | Windows PC用 USB/USB-C 接続イヤホン TOP3（Amazon.co.jp 専属・サクラチェッカー検証済み） | 2026-05-18 | 高 |
+| reports/search_20260518_usb_earphone_meeting_v1.md | Windows PC用 USB/USB-C 接続イヤホン TOP3 最終版（楽天+Yahoo!+Amazon 3チャネル） | 2026-05-18 | 高 |
+| reports/search_20260517_pet_deodorizer_v1.md | 犬のうんち臭対策 ゴミ箱・消臭グッズ TOP3 最終版（楽天+Yahoo!+Amazon 3チャネル） | 2026-05-17 | 高 |
 
 <!-- ブランチマージで追加 2026-05-11 -->
 - reports/search_20260507_1200_triple_combo_skincare_v1.md

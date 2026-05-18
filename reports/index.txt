@@ -43,6 +43,8 @@
 2026-05-06 13:00 | UVカット・フェイスカバー付き・接触冷感パーカー 最終版（楽天+Yahoo!+Amazon 3チャネル）v1 | reports/search_20260506_uv_face_cover_parka_v1.md
 2026-05-17 10:00 | 犬のうんち臭対策ゴミ箱・消臭グッズ（ゴミ箱蓋・取り付け型消臭剤）Amazon.co.jp 専属 v1 | reports/search_20260517_1000_pet_deodorizer_v1.txt
 2026-05-17 11:00 | 犬のうんち臭対策ゴミ箱・消臭グッズ 最終版（楽天+Yahoo!+Amazon 3チャネル）v1 | reports/search_20260517_pet_deodorizer_v1.md
+2026-05-18 10:00 | Windows PC用 USB/USB-C 接続イヤホン・ヘッドセット（オンライン会議向け）Amazon.co.jp 専属 v1 | reports/search_20260518_1000_usb_earphone_meeting_v1.txt
+2026-05-18 11:00 | Windows PC用 USB/USB-C 接続イヤホン・ヘッドセット 最終版（楽天+Yahoo!+Amazon 3チャネル）v1 | reports/search_20260518_usb_earphone_meeting_v1.md
 
 == インデックス終端 ==
 search_20260507_1200_triple_combo_skincare_v1.md

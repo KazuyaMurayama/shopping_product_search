@@ -108,6 +108,15 @@
   - 成果物（最終）: reports/search_20260517_pet_deodorizer_v1.md
   - 楽天+Yahoo!+Amazon 3チャネル調査
   - TOP3: GEX デオケア消臭ペール犬用(楽天¥2,206~・Amazon合格・Wブロック) / GEX デオケア貼る消臭剤(Amazon¥300~/個・蓋内側貼り付け) / デオワンダー ペット用2個入(Amazon¥866・CLO2・3チャネル全取扱)
+- [x] 商品検索: Windows PC用 USB/USB-C 接続イヤホン（オンライン会議向け）Amazon.co.jp 専属調査（2026-05-18）
+  - 成果物: reports/search_20260518_1000_usb_earphone_meeting_v1.txt
+  - Amazon.co.jp 専属調査 / 8 ASIN 調査・サクラチェッカー検証
+  - サクラ除外 2 件（UGREEN B08TQKNC62/ELECOM B099RMTHLL）
+  - TOP3: ロジクール H390r(B079WKMMBM・¥3,709・合格) / ロジクール H340r(B079PTGNTW・¥3,300・合格) / Poly BW3325 USB-C(B0C6FPNWDK・¥12,999・注意)
+- [x] 商品検索: Windows PC用 USB/USB-C 接続イヤホン・ヘッドセット 最終版（2026-05-18）
+  - 成果物（最終）: reports/search_20260518_usb_earphone_meeting_v1.md
+  - 楽天+Yahoo!+Amazon 3チャネル調査
+  - TOP3: ロジクール H390r(Amazon¥3,709・サクラ合格・NCマイク・コントローラー) / ロジクール H340r(Amazon¥3,300・サクラ合格・4.9評価) / エレコム HS-HP07SUBK(楽天¥2,292~・国内メーカー・NCマイク)
 
 ---
 
