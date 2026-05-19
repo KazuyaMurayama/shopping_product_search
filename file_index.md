@@ -98,8 +98,14 @@
 | reports/search_20260506_uv_face_cover_parka_v1.md | UVカット・フェイスカバー付き・接触冷感パーカー TOP3 最終版（楽天+Yahoo!+Amazon 3チャネル） | 2026-05-06 | 高 |
 | reports/search_20260517_1000_pet_deodorizer_v1.txt | 犬のうんち臭対策 ゴミ箱・消臭グッズ TOP3（Amazon.co.jp 専属・サクラチェッカー検証済み） | 2026-05-17 | 高 |
 | reports/search_20260517_pet_deodorizer_v1.md | 犬のうんち臭対策 ゴミ箱・消臭グッズ TOP3 最終版（楽天+Yahoo!+Amazon 3チャネル） | 2026-05-17 | 高 |
+| reports/search_20260518_1400_uv_tape_v1.txt | 屋外用・耐UV・耐候性粘着テープ TOP3（Amazon専属・サクラ合格品・因幡電工UVT/ゴリラテープClear） | 2026-05-18 | 高 |
+| reports/search_20260518_1400_uv_tape_mercari_v1.txt | 屋外用・耐UV・耐候性粘着テープ TOP3（メルカリ専属・アルミブチルテープ3件） | 2026-05-18 | 高 |
+| reports/search_20260518_1800_uv_tape_clear_amazon_v1.txt | 屋外用・耐UV・耐候性の透明（クリア）粘着テープ TOP3（Amazon専属・KURE ゴリラテープ クリスタルクリア/コニシ ストームガードクリヤー/シリコン防水テープ 耐紫外線） | 2026-05-18 | 高 |
 | reports/search_20260518_1000_usb_earphone_meeting_v1.txt | Windows PC用 USB/USB-C 接続イヤホン TOP3（Amazon.co.jp 専属・サクラチェッカー検証済み） | 2026-05-18 | 高 |
 | reports/search_20260518_usb_earphone_meeting_v1.md | Windows PC用 USB/USB-C 接続イヤホン TOP3 最終版（楽天+Yahoo!+Amazon 3チャネル） | 2026-05-18 | 高 |
+| reports/search_20260518_2100_socks_grey_amazon_v1.txt | メンズ靴下 グレー無地・27-29cm・ハーフ/クルー丈・口ゆったり TOP3（Amazon専属・コベス/神戸生絲・サクラ注意3件） | 2026-05-18 | 高 |
+| reports/search_20260518_2100_socks_grey_yahoo_v1.txt | メンズ靴下（グレー無地・27-29cm・ハーフ丈/クルー丈・口ゆったり）Yahoo!ショッピング新規開拓調査 v1（全条件充足1件・条件C要確認2件・参考3件） | 2026-05-18 | 高 |
+| reports/search_20260518_2200_socks_grey_v2.md | メンズ靴下 グレー無地・27-29cm・ハーフ丈・口ゆったり 改訂版 v2 最終版（楽天+Yahoo!+Amazon 3チャネル・TOP5） | 2026-05-18 | 高 |
 | reports/search_20260519_1000_notebook_pc_amazon_v1.txt | ノートPC（軽量・14インチ・Ryzen5/Core i5第12世代以降）Amazon.co.jp 専属調査 v1（全条件充足品ゼロ・準合格3件） | 2026-05-19 | 高 |
 | reports/search_20260519_1000_notebook_pc_yahoo_v1.txt | ノートPC（軽量・Ryzen5/Core i5第12世代以降）Yahoo!ショッピング専属調査 v1（全条件充足品ゼロ・準合格3件） | 2026-05-19 | 高 |
 | reports/search_20260519_1000_notebook_pc_rakuten_v1.txt | ノートPC（軽量・14インチ・Ryzen5）楽天市場専属調査 v1（準合格3件・価格要確認） | 2026-05-19 | 高 |
