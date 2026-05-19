@@ -117,6 +117,30 @@
   - 成果物（最終）: reports/search_20260518_usb_earphone_meeting_v1.md
   - 楽天+Yahoo!+Amazon 3チャネル調査
   - TOP3: ロジクール H390r(Amazon¥3,709・サクラ合格・NCマイク・コントローラー) / ロジクール H340r(Amazon¥3,300・サクラ合格・4.9評価) / エレコム HS-HP07SUBK(楽天¥2,292~・国内メーカー・NCマイク)
+- [x] 商品検索: ノートPC（軽量・14インチ・Ryzen5/Core i5第12世代以降）Yahoo!ショッピング専属調査（2026-05-19）
+  - 成果物: reports/search_20260519_1000_notebook_pc_yahoo_v1.txt
+  - Yahoo!ショッピング 単独チャネル調査（延べ30件以上のページ確認）
+  - 全必須条件充足（予算¥70,000以下含む）かつ在庫ありの候補: 0件
+  - 準合格TOP3（予算超・他条件充足・在庫あり確認済み）:
+    HP Pavilion Aero 13-bg(¥169,800・0.99kg・11.5h・Ryzen5 8640U・HP Directplus) /
+    HP Pavilion Aero 13-bg Office付(¥194,800・0.99kg・HP Directplus) /
+    ASUS VivoBook Go 14 E1404FA(¥93,280・1.38kg・11.5h・Ryzen5 7520U・ケーズデンキ)
+- [x] 商品検索: ノートPC（軽量・14インチ・Ryzen5/Core i5第12世代以降）Amazon.co.jp 専属調査（2026-05-19）
+  - 成果物: reports/search_20260519_1000_notebook_pc_amazon_v1.txt
+  - Amazon.co.jp 専属調査 / 15 ASIN以上調査・サクラチェッカー検証
+  - ¥70,000以下で全条件充足モデルは確認できず（市場構造的問題）
+  - 準合格TOP3: ASUS Vivobook Go 14(B0C58Y6QL8・¥84,800・サクラ合格) / IdeaPad Slim3 Gen8 14(B0DBHLDP7D・¥79,480相当・要確認) / IdeaPad Slim3 Ryzen5 8640HS(B0GGB3C5QV・¥88,800)
+  - サクラ除外: B0F4JWM8WR(i5-13420H・60%危険) / B0CJ4S11CT(51%注意・在庫切れ可能性)
+- [x] 商品検索: ノートPC（軽量・14インチ・Ryzen5）楽天市場専属調査（2026-05-19）
+  - 成果物: reports/search_20260519_1000_notebook_pc_rakuten_v1.txt
+  - 楽天市場専属調査（40クエリ、WebFetch約10件実行）
+  - 準合格1件: HP 14 限定モデル 三信テック(¥69,900・Ryzen5 7530U・1.39kg・10h・価格は参照時点)
+  - 要確認候補: IdeaPad Slim 3 Gen 8 BJY通販(価格不明) / Lenovo公式直販(P10倍・価格要確認)
+- [x] 商品検索: ノートPC（カフェ作業用・軽量・¥70,000以内）最終版（2026-05-19）
+  - 成果物（最終）: reports/search_20260519_notebook_pc_v1.md
+  - Amazon+楽天+Yahoo! 3チャネル横断調査
+  - ¥70,000以下で全条件充足の新品は3チャネル合わせてもほぼなし（市場構造的問題）
+  - TOP3: IdeaPad Slim 3 Gen 8 Ryzen5 7530U(楽天/Amazon・1.37kg・13.7h・セール時¥63,910実績) / HP 14 三信テック楽天(参照¥69,900・要確認) / ASUS VivoBook Go 14(Amazon¥84,800・サクラ合格)
 
 ---
 

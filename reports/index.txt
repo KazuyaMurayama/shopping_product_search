@@ -27,7 +27,7 @@
 2026-04-19 05:00 | ロキソプロフェンNaテープ 代替・ジェネリック品調査（Amazon） | reports/search_20260419_loxoprofen_tape_v1.txt
 2026-04-19 05:30 | ロキソプロフェンNaテープ 最安値TOP3 v2（代替品含む全比較） | reports/search_20260419_loxonin_tape_v2.md
 2026-04-22 12:00 | 室内用靴下（夏用・薄手・27cm以上）Yahoo!ショッピング v1 | reports/search_20260422_1200_room_socks_summer_v1.txt
-2026-04-22 12:30 | 室内用靴下（夏用・薄手・27cm以上）最終版（楽天+Yahoo!）v1 | reports/search_20260422_room_socks_v1.md
+2026-04-22 12:30 | 室内用靴下（夏用・27cm以上）最終版（楽天+Yahoo!）v1 | reports/search_20260422_room_socks_v1.md
 2026-04-26 15:00 | メンズ タートルネック/ハイネック ロングTシャツ（Yahoo!ショッピング）v1 | reports/search_20260426_1500_mens_turtleneck_longt_v1.txt
 2026-04-26 18:00 | メンズ タートルネック/ハイネック ロングTシャツ 胸ポケット付き（Amazon.co.jp 専属）v1 | reports/search_20260426_1800_mens_turtleneck_amazon_v1.txt
 2026-04-26 19:00 | メンズ タートルネック/ハイネック/モックネック ロングTシャツ 胸ポケット付き（Yahoo!ショッピング）v1 | reports/search_20260426_1900_mens_turtleneck_pocket_v1.txt
@@ -45,6 +45,10 @@
 2026-05-17 11:00 | 犬のうんち臭対策ゴミ箱・消臭グッズ 最終版（楽天+Yahoo!+Amazon 3チャネル）v1 | reports/search_20260517_pet_deodorizer_v1.md
 2026-05-18 10:00 | Windows PC用 USB/USB-C 接続イヤホン・ヘッドセット（オンライン会議向け）Amazon.co.jp 専属 v1 | reports/search_20260518_1000_usb_earphone_meeting_v1.txt
 2026-05-18 11:00 | Windows PC用 USB/USB-C 接続イヤホン・ヘッドセット 最終版（楽天+Yahoo!+Amazon 3チャネル）v1 | reports/search_20260518_usb_earphone_meeting_v1.md
+2026-05-19 10:00 | ノートPC（軽量・14インチ・Ryzen5/Core i5第12世代以降）Amazon.co.jp 専属調査 v1（全条件充足品ゼロ・準合格3件） | reports/search_20260519_1000_notebook_pc_amazon_v1.txt
+2026-05-19 10:00 | ノートPC（軽量・Ryzen5/Core i5第12世代以降）Yahoo!ショッピング専属調査 v1（全条件充足品ゼロ・準合格3件） | reports/search_20260519_1000_notebook_pc_yahoo_v1.txt
+2026-05-19 10:00 | ノートPC（軽量・14インチ・Ryzen5）楽天市場専属調査 v1（合格候補3件・価格要確認） | reports/search_20260519_1000_notebook_pc_rakuten_v1.txt
+2026-05-19 11:00 | カフェ作業用 軽量ノートPC TOP3 最終版（Amazon+楽天+Yahoo! 3チャネル横断）v1 | reports/search_20260519_notebook_pc_v1.md
 
 == インデックス終端 ==
 search_20260507_1200_triple_combo_skincare_v1.md

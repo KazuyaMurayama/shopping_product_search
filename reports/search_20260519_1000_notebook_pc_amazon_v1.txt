@@ -1,0 +1,292 @@
+== Amazon.co.jp ノートPC調査 2026-05-19 ==
+
+調査条件:
+- 予算: ¥70,000以下（新品・税込・送料込）
+- 重量: 1.40kg以下（理想1.20kg以下）
+- 画面: 12インチ以上（理想13インチ以上）
+- CPU: Ryzen 5 5000系以降 / Core i5 第12世代以降
+- RAM: 8GB以上 / SSD 256GB以上（eMMC除外）
+- バッテリー: 公称10時間以上
+- OS: Windows 11（Home / Pro いずれも可）
+- 状態: 新品のみ
+
+== 調査結果サマリー ==
+
+2026年5月19日時点で、Amazon.co.jp において上記全必須条件を同時に満たす
+¥70,000以下の新品ノートPCは確認できませんでした。
+
+主な原因:
+- Ryzen 5 / Core i5 第12世代以降 + 1.40kg以下 + バッテリー10時間以上を満たす
+  主流モデルは全て¥75,000〜¥130,000前後で流通している
+- 予算内の超格安ブランド品（CHUWI等）はバッテリー8時間以下で条件不適合
+- HP Pavilion Aero 13（軽量957g）は価格¥107,800〜で予算大幅超過
+
+本レポートでは、条件に最も近い候補を「準合格候補」として記録し、
+価格超過を明示のうえ掲載します。購入検討時はセール・クーポン等の
+活用で予算内に収まる可能性があります。
+
+== 除外リスト（調査中に確認した不合格品） ==
+
+[重量超過・除外]
+ASUS VivoBook 14 M1405YA (Ryzen5 7530U) | 重量1.60kg（条件1.40kg以下に不適合）
+Lenovo IdeaPad Flex 5 Gen8 B0BVJZ9RHD | 重量1.55kg（条件超過）
+ASUS Zenbook 14 UM3402YA B0C3ZQWVJB | 価格¥124,582（予算大幅超過）
+
+[バッテリー不足・除外]
+CHUWI CoreBook Air B0GLFD7P5M | バッテリー公称8時間（10時間条件未達）
+IdeaPad Slim 3 Gen10 14 AMD Ryzen5 7535HS | バッテリー公称約9時間（条件未達）
+
+[予算超過・除外]
+HP Pavilion Aero 13-bg (Ryzen5 8640U) B0D4YFDQRW | ¥107,800〜（予算超過）
+HP Pavilion Aero 13-be (Ryzen5 7535U) B0CSD37V5L | ¥100,000前後（予算超過）
+Lenovo IdeaPad Slim 5 Light Gen8 AMD 82XS003JJP B0D86RD5HK | ¥98,890〜（予算超過）
+Microsoft Surface Laptop Go 3 B0CJMCQ5MG | ¥104,026〜（予算超過）
+ASUS Zenbook 14 B0C3ZQWVJB | ¥124,582〜（予算超過）
+
+[サクラ除外]
+Lenovo IdeaPad Slim 3 14 i5-13420H B0F4JWM8WR | サクラ度60%（危険判定）
+
+[CPU条件外・除外]
+HP Pavilion Aero 13-be 8GB/256GB B0C1RY4N8L | ストレージ256GBかつSSD条件不明
+IdeaPad Slim 3 Gen10 14 Ryzen5 8640HS B0GGB3C5QV | ¥88,800（予算超過）
+
+== 準合格候補（全必須条件を満たすが予算超過） ==
+
+---
+
+[候補1]
+商品名: ASUS VivoBook Go 14 E1404FA-NK255W（Amazon.co.jp限定）
+ASIN: B0C58Y6QL8
+URL: https://www.amazon.co.jp/dp/B0C58Y6QL8
+価格: ¥84,800（送料無料・Amazon直販）※過去平均¥78,624
+CPU: AMD Ryzen 5 7520U（Zen3+ / 4コア8スレッド / 最大4.3GHz）
+RAM: 16GB（LPDDR5-5500）
+SSD: 512GB（PCIe 3.0）
+画面: 14インチ FHD（1920×1080）IPS アンチグレア
+重量: 1.38kg
+バッテリー: 公称11.5時間（JEITA）
+OS: Windows 11 Home 64-bit
+タッチパネル: なし
+在庫: 在庫あり（過去スニペット確認、残1単位との情報あり）
+販売元: Amazon.co.jp（直販）
+
+一次情報ソース:
+「ASUS Notebook Vivobook Go 14 E1404FA 14 inches Ryzen 5 7520U
+Memory 16GB SSD 512GB Windows 11 Battery Life 11.5 hours
+Weight 1.38kg Mixed Black E1404FA-NK255W」
+（Amazon.co.jp 商品タイトルスニペットより）
+
+在庫確認方法:
+  - 否定情報プローブ: 実施済み（"在庫切れ" "販売終了" ヒットなし）
+  - 二次ソース: sakura-checker.jp（価格¥78,624の過去履歴を確認）
+  - 最新確認日付: 2026-05-19
+在庫ステータス: ⚠️ 要確認（スニペット情報、残1単位の可能性あり）
+
+サクラチェッカー:
+  URL: https://sakura-checker.jp/search/B0C58Y6QL8/
+  サクラ度: 約3〜5%
+  総合評価: 合格（Amazon同等スコア）
+  評価件数: 125件（分析対象）
+  特記事項: ギフト券検出なし / AIレビュー検出なし / 怪しい日本語なし
+  判定: ✅ 掲載可
+
+条件充足:
+  - 重量1.40kg以下: ✅（1.38kg）
+  - 画面12インチ以上: ✅（14インチ）
+  - 予算¥70,000以下: ❌（¥84,800 → ¥14,800 超過）
+  - CPU条件: ✅（Ryzen 5 7520U = Zen3+ = Ryzen 5000系後継）
+  - RAM 8GB以上: ✅（16GB）
+  - SSD 256GB以上: ✅（512GB PCIe SSD）
+  - バッテリー10時間以上: ✅（公称11.5時間）
+  - OS Windows 11: ✅（Windows 11 Home）
+  - 新品: ✅（Amazon直販 新品）
+  - タッチパネル: ❌（なし）
+
+---
+
+[候補2]
+商品名: Lenovo IdeaPad Slim 3 Gen8 14型 AMD（82XL Ryzen 5 7530U モデル）
+ASIN: B0DBHLDP7D
+URL: https://www.amazon.co.jp/dp/B0DBHLDP7D
+価格: ⚠️ 現在価格不明（過去平均¥80,582 / 過去最安値¥63,910相当の期間あり）
+  ※ 2024年11月8日スニペット情報: ¥79,480
+  ※ セール時は¥70,000前後に下がる実績あり（要確認）
+CPU: AMD Ryzen 5 7530U（Zen3 / 6コア12スレッド / 最大4.5GHz）
+RAM: 16GB（DDR4）
+SSD: 512GB（M.2 NVMe）
+画面: 14インチ FHD（1920×1080）IPS アンチグレア
+重量: 1.37kg
+バッテリー: 公称15.4時間（JEITA）
+OS: Windows 11 Home 64-bit
+タッチパネル: なし
+在庫: ⚠️ 要確認（Amazonスニペットでは「5〜6日以内に発送」との記載あり）
+販売元: Amazon.co.jp / サードパーティ出品者
+
+一次情報ソース:
+「Lenovo Laptop, IdeaPad Slim3Gen8 14 Inch IPS Display, Ryzen 5 7530U Processor,
+16GB Memory, 512GB SSD, Windows 11, Battery Life 15.4 Hours, Weight 1.37kg,
+Fingerprint Authentication, Wi-Fi 6, USB-C PD」
+（Amazon.co.jp 商品タイトルスニペットより）
+
+在庫確認方法:
+  - 否定情報プローブ: 実施済み（"在庫切れ" "販売終了" ヒットなし、Gen10後継あり）
+  - 二次ソース: sakura-checker.jp（過去平均価格¥80,582確認）
+  - 発売年チェック: 2024年4月発売。後継はIdeaPad Slim 3 Gen10（14型AMD）が
+    2025年に発売済み。Gen8はまだ流通中の模様。
+  - 最新確認日付: 2026-05-19
+在庫ステータス: ⚠️ 要確認（現時点での販売価格をAmazon.co.jpで要確認）
+
+サクラチェッカー:
+  URL: https://sakura-checker.jp/search/B0DBHLDP7D/
+  サクラ度: 不明（数値開示なし）
+  総合評価: ⚠️ 注意（「Amazonよりかなり低いスコア」との表示）
+  評価件数: 170件
+  特記事項: 怪しい日本語評価の可能性（一部検出）
+  判定: ⚠️ 要注意掲載（スコア低下の原因不明確だが購入前にレビュー精査推奨）
+
+条件充足:
+  - 重量1.40kg以下: ✅（1.37kg）
+  - 画面12インチ以上: ✅（14インチ）
+  - 予算¥70,000以下: ⚠️（通常¥79,480〜¥80,582。セール時¥70,000前後の実績あり）
+  - CPU条件: ✅（Ryzen 5 7530U = Zen3 = Ryzen 5000系相当）
+  - RAM 8GB以上: ✅（16GB）
+  - SSD 256GB以上: ✅（512GB NVMe）
+  - バッテリー10時間以上: ✅（公称15.4時間）
+  - OS Windows 11: ✅（Windows 11 Home）
+  - 新品: ✅（Amazon 新品出品）
+  - タッチパネル: ❌（なし）
+
+---
+
+[候補3]
+商品名: Lenovo IdeaPad Slim 3 14.0インチ AMD Ryzen 5 8640HS（83K90023JP）
+ASIN: B0GGB3C5QV
+URL: https://www.amazon.co.jp/dp/B0GGB3C5QV
+価格: ¥88,800（送料無料・Amazon直販）
+CPU: AMD Ryzen 5 8640HS（Zen4 / 6コア12スレッド / 最大4.9GHz）
+RAM: 16GB（LPDDR5）
+SSD: 512GB（M.2 NVMe）
+画面: 14インチ WUXGA（1920×1200）IPS
+重量: 1.39kg（約3.9lbs）
+バッテリー: 公称12.6時間（JEITA）
+OS: Windows 11 Home 64-bit
+タッチパネル: なし
+在庫: ⚠️ 要確認（Amazon.co.jp スニペット確認済みだが在庫数不明）
+販売元: Amazon.co.jp
+
+一次情報ソース:
+「Lenovo IdeaPad Slim 3 14.0 Inch AMD Ryzen 5 8640HS Memory 16GB SSD 512GB
+Microsoft 365 Trial Edition Windows 11 Battery Life 12.6 Hours
+Weight 3.9 lbs (1.39 kg), Luna Gray 83K90023JP Laptop」
+（Amazon.co.jp 商品タイトルスニペットより）
+
+在庫確認方法:
+  - 否定情報プローブ: 実施済み（"在庫切れ" ヒットなし）
+  - 二次ソース: sakura-checker.jp（2026-03-30時点で価格未表示との情報）
+  - 最新確認日付: 2026-05-19
+在庫ステータス: ⚠️ 要確認（Amazon.co.jpで価格・在庫の直接確認推奨）
+
+サクラチェッカー:
+  URL: https://sakura-checker.jp/search/B0GGB3C5QV/
+  サクラ度: 評価件数不足により分析不可
+  総合評価: 分析不可（合格相当との示唆あり）
+  評価件数: 自製品レビュー件数不足（親会社Lenovo製品履歴から分析）
+  特記事項: 件数不足で独立判定なし
+  判定: ⚠️ 注意書きを添え掲載可（件数不足）
+
+条件充足:
+  - 重量1.40kg以下: ✅（1.39kg）
+  - 画面12インチ以上: ✅（14インチ WUXGA）
+  - 予算¥70,000以下: ❌（¥88,800 → ¥18,800 超過）
+  - CPU条件: ✅（Ryzen 5 8640HS = Zen4 = Ryzen 8000系）
+  - RAM 8GB以上: ✅（16GB）
+  - SSD 256GB以上: ✅（512GB NVMe）
+  - バッテリー10時間以上: ✅（公称12.6時間）
+  - OS Windows 11: ✅（Windows 11 Home）
+  - 新品: ✅（Amazon 新品）
+  - タッチパネル: ❌（なし）
+
+---
+
+[参考候補（サクラ注意・予算超過・参考情報として記録）]
+
+商品名: ASUS Zenbook 14 UX3402VA-KP170W（Amazon.co.jp限定）
+ASIN: B0CJ4S11CT
+URL: https://www.amazon.co.jp/dp/B0CJ4S11CT
+価格: ⚠️ 不明（2023年発売モデル。後継UX3405が2025年発売済み。在庫切れの可能性あり）
+CPU: Intel Core i5-1340P（第13世代 / 12コア / 最大4.6GHz）
+RAM: 16GB
+SSD: 512GB
+画面: 14インチ IPS（1920×1200）
+重量: 1.39kg
+バッテリー: 公称10.2時間
+OS: Windows 11 Home（WPS Office付属）
+タッチパネル: なし
+在庫: ❌ 在庫切れ可能性高（後継モデル発売済み、価格.com未掲載）
+
+サクラチェッカー:
+  URL: https://sakura-checker.jp/search/B0CJ4S11CT/
+  サクラ度: 51%
+  総合評価: 注意（「Amazonよりかなり低いスコア」）
+  評価件数: 207件
+  特記事項: ギフト券評価パターン検出 / AIレビュー非検出
+  判定: ⚠️ 要注意（サクラ度51%・在庫切れ可能性）→ TOP3除外済み
+
+条件充足:
+  - 重量1.40kg以下: ✅（1.39kg）
+  - 画面12インチ以上: ✅（14インチ）
+  - 予算¥70,000以下: ⚠️（価格不明・在庫切れ可能性）
+  - CPU条件: ✅（Core i5-1340P = 第13世代）
+  - RAM 8GB以上: ✅（16GB）
+  - SSD 256GB以上: ✅（512GB）
+  - バッテリー10時間以上: ✅（公称10.2時間）
+  - OS Windows 11: ✅（Windows 11 Home）
+  - 新品: ⚠️ 不明（在庫切れ可能性）
+  - タッチパネル: ❌（なし）
+
+---
+
+== 不合格・除外リスト ==
+
+ASIN B0GLFD7P5M | CHUWI CoreBook Air | バッテリー公称8時間（10時間条件未達）
+ASIN B0BVJZ9RHD | Lenovo IdeaPad Flex 5 Gen8 | 重量1.55kg（条件超過）
+ASIN B0BZRT1874 | Lenovo IdeaPad Slim 5 82XE0047JP | 重量1.46kg（条件超過）
+ASIN B0D86RD5HK | Lenovo IdeaPad Slim 5 Light 82XS003JJP | 価格¥98,890（予算超過）
+ASIN B0D4YFDQRW | HP Pavilion Aero 13-bg | 価格¥107,800〜（予算超過）
+ASIN B0CSD37V5L | HP Pavilion Aero 13-be 16GB/512GB | 価格¥100,000前後（予算超過）
+ASIN B0CJMCQ5MG | Surface Laptop Go 3 Core i5/8GB/256GB | 価格¥104,026（予算超過）
+ASIN B0F4JWM8WR | Lenovo IdeaPad Slim 3 14 i5-13420H | サクラ度60%（危険・除外）
+ASIN B0DH7Z3QT7 | ASUS VivoBook 14 M1405YA Ryzen5 8GB | 重量1.60kg（条件超過）
+ASIN B0C3ZQWVJB | ASUS Zenbook 14 UM3402YA Ryzen5 | 価格¥124,582（予算大幅超過）
+ASIN B0CJLFDN2Z | Surface Laptop Go 3 16GB/256GB | 価格¥172,480（予算大幅超過）
+ASIN B0GGB3C5QV | IdeaPad Slim 3 Gen10 Ryzen5 8640HS | 価格¥88,800（予算超過）※候補3に掲載
+ASIN B09B4P89T4 | Lenovo ThinkBook 14 Gen6 1.38kg | 価格¥96,800+（予算超過）
+
+== 推奨購入方針 ==
+
+2026年5月現在、¥70,000以下でRyzen5/Core i5第12世代以降＋1.40kg以下＋10時間以上の
+新品ノートPCはAmazon.co.jpで確認できませんでした。
+
+以下の方針を推奨します:
+
+1. 予算引き上げ（¥80,000〜¥90,000）の場合:
+   - 候補1 ASUS VivoBook Go 14 E1404FA（¥84,800・サクラ合格）を第一推奨
+   - 候補2 IdeaPad Slim 3 Gen8 Ryzen5 7530U（¥79,480相当・セール待ち）
+
+2. ¥70,000以内を厳守する場合:
+   - Amazon タイムセール・プライムデー・ブラックフライデーで候補2の
+     IdeaPad Slim 3 Gen8 14（Ryzen5 7530U）が¥65,000〜¥70,000前後になる
+     実績があります（2024年実績：¥63,910）。セールを待つことを推奨。
+
+3. タッチパネル希望の場合:
+   - 該当候補なし（全候補がタッチパネル非搭載）
+   - タッチパネル付きは Lenovo IdeaPad Flex 5 Gen8（Ryzen5・¥86,000前後）が
+     あるが重量1.55kgで条件外
+
+== 調査終端 ==
+調査日時: 2026-05-19
+調査チャネル: Amazon.co.jp 専属
+調査モデル数: 調査対象7モデル + 追加検索候補10モデル以上
+合格候補数: 0件（全必須条件を¥70,000以下で同時充足するモデルなし）
+準合格候補数: 3件（予算超過だが他条件は充足）
+除外数: 13件以上
