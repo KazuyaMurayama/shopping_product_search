@@ -49,6 +49,10 @@
 2026-05-19 10:00 | ノートPC（軽量・Ryzen5/Core i5第12世代以降）Yahoo!ショッピング専属調査 v1（全条件充足品ゼロ・準合格3件） | reports/search_20260519_1000_notebook_pc_yahoo_v1.txt
 2026-05-19 10:00 | ノートPC（軽量・14インチ・Ryzen5）楽天市場専属調査 v1（合格候補3件・価格要確認） | reports/search_20260519_1000_notebook_pc_rakuten_v1.txt
 2026-05-19 11:00 | カフェ作業用 軽量ノートPC TOP3 最終版（Amazon+楽天+Yahoo! 3チャネル横断）v1 | reports/search_20260519_notebook_pc_v1.md
+2026-05-22 10:00 | メンズ 撥水・UVカット パーカー（¥10,000以内）Amazon.co.jp 専属調査 v1 | reports/search_20260522_1000_mens_waterrepellent_uv_parka_v1.txt
+2026-05-22 10:00 | メンズ 撥水・UVカット パーカー（¥10,000以内）楽天市場専属調査 v1 | reports/search_20260522_1000_mens_waterrepellent_uv_parka_rakuten_v1.txt
+2026-05-22 10:00 | メンズ 撥水・UVカット パーカー（¥10,000以内）Yahoo!ショッピング専属調査 v1 | reports/search_20260522_1000_mens_waterrepellent_uv_parka_yahoo_v1.txt
+2026-05-22 10:00 | メンズ 撥水・UVカット パーカー TOP3 最終版（Amazon+楽天+Yahoo! 3チャネル横断）v1 | reports/search_20260522_mens_waterrepellent_uv_parka_v1.md
 
 == インデックス終端 ==
 search_20260507_1200_triple_combo_skincare_v1.md

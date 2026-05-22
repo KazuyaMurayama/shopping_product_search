@@ -2,7 +2,7 @@
 
 新規ファイル作成時は即座にこのインデックスを更新すること。
 
-最終更新: 2026-05-19
+最終更新: 2026-05-22
 
 ---
 
@@ -11,8 +11,8 @@
 | パス | 説明 | 最終更新 | 優先度 |
 |---|---|---|---|
 | CLAUDE.md | リポジトリ運用ガイド（軽量コア） | 2026-04-19 | 高 |
-| tasks.md | タスク管理（完了/進行中/バックログ） | 2026-05-19 | 高 |
-| file_index.md | このファイル。全ファイル一覧 | 2026-05-19 | 高 |
+| tasks.md | タスク管理（完了/進行中/バックログ） | 2026-05-22 | 高 |
+| file_index.md | このファイル。全ファイル一覧 | 2026-05-22 | 高 |
 | .gitignore | Git 除外設定 | - | 低 |
 
 ---
@@ -59,7 +59,7 @@
 
 | パス | 説明 | 最終更新 | 優先度 |
 |---|---|---|---|
-| reports/index.txt | レポート履歴インデックス | 2026-05-19 | 高 |
+| reports/index.txt | レポート履歴インデックス | 2026-05-22 | 高 |
 | reports/TEMPLATE.txt | プレーンテキストレポート雛形 | - | 中 |
 | reports/dog_breed_comparison_20260413.md | 犬種比較レポート（柴犬/コーギー/スピッツ/ボーダー/ハスキー） | 2026-04-13 | 中 |
 | reports/hair_removal_guide_20260417.md | 脱毛ガイド（眉毛 Kenon + 渋谷美容外科 / VIO SBC） | 2026-04-17 | 中 |
@@ -104,6 +104,10 @@
 | reports/search_20260519_1000_notebook_pc_yahoo_v1.txt | ノートPC（軽量・Ryzen5/Core i5第12世代以降）Yahoo!ショッピング専属調査 v1（全条件充足品ゼロ・準合格3件） | 2026-05-19 | 高 |
 | reports/search_20260519_1000_notebook_pc_rakuten_v1.txt | ノートPC（軽量・14インチ・Ryzen5）楽天市場専属調査 v1（準合格3件・価格要確認） | 2026-05-19 | 高 |
 | reports/search_20260519_notebook_pc_v1.md | カフェ作業用 軽量ノートPC TOP3 最終版（楽天+Yahoo!+Amazon 3チャネル横断）v1 | 2026-05-19 | 高 |
+| reports/search_20260522_1000_mens_waterrepellent_uv_parka_v1.txt | メンズ 撥水・UVカット パーカー TOP3（Amazon.co.jp 専属・サクラチェッカー検証済み） | 2026-05-22 | 高 |
+| reports/search_20260522_1000_mens_waterrepellent_uv_parka_rakuten_v1.txt | メンズ 撥水・UVカット パーカー 楽天市場専属調査 v1 | 2026-05-22 | 高 |
+| reports/search_20260522_1000_mens_waterrepellent_uv_parka_yahoo_v1.txt | メンズ 撥水・UVカット パーカー Yahoo!ショッピング専属調査 v1 | 2026-05-22 | 高 |
+| reports/search_20260522_mens_waterrepellent_uv_parka_v1.md | メンズ 撥水・UVカット パーカー TOP3 最終版（Amazon+楽天+Yahoo! 3チャネル横断）v1 | 2026-05-22 | 高 |
 
 <!-- ブランチマージで追加 2026-05-11 -->
 - reports/search_20260507_1200_triple_combo_skincare_v1.md

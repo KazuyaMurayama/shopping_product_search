@@ -141,6 +141,24 @@
   - Amazon+楽天+Yahoo! 3チャネル横断調査
   - ¥70,000以下で全条件充足の新品は3チャネル合わせてもほぼなし（市場構造的問題）
   - TOP3: IdeaPad Slim 3 Gen 8 Ryzen5 7530U(楽天/Amazon・1.37kg・13.7h・セール時¥63,910実績) / HP 14 三信テック楽天(参照¥69,900・要確認) / ASUS VivoBook Go 14(Amazon¥84,800・サクラ合格)
+- [x] 商品検索: メンズ 撥水・UVカット パーカー（¥10,000以内）Amazon.co.jp 専属調査（2026-05-22）
+  - 成果物: reports/search_20260522_1000_mens_waterrepellent_uv_parka_v1.txt
+  - Amazon.co.jp 専属調査 / 20件超調査・サクラチェッカー検証
+  - 在庫切れ多数（約60%が在庫なし）
+  - TOP3: SUAIARTCOLE(B0FC5VLRLR・¥2,750・撥水UPF50+・合格) / Manatsulife 8868(B07V6PXVRP・¥2,299・UVカット撥水L/XL・合格) / ROYALWAY(B0B1ZN2FM4・¥4,233・撥水UPF50+・注意・AIレビュー検出)
+  - 除外14件・参考候補2件記録
+- [x] 商品検索: メンズ 撥水・UVカット パーカー（¥10,000以内）楽天市場専属調査（2026-05-22）
+  - 成果物: reports/search_20260522_1000_mens_waterrepellent_uv_parka_rakuten_v1.txt
+  - 楽天市場専属調査
+  - TOP3: Aruge D8F(¥3,198・UPF30・送料無料) / GENELESS 07-0196mz(¥2,998・L/XL在庫確認) / Aruge B6O(約¥3,900推定)
+- [x] 商品検索: メンズ 撥水・UVカット パーカー（¥10,000以内）Yahoo!ショッピング専属調査（2026-05-22）
+  - 成果物: reports/search_20260522_1000_mens_waterrepellent_uv_parka_yahoo_v1.txt
+  - Yahoo!ショッピング専属調査 / 除外10件
+  - 有効候補: 千一¥4,020 / RAGGED MOUNTAIN¥4,043(セール) / ネットファミリー¥4,926
+- [x] 商品検索: メンズ 撥水・UVカット パーカー（¥10,000以内）最終版（2026-05-22）
+  - 成果物（最終）: reports/search_20260522_mens_waterrepellent_uv_parka_v1.md
+  - Amazon+楽天+Yahoo! 3チャネル横断調査
+  - TOP3: マナツライフ 8868(Amazon¥2,299・最安値・L〜4XL) / GENELESS 07-0196mz(楽天¥2,998・全条件確認) / Aruge D8F(楽天¥3,198・UPF30・ショップ評価4.66)
 
 ---
 
