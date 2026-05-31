@@ -110,6 +110,7 @@
 | reports/search_20260519_1000_notebook_pc_yahoo_v1.txt | ノートPC（軽量・Ryzen5/Core i5第12世代以降）Yahoo!ショッピング専属調査 v1（全条件充足品ゼロ・準合格3件） | 2026-05-19 | 高 |
 | reports/search_20260519_1000_notebook_pc_rakuten_v1.txt | ノートPC（軽量・14インチ・Ryzen5）楽天市場専属調査 v1（準合格3件・価格要確認） | 2026-05-19 | 高 |
 | reports/search_20260519_notebook_pc_v1.md | カフェ作業用 軽量ノートPC TOP3 最終版（楽天+Yahoo!+Amazon 3チャネル横断）v1 | 2026-05-19 | 高 |
+| reports/research_20260531_movicol_otc_alternatives_v1.md | モビコール・類似品 処方なし入手方法 調査レポート v1（OTC代替・オンライン診療・iHerb MiraLax・個人輸入代行 4ルート比較） | 2026-05-31 | 高 |
 
 <!-- ブランチマージで追加 2026-05-11 -->
 - reports/search_20260507_1200_triple_combo_skincare_v1.md

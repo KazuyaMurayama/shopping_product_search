@@ -55,6 +55,8 @@
 2026-05-19 10:00 | ノートPC（軽量・14インチ・Ryzen5）楽天市場専属調査 v1（合格候補3件・価格要確認） | reports/search_20260519_1000_notebook_pc_rakuten_v1.txt
 2026-05-19 11:00 | カフェ作業用 軽量ノートPC TOP3 最終版（Amazon+楽天+Yahoo! 3チャネル横断）v1 | reports/search_20260519_notebook_pc_v1.md
 
+2026-05-31 12:00 | モビコール・類似品 処方なし入手方法 調査レポート v1（OTC代替品・オンライン診療・iHerb・個人輸入代行 4ルート比較） | reports/research_20260531_movicol_otc_alternatives_v1.md
+
 == インデックス終端 ==
 search_20260507_1200_triple_combo_skincare_v1.md
 search_20260508_1200_diclofenac_topical_costcomp_v1.md
