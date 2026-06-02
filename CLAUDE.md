@@ -1,146 +1,66 @@
-# CLAUDE.md — リポジトリ運用ガイド
+# Shopping Product Search — Claude Code 運用ルール
 
-このリポジトリは AI エージェントによる調査・商品検索・レポート生成を行う定義集です。
-Claude Code は本ファイルの規約を**必ず**遵守してください。
+複数 EC サイトの商品データを AI が横断検索・比較・推薦するシステム。自然言語クエリから意図を解析し、最適な商品候補をランキング形式で提示。
 
----
-
-## 1. 回答フォーマット
-
-- 回答は**日本語**で行う
-- コードブロック・表・箇条書きを積極活用し、視認性を高める
-- 長い回答は見出し（`##`）でセクション分割する
-- 推測での回答は禁止。不明点は作業前に質問する
+> **本ファイルは VSCode版 / Web版 Claude Code（claude.ai）の両方で本リポジトリの単独完結ガイド**。
+> Web版はグローバル `~/.claude/CLAUDE.md` を参照しない前提で、本リポの運用に必要な全ルールをここに集約。
 
 ---
 
-## 2. タスク管理（tasks.md）
-
-- `tasks.md` を常に最新に保つ。新しいタスクが発生したら即座に追記する
-- ステータスは以下 3 種類のみ：
-  - `[ ]` 未着手
-  - `[~]` 進行中
-  - `[x]` 完了
-- タスク完了時は `[x]` に更新してからコミットする
-- タスク追加・更新は単独コミットにせず、作業コミットに含める
+## 0. セッション開始時の参照順序
+1. `tasks.md` — 未完了タスク（存在する場合）
+2. `FILE_INDEX.md` — ファイル一覧（存在する場合）
+3. このCLAUDE.md — ルール入口
 
 ---
 
-## 3. ファイルインデックス（file_index.md）
+## 1. 開発者情報・命名ルール
 
-- `file_index.md` を常に最新に保つ
-- 新しいファイルを作成したら即座に追記する
-- 各エントリは以下の形式：
-  ```
-  | パス | 説明 | 最終更新 | 優先度 |
-  ```
-- 優先度：`高` / `中` / `低`
-- ファイルを削除した場合も即座にインデックスから除去する
+| 種別 | 表記 | 用途 |
+|---|---|---|
+| **システム識別子（変更不可）** | `KazuyaMurayama` | GitHub ユーザー名 / URL / `@KazuyaMurayama` |
+| **システム識別子（変更不可）** | `kazuya.murayama.21@gmail.com` | git `user.email` / 連絡先 |
+| **表記名（人間として記載する場合）** | **男座員也（Kazuya Oza / おざ かずや）** | ドキュメント本文の著者名 / コミット message 中の自己言及 |
 
----
-
-## 4. モデル使用方針
-
-- **計画・分析・設計フェーズ**：Claude Opus（最高品質が必要な判断）
-- **実行・コーディング・サブエージェント**：Claude Sonnet（速度と品質のバランス）
-- ユーザーから明示的な指定がある場合はそれを優先する
+- ドキュメント本文等で開発者名を**人間として**記載する際は **男座員也 / Kazuya Oza** を使用
+- 「Murayama」「村山」「Otokoza」「おとこざ」を**表記名**として誤用しない（システム識別子としての `KazuyaMurayama` は許容）
 
 ---
 
-## 5. Git ルール（厳守）
-
-- **新しいブランチを作成しない**（ユーザーから明示的な指示がある場合を除く）
-- 常に現在のブランチ（`main`）で作業する
-- コミットメッセージは日本語または英語、内容を端的に表すものにする
-- プッシュは `git push -u origin <branch>` を使用する
-- プッシュ失敗時は指数バックオフ（2s → 4s → 8s → 16s）で最大 4 回リトライする
-- **PR は明示的に指示された場合のみ作成する**
+## 2. ツール実行・Git・ファイル保存
+- 確認不要・即実行（事前確認文を出力しない）
+- 例外（事前確認必須）: main への `git push --force`、`gh repo delete`
+- **ブランチ管理**: デフォルトはmainへ直接コミット。ブランチ作成は明示指示時のみ。万一作成した場合はmainマージ→削除→push完了で「完了」
+- **ファイル保存**: 本リポ内のみ。`C:\Users\user\Desktop` への出力禁止
 
 ---
 
-## 6. GitHub ハイパーリンク必須ルール
+## 3. 成果物報告ルール
 
-レポートをユーザーに納品する際は、必ず GitHub リポジトリ上の
-該当ファイル URL をハイパーリンク（ワンクリックで開ける形）で提示する。
+| 成果物 | 説明 | リンク |
+|---|---|---|
+| file.md | 1行説明 | [開く](https://github.com/KazuyaMurayama/shopping_product_search/blob/main/path/to/file.md) |
 
-- ベース URL：`https://github.com/KazuyaMurayama/shopping_product_search/blob/main/[PATH]`
-- チャット（Markdown 許容）では `[表示名](URL)` 形式でハイパーリンク化
-- プレーンテキストレポート本文には生 URL をそのまま記載（Markdown 禁止）
-- 同時に提示すべきリンク（最低 3 つ）：
-  1. 今回のレポートファイル
-  2. `reports/index.txt`（履歴インデックス）
-  3. `reports/` ディレクトリ（`tree` パスで組む）
+- Markdownリンク `[表示名](URL)` 形式必須 / `/blob/<実ブランチ>/<実パス>` 形式
+- **報告前にURL存在確認**：`Invoke-WebRequest -Uri https://api.github.com/repos/KazuyaMurayama/shopping_product_search/contents/PATH?ref=main -UseBasicParsing` でステータス200確認
+- push完了後のみURL生成
 
 ---
 
-## 7. 商品検索タスク
-
-商品検索を行う場合は、詳細ルールを必ず参照する：
-
-- **検索ルール詳細**：`docs/rules-search-product.md`
-- **チャネル仕様**：`docs/channels.md`
-- **中古市場ルール**：`docs/used-market-rules.md`
-- **エージェント定義**：`.claude/agents/*-scout.md`
-
-### 商品検索の要点（詳細は上記ファイル参照）
-
-- 検索結果ページ URL は絶対に掲載しない（個別商品 URL のみ）
-- 候補は 3 ゲート検証（URL検証 → 存在・在庫検証 → 条件充足検証）を必ず通過させる
-- 価格は必須出力項目（数値がなければ TOP3 除外）
-- レポートはプレーンテキスト形式で `reports/search_YYYYMMDD_HHMM.txt` に保存
+## 4. ドキュメント日付ルール
+レポート系 .md 新規作成時は H1直下に `作成日: YYYY-MM-DD` / `最終更新日: YYYY-MM-DD` 必須。更新時は最終更新日のみ書き換え。除外: README / CLAUDE.md / FILE_INDEX / tasks.md / CHANGELOG / LICENSE。
 
 ---
 
-## 8. スラッシュコマンド
+## 5. Skill 起動ルール
 
-| コマンド | 機能 |
+| トリガー | スキル |
 |---|---|
-| `/add-channel` | 新チャネル追加の雛形を生成 |
-
----
-
-## 9. ファイル構成
-
-```
-/
-├── CLAUDE.md             # このファイル（軽量コア）
-├── tasks.md              # タスク管理
-├── file_index.md         # ファイルインデックス
-├── docs/
-│   ├── rules-search-product.md  # 商品検索詳細ルール
-│   ├── channels.md               # チャネル仕様
-│   └── used-market-rules.md      # 中古市場ルール
-├── reports/              # レポート出力先
-└── .claude/
-    └── agents/           # エージェント定義
-```
-
-## 開発者情報・命名ルール
-
-このリポジトリの開発者・所有者は **男座員也（Kazuya Oza / おざ かずや）** です。
-
-- ドキュメント・コード・コミット等で開発者名を記載する際は必ず **男座員也** または **Kazuya Oza** を使用する
-- 「Murayama」「村山」「Otokoza」「おとこざ」など誤表記は使用しない
-- 英語表記: **Kazuya Oza** / 日本語表記: **男座員也**（おざ かずや）
-- AIアシスタントが生成するドキュメントでも本ルールを遵守すること
-
-## ファイル保存ルール
-- 成果物・スクリプトは本リポジトリ内のみに保存。`C:\\Users\\user\\Desktop` への出力禁止（ユーザー明示指定時を除く）。
-
-<!-- SKILLS_RULES_START -->
-## Skill 起動ルール（v2.2 / 2026-06-01）
-以下のスキルは **必須・スキップ禁止**。該当シーンでは SKILL.md を読んでから作業を開始すること。
-
-- **新機能実装・設計を始める前に必ず** `.claude/skills/sp-brainstorming/SKILL.md` でアイデアを出し、`.claude/skills/sp-writing-plans/SKILL.md` で計画を作成してから着手する
-- **複雑な多段タスクは** `.claude/skills/sp-executing-plans/SKILL.md` の手順で実行する
-- **アーキ図・フロー図が必要な時は必ず** `.claude/skills/mermaid-agents365/SKILL.md` を読んでからダイアグラムを作成する
-- **成果物の納品・コミット前、または品質チェック（QC）・レビューフェーズに入る時は必ず** `.claude/skills/sp-verification-before-completion/SKILL.md` のチェックリストを実行する
-- **要件調査が真に必要な時のみ** `.claude/skills/research-deep/SKILL.md` を読んで Web リサーチを実行する
-
-### ブランチ管理（絶対厳守）
-- **デフォルト: mainへ直接コミット**。ブランチ作成はユーザーが明示的に指示した場合のみ。
-- ブランチを作成した場合、必ず `main` へマージ → ブランチ削除 → push を完了してから作業完了とする。
-- ブランチにファイルを置いたまま回答を完了することを禁止。「完了 = mainにマージ済み＆push済み」。
-- ブランチが残存している場合は、次セッション開始時に `git branch -a` で確認し、即マージ・削除する。
-
-<!-- SKILLS_RULES_END -->
+| 商品データ調査・先行事例 | `.claude/skills/research-deep/SKILL.md` |
+| 比較・ランキング分析 | `.claude/skills/segmentation-analysis/SKILL.md` |
+| 計画立案・実行 | `.claude/skills/sp-writing-plans/SKILL.md` + `sp-executing-plans/SKILL.md` |
+| 並列エージェント運用 | `.claude/skills/sp-dispatching-parallel-agents/SKILL.md` |
+| 図表生成 | `.claude/skills/mermaid-agents365/SKILL.md` |
+| QC・レビュー前 | `.claude/skills/analysis-qa-checklist/SKILL.md` |
+| データ品質確認 | `.claude/skills/data-quality-audit/SKILL.md` |
+| 成果物の納品・コミット前 | `.claude/skills/sp-verification-before-completion/SKILL.md` |
