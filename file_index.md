@@ -88,7 +88,8 @@
 | reports/research_20260531_movicol_otc_alternatives_v1.md | モビコール・類似品 処方なし入手方法 調査レポート v1（OTC代替・オンライン診療・iHerb MiraLax・個人輸入代行 4ルート比較） | 2026-05-31 | 高 |
 | reports/search_20260604_1200_lactobacillus_highcfu_v1.txt | 乳酸菌サプリ 高菌数（1,000億CFU以上）Amazon.co.jp 専属調査 v1（TOP3+参考候補・サクラ除外4件） | 2026-06-04 | 高 |
 | reports/search_20260604_1200_probiotic_high_cfu_v1.txt | 楽天市場 乳酸菌サプリ 高菌数（1,000億CFU以上）調査 TOP3+参考3件 v1 | 2026-06-04 | 高 |
-| reports/search_20260604_lactobacillus_1000billion_final.md | 乳酸菌 1日1,000億個 コスパ最強 最終版（Amazon/楽天/iHerb/市販品 全チャネル横断・ピルクル含む） | 2026-06-04 | 高 |
+| reports/search_20260604_lactobacillus_1000billion_final.md | 乳酸菌 1日1,000億個 コスパ最強 最終版（Amazon/楽天/iHerb/市販品 全チャネル横断・ピルクル含む） | 2026-06-04 | 中 |
+| reports/search_20260604_lactobacillus_1000billion_final-v2.md | 乳酸菌 1日1,000億個 コスパ最強 改訂版 v2（ファクトチェック反映・生菌CFU/死菌2軸・Yahoo!追加・訂正9件・mermaid選び方図） | 2026-06-04 | 高 |
 
 <!-- ブランチマージで追加 2026-05-11 -->
 - reports/search_20260507_1200_triple_combo_skincare_v1.md
