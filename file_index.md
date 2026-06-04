@@ -111,6 +111,7 @@
 
 | reports/research_20260604_cooling_wear_womens_v1.md | 気温35度の屋外で涼しく過ごすウェア・装備 総合リサーチ（女性向け）— 科学的指標定義・6カテゴリ横断比較 | 2026-06-04 | 高 |
 | reports/research_20260604_cooling_wear_womens_v2.md | 同上 v2 — ファクトチェック追加・GU/しまむら/ミズノ/デサント/アームカバー/冷感スプレー新収録・優先順位付きランキング | 2026-06-04 | 高 |
+| reports/research_20260604_cooling_wear_womens_v3.md | 同上【決定版v3】— 科学的根拠で評価軸再設計（輻射遮断/蒸発主軸）・日傘新規追加・加重スコアリング・品質レビュー済 | 2026-06-04 | 高 |
 
 <!-- ブランチマージで追加 2026-05-11 -->
 - reports/search_20260507_1200_triple_combo_skincare_v1.md
