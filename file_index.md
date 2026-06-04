@@ -110,6 +110,7 @@
 | reports/search_20260522_mens_waterrepellent_uv_parka_v1.md | メンズ 撥水・UVカット パーカー TOP3 最終版（Amazon+楽天+Yahoo! 3チャネル横断）v1 | 2026-05-22 | 高 |
 
 | reports/research_20260604_cooling_wear_womens_v1.md | 気温35度の屋外で涼しく過ごすウェア・装備 総合リサーチ（女性向け）— 科学的指標定義・6カテゴリ横断比較 | 2026-06-04 | 高 |
+| reports/research_20260604_cooling_wear_womens_v2.md | 同上 v2 — ファクトチェック追加・GU/しまむら/ミズノ/デサント/アームカバー/冷感スプレー新収録・優先順位付きランキング | 2026-06-04 | 高 |
 
 <!-- ブランチマージで追加 2026-05-11 -->
 - reports/search_20260507_1200_triple_combo_skincare_v1.md
