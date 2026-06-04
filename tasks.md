@@ -97,7 +97,19 @@
   - 成果物: reports/search_20260604_1200_probiotic_high_cfu_v1.txt
   - 楽天市場専属調査（4キーワード横断・7候補検証・在庫否定プローブ実施済み）
   - TOP3: ビオリア10兆個(stars-store・¥43/日・3,333億CFU) / LACT5兆個(stars-store・¥53/日・1,667億CFU) / めぐみの乳酸菌6兆個(healthyplus・¥53/日・2,000億CFU)
-  - 参考: AFC1兆個機能性表示食品 / NOW Foods 100Billion / わかさ生活1000億
+- [x] 商品検索: iHerb プロバイオティクス（乳酸菌）1日1,000億CFU以上 コスパ重視（2026-06-04）
+  - 成果物: reports/search_20260604_1200_probiotics_iherb_v1.txt
+  - iHerb 専属チャネル調査（jp.iherb.com/pr/限定）
+  - 1,000億CFU以上 TOP3:
+    CGN LactoBif100 60粒(ID 143854・セール¥5,502・1日¥92) /
+    NOW Probiotic-10 100B 30粒(ID 64465・¥5,718・1日¥191) /
+    Renew Life 150B 30粒(ID 103369・¥9,249・1日¥308)
+  - 参考候補2件: NaturesPlus 120B(ID 89262) / Renew Life 100B(ID 101805)
+  - 中古フェーズ: サプリカテゴリのためスキップ（中古対象外）
+- [x] 商品検索: 乳酸菌 1日1,000億個 コスパ最強 最終版（2026-06-04）
+  - 成果物（最終）: reports/search_20260604_lactobacillus_1000billion_final.md
+  - 全チャネル横断（Amazon/楽天/iHerb/市販品）・ピルクル含む
+  - 最安: キリン iMUSE サプリ¥33/日 / EC最安: ビオリア楽天¥43/日 / 市販飲料最安: ピルクルミラクルケア×2本¥80-90/日
 
 ---
 

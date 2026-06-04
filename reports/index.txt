@@ -59,6 +59,10 @@
 
 2026-06-04 12:00 | 乳酸菌サプリ 高菌数（1,000億CFU以上）Amazon.co.jp 専属調査 v1（TOP3+参考候補・サクラ除外4件） | reports/search_20260604_1200_lactobacillus_highcfu_v1.txt
 
+2026-06-04 12:00 | iHerb プロバイオティクス（乳酸菌）1日1,000億CFU以上 コスパ重視 iHerb専属調査（CGN LactoBif/NOW Probiotic-10/Renew Life TOP3） | reports/search_20260604_1200_probiotics_iherb_v1.txt
+
+2026-06-04 13:00 | 乳酸菌 1日1,000億個 コスパ最強商品 最終版（Amazon/楽天/iHerb/市販品・ピルクル含む 全チャネル横断） | reports/search_20260604_lactobacillus_1000billion_final.md
+
 == インデックス終端 ==
 search_20260507_1200_triple_combo_skincare_v1.md
 search_20260508_1200_diclofenac_topical_costcomp_v1.md
