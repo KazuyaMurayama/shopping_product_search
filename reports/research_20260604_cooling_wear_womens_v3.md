@@ -48,11 +48,11 @@
 | ファン付きウェア（WindCore WZS-1 ¥3,900＋別売） | 2 | 5 | 4 | 1 | 4 | **3.4** | [WZS-1](https://workman.jp/shop/g/g2300035885022/) |
 | 冷感アームカバー（ユニクロ ¥990） | 3 | 3 | 3 | 3 | 5 | **3.2** | [ユニクロ](https://www.uniqlo.com/jp/ja/products/E474206-000/00) |
 | UVカット帽子（ワークマン ¥1,280） | 4 | 2 | 3 | 1 | 5 | **3.0** | [フレアケープ](https://workman.jp/shop/g/g2300049018010/) |
-| ネックファン（¥3,000） | 1 | 4 | 4 | 1 | 4 | **2.8** | [Amazon](https://www.amazon.co.jp/dp/B0FL77LP98) |
-| 冷感タオル（matsukiyo ¥547） | 1 | 3 | 2 | 2 | 5 | **2.3** | [Amazon](https://www.amazon.co.jp/dp/B0F92SVYCK) |
-| PCM冷却ベスト（¥9,980〜） | 2 | 2 | 3 | 1 | 3 | **2.2** | [Amazon](https://www.amazon.co.jp/dp/B0F3CXL8QT) |
+| ネックファン（¥3,000〜） | 1 | 4 | 4 | 1 | 4 | **2.8** | [Amazon](https://www.amazon.co.jp/dp/B0D2LLFQFZ) |
+| 冷感タオル（AutoGo 3本¥1,270） | 1 | 3 | 2 | 2 | 5 | **2.3** | [Amazon](https://www.amazon.co.jp/dp/B0C53FZ4KR) |
+| PCM冷却ベスト（¥6,980〜） | 2 | 2 | 3 | 1 | 3 | **2.2** | [Amazon](https://www.amazon.co.jp/dp/B0D8B5CYGW) |
 | ペルチェネッククーラー（¥3,000〜） | 1 | 1 | 4 | 1 | 3 | **1.8** | — |
-| 冷感スプレー（ビオレ ¥657） | 1 | 2 | 1 | 1 | 5 | **1.7** | [Amazon](https://www.amazon.co.jp/dp/B0BY2SYPQR) |
+| 冷感スプレー（ビオレ ¥711） | 1 | 2 | 1 | 1 | 5 | **1.7** | [Amazon](https://www.amazon.co.jp/dp/B0BY2SYPQR) |
 | Sony Reon Pocket 5（¥19,800） | 1 | 1 | 4 | 1 | 1 | **1.6** | [Sony公式](https://reonpocket.sony.co.jp/reonpocket5/) |
 
 > **XS113（4.0）が新1位**：遮断と蒸発の両方で最高値を出す唯一のアイテム。ただしファン+バッテリーの別途購入が必要（エントリーセット込みで¥9,800〜）。電池不要・単体完結を重視するならXShelterパーカー（3.9）が実質最強。次点3.7〜3.9は僅差で、**それぞれ違う原則を担うため組み合わせると相乗効果**がある。
@@ -233,9 +233,9 @@
 
 | 商品 | 価格 | 冷却効果（正確な意味） | 屋外適性 | 購入リンク |
 |---|---|---|---|---|
-| ネックファン 冷却プレート付き・左右同時冷却・6000mAh | ¥2,000〜8,000 | 送風で汗の蒸発を促進・体感2〜5℃ | ✅高い（最大14h） | [Amazon代表品](https://www.amazon.co.jp/dp/B0FL77LP98) |
+| ネックファン 冷却プレート付き・左右同時冷却（BOLYDOOM B0D2LLFQFZ） | ¥3,000〜8,000 | 送風で汗の蒸発を促進・体感2〜5℃ | ✅高い（最大14h） | [Amazon](https://www.amazon.co.jp/dp/B0D2LLFQFZ) |
 | ペルチェ式ネッククーラー | ¥3,000〜7,000 | プレート表面が外気比-17℃（理想時）。**35℃超で激減** | ⚠️中（1〜2h） | Amazon等で検索 |
-| PCM冷却ベスト（Tanpluto・28℃以下自然凍結） | ¥9,980 | 26〜28℃で相変化。**35℃屋外で約2時間** | ✅（要冷凍/冷蔵準備） | [Amazon](https://www.amazon.co.jp/dp/B0F3CXL8QT) |
+| PCM冷却ベスト（SUCCY ELLIC コールドアーマー・28℃以下自然凍結） | ¥6,980 | 26〜28℃で相変化。**35℃屋外で最長4時間** | ✅（要冷蔵準備） | [Amazon](https://www.amazon.co.jp/dp/B0D8B5CYGW) |
 | 冷却プレート付ハンディファン MW03NG | ニトリ | ¥1,990 | 送風+プレート | ✅ | [ニトリ公式](https://www.nitori-net.jp/ec/product/2113400060203/) |
 | Reon Pocket 5 | Sony | ¥19,800 | 首表面-12℃（**室内・日陰限定**） | ❌屋外直射日光は非推奨 | [Sony公式](https://reonpocket.sony.co.jp/reonpocket5/) |
 
@@ -243,9 +243,9 @@
 
 | 商品 | ブランド | 価格 | 効果（正確な意味） | 持続 | 購入リンク |
 |---|---|---|---|---|---|
-| 冷ハンディミスト 無香性 | 花王ビオレ | ¥657〜891 | 30℃で瞬間肌温度-10℃（表面・気化熱） | 30〜60分 | [Amazon](https://www.amazon.co.jp/dp/B0BY2SYPQR) |
+| 冷ハンディミスト 無香性 | 花王ビオレ | ¥711 | 30℃で瞬間肌温度-10℃（表面・気化熱） | 30〜60分 | [Amazon](https://www.amazon.co.jp/dp/B0BY2SYPQR) |
 | ひんやりシャツシャワー ストロング無香料 | ときわ商会 | ¥1,485 | メントール清涼感 | 30〜60分 | [Amazon](https://www.amazon.co.jp/dp/B0F4QZXCVN) |
-| -5℃冷感タオル 大判ロング | matsukiyo | ¥547 | 体感-2.44℃（2分後）/表面15℃台 | 〜30分 | [Amazon](https://www.amazon.co.jp/dp/B0F92SVYCK) |
+| 冷感タオル 大判100cm×30cm 3色セット | AutoGo | ¥1,270（3本セット・1本¥423） | 100%冷感繊維・UVカット98%・濡らして冷却 | 〜30分 | [Amazon](https://www.amazon.co.jp/dp/B0C53FZ4KR) |
 | ※日焼け止め（SPF50+/PA++++） | 各社 | — | ウェアで覆えない顔・手の紫外線対策。装備の補完レイヤー | — | — |
 
 ---
@@ -330,7 +330,7 @@ UPF50+・接触冷感・吸水速乾・ポケッタブルを**¥1,969**で実現
 ```
 ユニクロ エアリズムUVカットパーカ（¥2,990）   ← 遮断＋蒸発・Q-max検証済
 ＋ Wpc 軽量遮熱日傘 125g（¥3,630）            ← 輻射遮断・軽い
-＋ ビオレ 冷ハンディミスト（¥657）            ← 駅・信号待ちの瞬間リセット
+＋ ビオレ 冷ハンディミスト（¥711）            ← 駅・信号待ちの瞬間リセット
 = 合計 約¥7,277
 ```
 
@@ -396,7 +396,8 @@ UPF50+・接触冷感・吸水速乾・ポケッタブルを**¥1,969**で実現
 18. **⚠️ 一部欠品確認・カタログに注記**（2品）：ユニクロ エアリズムUVパーカ（一部カラー欠品）／ユニクロ アームカバー E474206（COL31/61欠品）
 19. **⚠️ 今季完売情報あり（要確認）**（1品）：バートル AC2034（楽天で2025.05完売確認）
 20. **シーン⑤ セット代替**：GU在庫なしのため「しまむら FIBER DRY ¥1,969 + ワークマン傘」に変更（合計¥3,249）
-21. **価格訂正**：PCM冷却ベスト ¥3,000〜→¥9,980 / ひんやりシャツシャワー ¥1,290〜→¥1,485
+21. **価格訂正**：PCM冷却ベスト ¥3,000〜→¥6,980 / ひんやりシャツシャワー ¥1,290〜→¥1,485 / ビオレ ¥657〜→¥711
+22. **Amazon代替商品差し替え**（3品）：ネックファン B0FL77LP98（在庫なし）→BOLYDOOM B0D2LLFQFZ／冷感タオル B0F92SVYCK（ページ削除）→AutoGo 3本セット B0C53FZ4KR（¥1,270）／PCMベスト B0F3CXL8QT（在庫なし）→SUCCY ELLIC B0D8B5CYGW（¥6,980）
 
 ---
 
@@ -434,6 +435,6 @@ UPF50+・接触冷感・吸水速乾・ポケッタブルを**¥1,969**で実現
 - [ワークマン フレアケープハット XS408（¥1,280）](https://workman.jp/shop/g/g2300049018010/) ／ [ユニクロ ワイドブリムハット](https://www.uniqlo.com/jp/ja/products/E466339-000/00)
 
 ### デバイス・補助 商品リンク
-- [ネックファン代表品（Amazon B0FL77LP98）](https://www.amazon.co.jp/dp/B0FL77LP98) ／ [PCMクールベスト（Amazon B0F3CXL8QT）](https://www.amazon.co.jp/dp/B0F3CXL8QT)
+- [ネックファン（Amazon B0D2LLFQFZ）](https://www.amazon.co.jp/dp/B0D2LLFQFZ) ／ [PCMクールベスト（Amazon B0D8B5CYGW）](https://www.amazon.co.jp/dp/B0D8B5CYGW)
 - [ニトリ ハンディファン（¥1,990）](https://www.nitori-net.jp/ec/product/2113400060203/) ／ [Sony Reon Pocket 5](https://reonpocket.sony.co.jp/reonpocket5/)
-- [ビオレ 冷ハンディミスト（Amazon）](https://www.amazon.co.jp/dp/B0BY2SYPQR) ／ [ひんやりシャツシャワー（Amazon）](https://www.amazon.co.jp/dp/B0F4QZXCVN) ／ [matsukiyo 冷感タオル（Amazon）](https://www.amazon.co.jp/dp/B0F92SVYCK)
+- [ビオレ 冷ハンディミスト（Amazon）](https://www.amazon.co.jp/dp/B0BY2SYPQR) ／ [ひんやりシャツシャワー（Amazon）](https://www.amazon.co.jp/dp/B0F4QZXCVN) ／ [AutoGo 冷感タオル（Amazon）](https://www.amazon.co.jp/dp/B0C53FZ4KR)
