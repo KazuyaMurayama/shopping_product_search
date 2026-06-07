@@ -68,6 +68,8 @@
 2026-06-04 18:00 | 髪質改善成分 市販品・購入ルート・1日コスト評価（アカデミックリサーチAgent連携）v1 | reports/search_20260604_hair_ingredients_market_v1.md
 2026-06-04 20:00 | 髪質改善成分 市販品・購入ルート・コスパ評価【検証版v2】（5系統並行ファクトチェック・INCI実成分確認・実践費用対効果ランキング再構築。v1の価格/成分誤りを全面修正） | reports/search_20260604_hair_ingredients_market_v2.md
 
+2026-06-07 12:00 | 3輪・4輪 子ども2人乗せ電動アシスト自転車 調査レポート v1（Amazon/楽天/Yahoo!3チャネル横断・ギュット比較スコア100点満点・bikke POLAR e/ふたごじてんしゃアシスト/PASワゴン比較） | reports/search_20260607_3wheel_ebike_child2_v1.md
+
 == インデックス終端 ==
 search_20260507_1200_triple_combo_skincare_v1.md
 search_20260508_1200_diclofenac_topical_costcomp_v1.md
