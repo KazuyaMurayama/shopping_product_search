@@ -2,7 +2,7 @@
 
 新規ファイル作成時は即座にこのインデックスを更新すること。
 
-最終更新: 2026-05-22
+最終更新: 2026-06-08
 
 ---
 
@@ -11,8 +11,8 @@
 | パス | 説明 | 最終更新 | 優先度 |
 |---|---|---|---|
 | CLAUDE.md | リポジトリ運用ガイド（軽量コア） | 2026-04-19 | 高 |
-| tasks.md | タスク管理（完了/進行中/バックログ） | 2026-05-22 | 高 |
-| file_index.md | このファイル。全ファイル一覧 | 2026-05-22 | 高 |
+| tasks.md | タスク管理（完了/進行中/バックログ） | 2026-06-08 | 高 |
+| file_index.md | このファイル。全ファイル一覧 | 2026-06-08 | 高 |
 | .gitignore | Git 除外設定 | - | 低 |
 
 ---
@@ -59,7 +59,7 @@
 
 | パス | 説明 | 最終更新 | 優先度 |
 |---|---|---|---|
-| reports/index.txt | レポート履歴インデックス | 2026-05-22 | 高 |
+| reports/index.txt | レポート履歴インデックス | 2026-06-08 | 高 |
 | reports/TEMPLATE.txt | プレーンテキストレポート雛形 | - | 中 |
 | reports/dog_breed_comparison_20260413.md | 犬種比較レポート（柴犬/コーギー/スピッツ/ボーダー/ハスキー） | 2026-04-13 | 中 |
 | reports/hair_removal_guide_20260417.md | 脱毛ガイド（眉毛 Kenon + 渋谷美容外科 / VIO SBC） | 2026-04-17 | 中 |
@@ -108,10 +108,11 @@
 | reports/search_20260522_1000_mens_waterrepellent_uv_parka_rakuten_v1.txt | メンズ 撥水・UVカット パーカー 楽天市場専属調査 v1 | 2026-05-22 | 高 |
 | reports/search_20260522_1000_mens_waterrepellent_uv_parka_yahoo_v1.txt | メンズ 撥水・UVカット パーカー Yahoo!ショッピング専属調査 v1 | 2026-05-22 | 高 |
 | reports/search_20260522_mens_waterrepellent_uv_parka_v1.md | メンズ 撥水・UVカット パーカー TOP3 最終版（Amazon+楽天+Yahoo! 3チャネル横断）v1 | 2026-05-22 | 高 |
-
 | reports/research_20260604_cooling_wear_womens_v1.md | 気温35度の屋外で涼しく過ごすウェア・装備 総合リサーチ（女性向け）— 科学的指標定義・6カテゴリ横断比較 | 2026-06-04 | 高 |
 | reports/research_20260604_cooling_wear_womens_v2.md | 同上 v2 — ファクトチェック追加・GU/しまむら/ミズノ/デサント/アームカバー/冷感スプレー新収録・優先順位付きランキング | 2026-06-04 | 高 |
 | reports/research_20260604_cooling_wear_womens_v3.md | 同上【決定版v3】— 科学的根拠で評価軸再設計（輻射遮断/蒸発主軸）・日傘新規追加・加重スコアリング・品質レビュー済 | 2026-06-04 | 高 |
+| reports/search_20260608_1400_wood_round_rod_v1.txt | 木の丸棒（長さ120〜140cm・直径10〜30mm・木製・¥5,000以下）Amazon.co.jp 専属調査 v1（確認済み1件・注意フラグ1件・3件目なし） | 2026-06-08 | 高 |
+| reports/search_20260608_1500.txt | 木の丸棒 最終版（Amazon+楽天+Yahoo! 3チャネル横断・3ゲート検証・TOP3確定：Yahoo!¥1,885/Amazon¥2,020/楽天¥410〜+カット） | 2026-06-08 | 高 |
 
 <!-- ブランチマージで追加 2026-05-11 -->
 - reports/search_20260507_1200_triple_combo_skincare_v1.md
