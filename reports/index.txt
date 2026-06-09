@@ -61,6 +61,8 @@
 2026-06-08 14:00 | 木の丸棒（長さ120〜140cm・直径10〜30mm・木製・円柱形・¥5,000以下）Amazon.co.jp 専属調査 v1（確認済み1件・注意フラグ1件・3件目なし・市場構造分析付き） | reports/search_20260608_1400_wood_round_rod_v1.txt
 2026-06-08 15:00 | 木の丸棒（長さ120〜140cm・直径10〜30mm・木製・円柱形・¥5,000以下）最終版（Amazon+楽天+Yahoo! 3チャネル横断・3ゲート検証・TOP3確定：Yahoo!¥1,885/Amazon¥2,020/楽天¥410〜+カット） | reports/search_20260608_wood_round_rod_v1.md
 
+2026-06-09 10:00 | 木の棒+つっぱり棒 4本¥4,000以内 予算再検索（Amazon+楽天+Yahoo! 2ルート横断・前回TOP1販売停止確認・NSW-5¥793/楽天カット無料¥684/Yahoo¥360） | reports/search_20260609_wood_rod_tsuppari_v1.md
+
 == インデックス終端 ==
 search_20260507_1200_triple_combo_skincare_v1.md
 search_20260508_1200_diclofenac_topical_costcomp_v1.md
