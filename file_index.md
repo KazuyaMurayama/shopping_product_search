@@ -92,6 +92,7 @@
 | reports/search_20260604_lactobacillus_1000billion_final-v2.md | 乳酸菌 1日1,000億個 コスパ最強 改訂版 v2（ファクトチェック反映・生菌CFU/死菌2軸・Yahoo!追加・mermaid図＋付録:科学的エビデンス[効果量/有効用量/効果発現期間/安全性・論文22本] | 2026-06-04 | 高 |
 | reports/search_20260607_3wheel_ebike_child2_v1.md | 3輪・4輪 子ども2人乗せ電動アシスト自転車 調査レポート v1（⚠️ bikke POLAR e 3輪誤記あり・v2で修正済み） | 2026-06-07 | 低 |
 | reports/search_20260607_3wheel_ebike_child2_v2.md | 3輪・4輪 子ども2人乗せ電動アシスト自転車 調査レポート v2【正式版】（v1修正・商品リンク列追加・3輪唯一品＝ふたごじてんしゃアシスト確定・ギュット比較スコア100点） | 2026-06-08 | 高 |
+| reports/search_20260608_childseat_cushion_v1.md | 自転車チャイルドシート用 振動吸収クッション 調査レポート v1（3チャネル横断・段差衝撃吸収・LABOCLE GEL+/MARUTO CCK-Y02/socca CSC-SA02 TOP3） | 2026-06-08 | 高 |
 
 <!-- ブランチマージで追加 2026-05-11 -->
 - reports/search_20260507_1200_triple_combo_skincare_v1.md
