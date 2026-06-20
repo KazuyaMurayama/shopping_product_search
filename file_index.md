@@ -94,6 +94,7 @@
 | reports/search_20260607_3wheel_ebike_child2_v2.md | 3輪・4輪 子ども2人乗せ電動アシスト自転車 調査レポート v2【正式版】（v1修正・商品リンク列追加・3輪唯一品＝ふたごじてんしゃアシスト確定・ギュット比較スコア100点） | 2026-06-08 | 高 |
 | reports/search_20260608_childseat_cushion_v1.md | 自転車チャイルドシート用 振動吸収クッション 調査レポート v1（3チャネル横断・段差衝撃吸収・LABOCLE GEL+/MARUTO CCK-Y02/socca CSC-SA02 TOP3） | 2026-06-08 | 高 |
 | reports/search_20260617_voice_to_text_tools_v1.md | 音声テキスト変換ツール 比較調査レポート v1（PC+iPhone両対応・日本語精度重視・Typeless/AquaVoice/Notta/MacWhisper/Google Docs/Apple標準 6ツール100点スコア比較） | 2026-06-17 | 高 |
+| reports/search_20260620_cordless_vacuum_v1.md | コードレス掃除機 比較調査レポート v1（ダイソン除く・5年耐久・メンテ重視・Shark BOOST+/マキタCL182/日立PV-BH900SL/CL107/Shark NEO II 5製品100点スコア比較） | 2026-06-20 | 高 |
 
 <!-- ブランチマージで追加 2026-05-11 -->
 - reports/search_20260507_1200_triple_combo_skincare_v1.md

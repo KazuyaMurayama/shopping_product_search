@@ -72,6 +72,8 @@
 
 2026-06-17 12:00 | 音声テキスト変換ツール 比較調査レポート v1（PC+iPhone両対応・日本語精度重視・Typeless/AquaVoice/Notta/MacWhisper/Google Docs/Apple標準 6ツール100点スコア比較） | reports/search_20260617_voice_to_text_tools_v1.md
 
+2026-06-20 12:00 | コードレス掃除機 比較調査レポート v1（ダイソン除く・5年耐久・メンテ重視・Shark BOOST+/マキタCL182/日立PV-BH900SL/CL107/Shark NEO II 5製品100点スコア比較） | reports/search_20260620_cordless_vacuum_v1.md
+
 == インデックス終端 ==
 search_20260507_1200_triple_combo_skincare_v1.md
 search_20260508_1200_diclofenac_topical_costcomp_v1.md
