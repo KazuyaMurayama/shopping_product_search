@@ -96,6 +96,7 @@
 | reports/search_20260617_voice_to_text_tools_v1.md | 音声テキスト変換ツール 比較調査レポート v1（PC+iPhone両対応・日本語精度重視・Typeless/AquaVoice/Notta/MacWhisper/Google Docs/Apple標準 6ツール100点スコア比較） | 2026-06-17 | 高 |
 | reports/search_20260620_cordless_vacuum_v1.md | コードレス掃除機 比較調査レポート v1（ダイソン除く・5年耐久・メンテ重視・Shark BOOST+/マキタCL182/日立PV-BH900SL/CL107/Shark NEO II 5製品100点スコア比較） | 2026-06-20 | 高 |
 | reports/search_20260620_cordless_vacuum_v2.md | コードレス掃除機 比較調査レポート v2（v1配点改訂・第⑤軸をトータルコスト25点に再定義/性能二重評価を排除・マキタCL107首位/マキタCL182/Shark NEO II TOP3・6製品100点スコア比較） | 2026-06-20 | 高 |
+| reports/search_20260621_cordless_vacuum.md | コードレス掃除機 比較調査レポート【最終版】（ダイソン除く・ファクトチェック済・トータルコスト25点配点・マキタCL107/CL182/SharkBOOST+ TOP3・Shark NEO II SOLD OUT確認・全6製品100点スコア） | 2026-06-21 | 高 |
 
 <!-- ブランチマージで追加 2026-05-11 -->
 - reports/search_20260507_1200_triple_combo_skincare_v1.md

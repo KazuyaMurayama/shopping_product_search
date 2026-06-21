@@ -76,6 +76,8 @@
 
 2026-06-20 15:00 | コードレス掃除機 比較調査レポート v2（v1配点改訂・第⑤軸をトータルコスト25点に再定義/性能二重評価を排除・マキタCL107首位/マキタCL182/Shark NEO II TOP3・6製品100点スコア比較） | reports/search_20260620_cordless_vacuum_v2.md
 
+2026-06-21 12:00 | コードレス掃除機 比較調査レポート【最終版】（ダイソン除く・ファクトチェック済・トータルコスト25点配点・マキタCL107/CL182/SharkBOOST+ TOP3・Shark NEO II SOLD OUT確認・全6製品100点スコア） | reports/search_20260621_cordless_vacuum.md
+
 == インデックス終端 ==
 search_20260507_1200_triple_combo_skincare_v1.md
 search_20260508_1200_diclofenac_topical_costcomp_v1.md
