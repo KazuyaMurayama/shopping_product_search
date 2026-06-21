@@ -78,6 +78,8 @@
 
 2026-06-21 12:00 | コードレス掃除機 比較調査レポート【最終版】（ダイソン除く・ファクトチェック済・トータルコスト25点配点・マキタCL107/CL182/SharkBOOST+ TOP3・Shark NEO II SOLD OUT確認・全6製品100点スコア） | reports/search_20260621_cordless_vacuum.md
 
+2026-06-21 18:00 | コードレス掃除機 市場全体スキャン比較レポート v2【最終版】（日本市場網羅スキャン・14製品100点スコア・Roborock H5/マキタCL107/Dreame X1 Slim TOP3・Dreame X1 Air/R10 Pure サクラ除外・Tineco全除外・除外製品15社網羅） | reports/search_20260621_cordless_vacuum-v2.md
+
 == インデックス終端 ==
 search_20260507_1200_triple_combo_skincare_v1.md
 search_20260508_1200_diclofenac_topical_costcomp_v1.md
