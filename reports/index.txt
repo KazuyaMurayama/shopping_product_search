@@ -80,6 +80,8 @@
 
 2026-06-21 18:00 | コードレス掃除機 市場全体スキャン比較レポート v2【最終版】（日本市場網羅スキャン・14製品100点スコア・Roborock H5/マキタCL107/Dreame X1 Slim TOP3・Dreame X1 Air/R10 Pure サクラ除外・Tineco全除外・除外製品15社網羅） | reports/search_20260621_cordless_vacuum-v2.md
 
+2026-06-21 20:00 | コードレス掃除機 市場全体スキャン比較レポート v3【最終版】（配点再定義・②に吸引力維持率9点新設・⑤軽量10点5番目に繰り上げ・⑥コスト6番目に移動・14製品再スコアリング・Roborock H5/マキタCL107/Dreame X1 Slim TOP3維持・東芝VC-CLP54が4位浮上・Shark BOOST+が13位に降下） | reports/search_20260621_cordless_vacuum-v3.md
+
 == インデックス終端 ==
 search_20260507_1200_triple_combo_skincare_v1.md
 search_20260508_1200_diclofenac_topical_costcomp_v1.md
