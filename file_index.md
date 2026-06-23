@@ -99,6 +99,7 @@
 | reports/search_20260621_cordless_vacuum.md | コードレス掃除機 比較調査レポート【最終版】（ダイソン除く・ファクトチェック済・トータルコスト25点配点・マキタCL107/CL182/SharkBOOST+ TOP3・Shark NEO II SOLD OUT確認・全6製品100点スコア） | 2026-06-21 | 高 |
 | reports/search_20260621_cordless_vacuum-v2.md | コードレス掃除機 市場全体スキャン比較レポート v2【最終版】（日本市場網羅スキャン・14製品100点スコア・Roborock H5/マキタCL107/Dreame X1 Slim TOP3・除外製品15社網羅） | 2026-06-21 | 高 |
 | reports/search_20260621_cordless_vacuum-v3.md | コードレス掃除機 市場全体スキャン比較レポート【最終版】（日本市場14製品100点スコア・商品リンク付き・Roborock H5/マキタCL107/Dreame X1 Slim TOP3・除外製品16件明記） | 2026-06-22 | 高 |
+| reports/search_20260623_whey_protein_yogurt.md | ホエイプロテイン ヨーグルト味 比較レポート（Amazon・楽天・iHerb横断・8製品100点スコア・GronGベーシック/マイプロテイン/GronG WPI TOP3・iHerbは廃番確認） | 2026-06-23 | 高 |
 
 <!-- ブランチマージで追加 2026-05-11 -->
 - reports/search_20260507_1200_triple_combo_skincare_v1.md
