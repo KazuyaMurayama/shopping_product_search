@@ -55,6 +55,17 @@
 
 ---
 
+## 機械的強制（フック・スクリプト・設定）
+
+| パス | 説明 | 最終更新 | 優先度 |
+|---|---|---|---|
+| .claude/settings.json | フック設定（SessionStart=着手ゲート注入 / PostToolUse=比較レポート保存時にリンター実行） | 2026-06-24 | 高 |
+| .claude/hooks/session_start_gate.sh | 比較タスク着手ゲート＋価格取得制約を毎セッション注入 | 2026-06-24 | 高 |
+| .claude/hooks/check_report.sh | reports/*.md 保存時にリンターを起動し違反を exit2 で差し戻すラッパ | 2026-06-24 | 高 |
+| scripts/check_comparison_report.py | 比較レポート機械検証リンター（価格出典・確認日・除外一覧・件数・禁止URL） | 2026-06-24 | 高 |
+
+---
+
 ## レポート（reports/）
 
 | パス | 説明 | 最終更新 | 優先度 |
@@ -110,7 +121,7 @@
 | reports/search_20260621_cordless_vacuum.md | コードレス掃除機 比較調査レポート【最終版】（ダイソン除く・ファクトチェック済・トータルコスト25点配点・マキタCL107/CL182/SharkBOOST+ TOP3・Shark NEO II SOLD OUT確認・全6製品100点スコア） | 2026-06-21 | 高 |
 | reports/search_20260621_cordless_vacuum-v2.md | コードレス掃除機 市場全体スキャン比較レポート v2【最終版】（日本市場網羅スキャン・14製品100点スコア・Roborock H5/マキタCL107/Dreame X1 Slim TOP3・除外製品15社網羅） | 2026-06-21 | 高 |
 | reports/search_20260621_cordless_vacuum-v3.md | コードレス掃除機 市場全体スキャン比較レポート【最終版】（日本市場14製品100点スコア・商品リンク付き・Roborock H5/マキタCL107/Dreame X1 Slim TOP3・除外製品16件明記） | 2026-06-22 | 高 |
-| reports/search_20260623_whey_protein_yogurt.md | ホエイプロテイン ヨーグルト味 比較レポート【最終版】（Amazon・楽天・Yahoo横断・12製品100点スコア・ザプロ/REYS/エクスプロージョン/ビーレジェンド TOP5・ザバス製造終了確認・iHerb廃番） | 2026-06-24 | 高 |
+| reports/search_20260623_whey_protein_yogurt.md | ホエイプロテイン ヨーグルト味 比較レポート（価格検証版・Yahoo!ライブ価格でスコア／Amazon・楽天は集約サイト経由＋⚠️・エクスプロージョン/HIGH CLEAR/ボディウイング TOP5・HIGH CLEAR等新規追加・ザバス製造終了・価格出典表で機械検証） | 2026-06-24 | 高 |
 
 <!-- ブランチマージで追加 2026-05-11 -->
 - reports/search_20260507_1200_triple_combo_skincare_v1.md
