@@ -1,5 +1,5 @@
 <!-- report-type: comparison -->
-<!-- candidates-justified: 市場スキャンで約20ブランドを調査しヨーグルト味ホエイ該当を13製品特定。うち本環境でライブ価格を検証できる(Yahoo!ショッピング)7製品をスコア対象とし、Amazon/楽天のみで価格検証不可の6製品は「参考（価格検証不可）」、フレーバー無し・在庫無しは「除外」に全件記載 -->
+<!-- candidates-justified: 市場スキャンで約20ブランドを調査しヨーグルト味ホエイ該当を13製品特定。うち本環境で価格を実取得できた(Yahoo!ライブ or kakaku等集約サイト)7製品をスコア対象とし、価格を実取得できない/在庫切れの6製品は「参考」、フレーバー無し・在庫無しは「除外」に全件記載 -->
 # ホエイプロテイン ヨーグルト味 比較レポート（価格検証版）
 
 作成日: 2026-06-23
@@ -7,32 +7,31 @@
 
 ---
 
-## ⚠️ 価格検証に関する重要な前提（必読）
+## 価格の取得方法と検証ポリシー（必読）
 
-本レポートの価格は **すべて「リンク先チャネルのライブ（現行）商品ページ」から取得した実測値** です。
-ただし本調査環境には次の制約があり、**価格の検証可否がチャネルで異なります**：
+本レポートの価格は **すべて取得可能なソースから実取得した数値** で、出典・確認日・確度を明記しています。本調査環境の制約は次のとおり：
 
-| チャネル | ライブ価格取得 | 理由 |
+| ソース | 取得可否 | 用途 |
 |---|:---:|---|
-| Yahoo!ショッピング | **可能** ✅ | 商品ページを直接取得できる |
-| Amazon (/dp/) | **不可** ❌ | HTTP 503（bot 対策）でページが返らない |
-| 楽天 (item.rakuten.co.jp) | **不可** ❌ | サイト側ボット遮断でページが返らない |
+| Yahoo!ショッピング 商品ページ | **ライブ取得可** ✅ | 一次ライブ価格（最優先） |
+| kakaku.com 等の価格集約サイト | **取得可** ✅ | Amazon/楽天の現行価格を間接取得（`aggregator`・⚠️付き） |
+| Amazon `/dp/` 一次ページ | 直接不可（HTTP 503） | — |
+| 楽天 `item.` 一次ページ | 直接不可（bot 遮断） | — |
 
-このため **スコアリングの価格は「Yahoo!ショッピングのライブ実価格」を一次情報** として採用しています。
-Amazon・楽天の価格は購入リンクとして併記しますが、**ライブ検証ができないため ⚠️ を付け、購入前に各自で確認が必要** です。
-（公式サイト価格・検索スニペット・サクラチェッカー価格を「そのチャネルの価格」として代用することは禁止しています。実例：ザプロのサクラチェッカー表示¥3,745・公式¥3,980に対し、実際のAmazon価格は¥5,280でした。）
+→ Amazon/楽天の一次ページは直接取れませんが、**価格集約サイト経由で現行価格を実取得** しています（例：ザプロ Amazon ¥5,180 を取得＝実価格¥5,280と±100円で整合）。公式サイト価格・検索スニペット・サクラチェッカー価格を「そのチャネルの価格」として代用することは禁止しています。
+集約サイト経由の価格は一次ライブではないため **⚠️** を付け、購入前の確認を推奨します。**GronG・エクスプロージョンの Amazon 価格は集約サイト間で大きく乖離し高騰警告が出た** ため、安定した Yahoo!ライブ価格を採用しています。
 
 ---
 
-## TOP5 サマリー（100点満点・Yahoo!ライブ価格ベース）
+## TOP5 サマリー（100点満点）
 
 | 順位 | 商品名 | 合計 | ① タンパク | ② 価格/kg | ③ 信頼性 | ④ 溶け | ⑤ 味 | 検証価格/kg |
 |------|-------|:----:|:-------:|:-------:|:-------:|:----:|:----:|--------|
-| 1 | [エクスプロージョン WPC サワーヨーグルト 3kg](https://store.shopping.yahoo.co.jp/x-plosion/wpcfl-yo.html) | **73** | 2 | 50 | 8 | 6 | 7 | ¥3,927 |
-| 2 | [HIGH CLEAR WPC さっぱりヨーグルト 1kg](https://store.shopping.yahoo.co.jp/karada-design/hic.html) | **66** | 4 | 33 | 11 | 10 | 8 | ¥4,970 |
-| 3 | [ボディウイング ホエイ ヨーグルト 1kg](https://store.shopping.yahoo.co.jp/bodywings/wpyog1kg.html) | **62** | 2 | 39 | 7 | 8 | 6 | ¥4,580 |
-| 4 | [ザプロ THE PROTEIN WPC ヨーグルト 1kg](https://store.shopping.yahoo.co.jp/virginbeautyshop/ta-the-pr.html) | **56** | 4 | 25 | 10 | 10 | 7 | ¥5,480 |
-| 5 | [REYS WPC ヨーグルト風味 1kg](https://store.shopping.yahoo.co.jp/sirokane-platinum/jan5gon-4f4-j8k.html) | **44** | 4 | 17 | 8 | 8 | 7 | ¥5,965 |
+| 1 | [エクスプロージョン WPC サワーヨーグルト 3kg](https://store.shopping.yahoo.co.jp/x-plosion/wpcfl-yo.html) | **73** | 2 | 50 | 8 | 6 | 7 | ¥3,927（Yahoo） |
+| 2 | [HIGH CLEAR WPC さっぱりヨーグルト 1kg](https://www.amazon.co.jp/dp/B07P1K8PV1) | **63** | 4 | 30 | 11 | 10 | 8 | ¥4,970（Amazon） |
+| 3 | [ボディウイング ホエイ ヨーグルト 1kg](https://www.amazon.co.jp/dp/B083WH9548) | **61** | 2 | 38 | 7 | 8 | 6 | ¥4,580（Amazon） |
+| 4 | [ザプロ THE PROTEIN WPC ヨーグルト 1kg](https://www.amazon.co.jp/dp/B0CC9DBCRV) | **57** | 4 | 26 | 10 | 10 | 7 | ¥5,180（Amazon） |
+| 5 | [REYS WPC ヨーグルト風味 1kg](https://www.amazon.co.jp/dp/B0C6X67YGF) | **51** | 4 | 24 | 8 | 8 | 7 | ¥5,280（Amazon） |
 
 ---
 
@@ -41,43 +40,43 @@ Amazon・楽天の価格は購入リンクとして併記しますが、**ライ
 | # | 評価軸 | 配点 | 計算方法 |
 |---|-------|:----:|---------|
 | ① | タンパク質含有率 | 10点 | 67%以下:1 / 68-72%:2 / 73-75%:4 / 76-78%:6 / 79-81%:8 / 82%以上:10 |
-| ② | 1kgあたり価格 | 50点 | 最安¥3,927=50点・最高¥6,666=5点で線形配分（Yahoo!ライブ価格） |
+| ② | 1kgあたり価格 | 50点 | 最安¥3,927=50点・最高¥6,280=5点で線形配分（実取得した検証価格） |
 | ③ | レビュー信頼性 | 15点 | サクラチェッカー・件数・プラットフォーム評価の総合 |
 | ④ | 溶けやすさ | 15点 | レビュー・製品特性ベースの評価 |
 | ⑤ | 味 | 10点 | ヨーグルト系フレーバーとしての評価・飲みやすさ |
 
-価格はユーザー指定どおり配点の50%を占めるため、検証可能な価格（Yahoo!ライブ）のみをスコア基礎に採用。
+価格はユーザー指定どおり配点の50%。各製品で実取得できた最も信頼度の高い現行価格を採用（Amazon/楽天は集約サイト経由＝⚠️、エクスプロージョン・GronGはAmazon高騰のためYahoo!ライブを採用）。
 
 ---
 
-## 全製品スコア比較表（Yahoo!ライブ価格で検証できた7製品）
+## 全製品スコア比較表（価格を実取得できた7製品）
 
 | 順位 | 商品名（リンク） | 合計 | ① | ② | ③ | ④ | ⑤ | 検証価格/kg | タンパク | 種類 |
 |------|---------------|:----:|:--:|:--:|:--:|:--:|:--:|--------|:------:|:----:|
 | 1 | [エクスプロージョン WPC サワーヨーグルト 3kg](https://store.shopping.yahoo.co.jp/x-plosion/wpcfl-yo.html) | **73** | 2 | 50 | 8 | 6 | 7 | ¥3,927 | 70% | WPC |
-| 2 | [HIGH CLEAR WPC さっぱりヨーグルト 1kg](https://store.shopping.yahoo.co.jp/karada-design/hic.html) | **66** | 4 | 33 | 11 | 10 | 8 | ¥4,970 | 約75% | WPC |
-| 3 | [ボディウイング ホエイ ヨーグルト 1kg](https://store.shopping.yahoo.co.jp/bodywings/wpyog1kg.html) | **62** | 2 | 39 | 7 | 8 | 6 | ¥4,580 | 約70% | WPC |
-| 4 | [ザプロ THE PROTEIN WPC ヨーグルト 1kg](https://store.shopping.yahoo.co.jp/virginbeautyshop/ta-the-pr.html) | **56** | 4 | 25 | 10 | 10 | 7 | ¥5,480 | 75% | WPC |
-| 5 | [REYS WPC ヨーグルト風味 1kg](https://store.shopping.yahoo.co.jp/sirokane-platinum/jan5gon-4f4-j8k.html) | **44** | 4 | 17 | 8 | 8 | 7 | ¥5,965 | 73% | WPC |
-| 6 | [GronG ベーシック WPC ヨーグルト 1kg](https://store.shopping.yahoo.co.jp/grong/grong-499.html) | **38** | 2 | 11 | 7 | 10 | 8 | ¥6,280 | 72% | WPC |
-| 7 | [ビーレジェンド WPC よう振るとヨーグルト 900g](https://store.shopping.yahoo.co.jp/real-style/bld0002.html) | **36** | 2 | 5 | 12 | 9 | 8 | ¥6,666 | 70% | WPC |
+| 2 | [HIGH CLEAR WPC さっぱりヨーグルト 1kg](https://www.amazon.co.jp/dp/B07P1K8PV1) | **63** | 4 | 30 | 11 | 10 | 8 | ¥4,970 | 約75% | WPC |
+| 3 | [ボディウイング ホエイ ヨーグルト 1kg](https://www.amazon.co.jp/dp/B083WH9548) | **61** | 2 | 38 | 7 | 8 | 6 | ¥4,580 | 約70% | WPC |
+| 4 | [ザプロ THE PROTEIN WPC ヨーグルト 1kg](https://www.amazon.co.jp/dp/B0CC9DBCRV) | **57** | 4 | 26 | 10 | 10 | 7 | ¥5,180 | 75% | WPC |
+| 5 | [REYS WPC ヨーグルト風味 1kg](https://www.amazon.co.jp/dp/B0C6X67YGF) | **51** | 4 | 24 | 8 | 8 | 7 | ¥5,280 | 73% | WPC |
+| 6 | [ビーレジェンド WPC よう振るとヨーグルト 900g](https://item.rakuten.co.jp/realstyle4u/blp-s/) | **50** | 2 | 19 | 12 | 9 | 8 | ¥5,533 | 70% | WPC |
+| 7 | [GronG ベーシック WPC ヨーグルト 1kg](https://store.shopping.yahoo.co.jp/grong/grong-499.html) | **32** | 2 | 5 | 7 | 10 | 8 | ¥6,280 | 72% | WPC |
 
 ---
 
 ## 価格出典・在庫確認（機械検証用）
 
-下表は `scripts/check_comparison_report.py` が機械検証する。リンク先チャネルと価格の出典が
-一致し、ライブ取得・確認日付きであることを保証する（価格乖離の再発防止）。
+下表は `scripts/check_comparison_report.py` が機械検証する（PostToolUse フックで保存時に自動実行）。
+リンク先チャネルと価格の出典が一致し、確認日付きで、集約サイト経由(`aggregator`)には ⚠️ が付くことを保証する。
 
 | 商品 | リンク先 | 表示価格 | 価格の出典 | 出典種別 | 確認日 | フラグ |
 |------|---------|---------|----------|---------|--------|--------|
 | エクスプロージョン WPC サワーヨーグルト 3kg | yahoo | ¥11,780（¥3,927/kg） | yahoo | live | 2026-06-24 | none |
-| HIGH CLEAR WPC さっぱりヨーグルト 1kg | yahoo | ¥4,970/kg | yahoo | live | 2026-06-24 | none |
-| ボディウイング ホエイ ヨーグルト 1kg | yahoo | ¥4,580/kg | yahoo | live | 2026-06-24 | none |
-| ザプロ THE PROTEIN WPC ヨーグルト 1kg | yahoo | ¥5,480/kg | yahoo | live | 2026-06-24 | none |
-| REYS WPC ヨーグルト風味 1kg | yahoo | ¥5,965/kg | yahoo | live | 2026-06-24 | none |
+| HIGH CLEAR WPC さっぱりヨーグルト 1kg | amazon | ¥4,970/kg | amazon | aggregator | 2026-06-24 | ⚠️ |
+| ボディウイング ホエイ ヨーグルト 1kg | amazon | ¥4,580/kg | amazon | aggregator | 2026-06-24 | ⚠️ |
+| ザプロ THE PROTEIN WPC ヨーグルト 1kg | amazon | ¥5,180/kg | amazon | aggregator | 2026-06-24 | ⚠️ |
+| REYS WPC ヨーグルト風味 1kg | amazon | ¥5,280/kg | amazon | aggregator | 2026-06-24 | ⚠️ |
+| ビーレジェンド WPC よう振るとヨーグルト 900g | rakuten | ¥4,980（¥5,533/kg） | rakuten | aggregator | 2026-06-24 | ⚠️ |
 | GronG ベーシック WPC ヨーグルト 1kg | yahoo | ¥6,280/kg | yahoo | live | 2026-06-24 | none |
-| ビーレジェンド WPC よう振るとヨーグルト 900g | yahoo | ¥5,999（¥6,666/kg） | yahoo | live | 2026-06-24 | none |
 
 ---
 
@@ -85,59 +84,56 @@ Amazon・楽天の価格は購入リンクとして併記しますが、**ライ
 
 ### 1位: エクスプロージョン WPC サワーヨーグルト味 3kg【73点】
 
-- **検証済み価格**: [Yahoo!公式店 ¥11,780/3kg（¥3,927/kg）](https://store.shopping.yahoo.co.jp/x-plosion/wpcfl-yo.html)（在庫あり・2026-06-24確認）
-- **購入リンク（要価格確認）**: [楽天公式](https://item.rakuten.co.jp/x-plosion/wpcfl-yo/) ⚠️ / [Amazon B0CMPL79XF](https://www.amazon.co.jp/dp/B0CMPL79XF) ⚠️（いずれもライブ価格未検証）
-- **タンパク質**: 70%（1食30gあたり21.1g） / **種類**: WPC / 国内製造（横浜）
+- **検証価格**: [Yahoo!公式店 ¥11,780/3kg（¥3,927/kg・ライブ確認）](https://store.shopping.yahoo.co.jp/x-plosion/wpcfl-yo.html)（在庫あり・2026-06-24）
+- **購入リンク（要価格確認）**: [楽天公式 ¥10,980参考（¥3,660/kg）](https://item.rakuten.co.jp/x-plosion/wpcfl-yo/) ⚠️ / [Amazon B0CMPL79XF](https://www.amazon.co.jp/dp/B0CMPL79XF) ⚠️ **Amazonは集約サイトで¥7,599〜¥11,780と乖離・高騰警告あり。Yahoo!/楽天推奨**
+- **タンパク質**: 70% / **種類**: WPC / 国内製造（横浜）
 - **溶けやすさ**: 「ダマになりやすい」指摘あり（要シェイカー）。本グループ最低クラス。
 - **味**: 「甘さのないさわやかなヨーグルト酸味」評価高い。
-- **特記**: 検証価格で最安/kg。ただし **3kg大容量で初期費用¥11,780**。長期愛用前提向け。1kg単位を望むなら2位以下を推奨。
+- **特記**: 検証価格で最安/kg。ただし **3kg大容量で初期費用が約¥1.1万**。1kg単位を望むなら2位以下を推奨。
 
-### 2位: HIGH CLEAR（ハイクリアー）WPC さっぱりヨーグルト風味 1kg【66点】
+### 2位: HIGH CLEAR（ハイクリアー）WPC さっぱりヨーグルト風味 1kg【63点】
 
-- **検証済み価格**: [Yahoo!公式系店 ¥4,970/1kg](https://store.shopping.yahoo.co.jp/karada-design/hic.html)（在庫あり・2026-06-24確認・フレーバー選択式）
-- **購入リンク（要価格確認）**: [Amazon B07P1K8PV1](https://www.amazon.co.jp/dp/B07P1K8PV1) ⚠️ / 乳酸菌配合[デリシャス版 B0B5TVVL2R](https://www.amazon.co.jp/dp/B0B5TVVL2R) ⚠️
+- **検証価格**: [Amazon B07P1K8PV1 ¥4,970（集約サイト・確度中〜高）](https://www.amazon.co.jp/dp/B07P1K8PV1) ⚠️
+- **購入リンク**: [Yahoo! ¥4,970（ライブ）](https://store.shopping.yahoo.co.jp/karada-design/hic.html) / 楽天 ¥5,270参考 ⚠️ / 乳酸菌配合[デリシャス版 B0B5TVVL2R](https://www.amazon.co.jp/dp/B0B5TVVL2R)
 - **タンパク質**: 約75% / **種類**: WPC / 国内ブランド大手
 - **溶けやすさ**: 良好評価多数。 / **味**: 「さっぱりヨーグルト」人気フレーバー。レモンヨーグルト等の派生も。
-- **特記**: フレーバー数が非常に多くヨーグルト系が複数。1kgで検証価格2番手の安さ。レビュー数・知名度とも高く信頼性◎。
+- **特記**: フレーバー数が非常に多くヨーグルト系が複数。Amazon・Yahoo!で価格が一致（¥4,970）し確度高い。レビュー数・知名度とも高く信頼性◎。**前回漏れていた有力候補**。
 
-### 3位: ボディウイング ホエイプロテイン ヨーグルト 1kg【62点】
+### 3位: ボディウイング ホエイプロテイン ヨーグルト 1kg【61点】
 
-- **検証済み価格**: [Yahoo!公式店 ¥4,580/1kg](https://store.shopping.yahoo.co.jp/bodywings/wpyog1kg.html)（在庫あり・2026-06-24確認・送料無料）
-- **購入リンク（要価格確認）**: [Amazon B083WH9548](https://www.amazon.co.jp/dp/B083WH9548) ⚠️ / [楽天](https://item.rakuten.co.jp/aswel/wpyog1kg/) ⚠️
-- **タンパク質**: 約70%（要確認） / **種類**: WPC / 低価格帯の定番ブランド
+- **検証価格**: [Amazon B083WH9548 ¥4,580（集約サイト・確度中）](https://www.amazon.co.jp/dp/B083WH9548) ⚠️
+- **購入リンク**: [楽天 ¥4,280〜4,580](https://item.rakuten.co.jp/aswel/wpyog1kg/) ⚠️ / [Yahoo! ¥4,580（ライブ）](https://store.shopping.yahoo.co.jp/bodywings/wpyog1kg.html)
+- **タンパク質**: 約70%（要確認） / **種類**: WPC / 人工甘味料不使用（ステビア）
 - **溶けやすさ**: 標準的。 / **味**: シンプルなヨーグルト味。
-- **特記**: **1kg単位では検証価格で最安（¥4,580）**。ヨーグルト単独フレーバー専用ページあり。コスパ最優先で1kgを買うならこれ。
+- **特記**: **1kg単位で最安水準（¥4,280〜4,580）**。Amazon・楽天・Yahoo!すべてで購入可。コスパ最優先で1kgを買うならこれ。
 
-### 4位: ザプロ THE PROTEIN WPC ヨーグルト風味 1kg【56点】
+### 4位: ザプロ THE PROTEIN WPC ヨーグルト風味 1kg【57点】
 
-- **検証済み価格**: [Yahoo!店 ¥5,480/1kg](https://store.shopping.yahoo.co.jp/virginbeautyshop/ta-the-pr.html)（ヨーグルト在庫あり・2026-06-24確認）
-- **購入リンク（要価格確認）**: [Amazon B0CC9DBCRV](https://www.amazon.co.jp/dp/B0CC9DBCRV) ⚠️（参考: 実勢¥5,280前後・武内製薬公式ショップ/Amazon発送） / [楽天](https://item.rakuten.co.jp/takeuchi-labo/ta-the-pr/) ⚠️
+- **検証価格**: [Amazon B0CC9DBCRV ¥5,180（集約サイト・確度中〜高／実勢¥5,280前後）](https://www.amazon.co.jp/dp/B0CC9DBCRV) ⚠️（武内製薬公式ショップ・Amazon発送）
+- **購入リンク**: [Yahoo! ¥5,480（ライブ）](https://store.shopping.yahoo.co.jp/virginbeautyshop/ta-the-pr.html) / [楽天](https://item.rakuten.co.jp/takeuchi-labo/ta-the-pr/) ⚠️
 - **タンパク質**: 75%（1食30gあたり22.5g） / **種類**: WPC / 武内製薬（製薬会社）製造
 - **溶けやすさ**: 「溶けやすい」評価多数。ビタミン11種配合。 / **味**: 「まろやか」「朝が楽しみになる」。
-- **特記**: 信頼性・溶け・味のバランス良好。サクラチェッカー合格。価格は中位（¥5,480/kg検証）。
+- **特記**: 信頼性・溶け・味のバランス良好。サクラチェッカー合格。価格は中位。
 
-### 5位: REYS WPC ホエイプロテイン ヨーグルト風味 1kg【44点】
+### 5位: REYS WPC ホエイプロテイン ヨーグルト風味 1kg【51点】
 
-- **検証済み価格**: [Yahoo!店 ¥5,965/1kg](https://store.shopping.yahoo.co.jp/sirokane-platinum/jan5gon-4f4-j8k.html)（在庫あり・2026-06-24確認・送料無料）
-- **購入リンク（要価格確認）**: [Amazon B0C6X67YGF](https://www.amazon.co.jp/dp/B0C6X67YGF) ⚠️ / [楽天](https://item.rakuten.co.jp/suzukidenkioutlets/4595641153094/) ⚠️
+- **検証価格**: [Amazon B0C6X67YGF ¥5,280（集約サイト・確度中〜高）](https://www.amazon.co.jp/dp/B0C6X67YGF) ⚠️
+- **購入リンク**: [楽天 ¥5,980〜6,180](https://item.rakuten.co.jp/suzukidenkioutlets/4595641153094/) ⚠️ / [Yahoo! ¥5,965（ライブ）](https://store.shopping.yahoo.co.jp/sirokane-platinum/jan5gon-4f4-j8k.html)
 - **タンパク質**: 73%（1食30gあたり21.8g） / **種類**: WPC / 山澤礼明監修・国内製造
 - **溶けやすさ**: 問題報告なし。ビタミン7種配合。 / **味**: ヨーグルト風味。
-- **特記**: サクラチェッカー合格。価格はやや高め（¥5,965/kg検証）。
+- **特記**: サクラチェッカー合格。**Amazonが楽天より約¥700〜900安い**。
 
 ---
 
-## 参考：ヨーグルト味だが本環境で価格検証ができなかった製品
-
-以下はヨーグルト味を確認したが、Yahoo!ライブ価格が得られず（Amazon/楽天のみ＝検証不可）、
-価格50点を公正に評価できないためスコア対象外。購入時は各自で価格・在庫の確認が必要。
+## 参考：ヨーグルト味だが価格を実取得できなかった／在庫切れの製品
 
 | 商品 | リンク（要価格確認） | 状況 |
 |------|------|------|
-| マイプロテイン Impact ヨーグルト 1kg | [Amazon B09ML3PLJV](https://www.amazon.co.jp/dp/B09ML3PLJV) ⚠️ | Yahoo!は在庫切れ確認。Amazonはマーケットプレイス・価格変動大。公式はストロベリーヨーグルト主体 |
-| GronG WPI CFM ヨーグルト 1kg | [Amazon B08MBXJ2N8](https://www.amazon.co.jp/dp/B08MBXJ2N8) ⚠️ | タンパク質84%だが公式在庫なし・後継B0DHFXDSCMへ移行中・MP価格高騰 |
+| マイプロテイン Impact ヨーグルト 1kg | [Amazon B09ML3PLJV](https://www.amazon.co.jp/dp/B09ML3PLJV) ⚠️ | Amazon参考¥4,299(確度低)・Yahoo!は在庫切れ。公式セール変動が極大。楽天は正規出品未確認 |
+| GronG WPI CFM ヨーグルト 1kg | [Amazon B08MBXJ2N8](https://www.amazon.co.jp/dp/B08MBXJ2N8) ⚠️ | タンパク質84%だが公式在庫なし・後継B0DHFXDSCMへ移行中・価格高騰 |
 | VITAS ブルーベリーヨーグルト 1kg | [Amazon B0CQK125X2](https://www.amazon.co.jp/dp/B0CQK125X2) ⚠️ | 公式は再入荷待ち。サクラチェッカー「注意」判定 |
-| CLEVER WPI マッスル ヨーグルト 810g | [楽天](https://item.rakuten.co.jp/naturelab/clever-ms01/) ⚠️ | WPI 80%。楽天ライブ価格取得不可 |
-| EZIGEN WPC ヨーグルト 1kg | [楽天](https://item.rakuten.co.jp/glorious-pharma/ez-01-01/) ⚠️ | タンパク質67%と低め。楽天ライブ価格取得不可 |
+| CLEVER WPI マッスル ヨーグルト 810g | [楽天](https://item.rakuten.co.jp/naturelab/clever-ms01/) ⚠️ | WPI 80%。価格を実取得できず |
+| EZIGEN WPC ヨーグルト 1kg | [楽天](https://item.rakuten.co.jp/glorious-pharma/ez-01-01/) ⚠️ | タンパク質67%と低め。価格を実取得できず |
 | なかやまきんに君 PREMIUM ベリーヨーグルト 600g | [Amazon B00V67CS2O](https://www.amazon.co.jp/dp/B00V67CS2O) ⚠️ | WPI 81%・人工甘味料不使用だが600gで割高（実勢¥13,000台/kg） |
 
 ---
@@ -174,13 +170,13 @@ Optimum Nutrition Greek Yogurt Protein Smoothie は廃番（Discontinued）。
 
 | 目的 | 推奨 |
 |-----|------|
-| **検証価格で最安・大容量** | [エクスプロージョン 3kg](https://store.shopping.yahoo.co.jp/x-plosion/wpcfl-yo.html)（¥3,927/kg・初期費用¥11,780） |
-| **バランス・知名度（1kg）** | [HIGH CLEAR さっぱりヨーグルト](https://store.shopping.yahoo.co.jp/karada-design/hic.html)（¥4,970/kg・フレーバー豊富） |
-| **1kg単位で最安・コスパ最優先** | [ボディウイング ヨーグルト](https://store.shopping.yahoo.co.jp/bodywings/wpyog1kg.html)（¥4,580/kg） |
-| **溶け・味・信頼性のバランス** | [ザプロ THE PROTEIN](https://store.shopping.yahoo.co.jp/virginbeautyshop/ta-the-pr.html)（¥5,480/kg・製薬会社製造） |
+| **検証価格で最安・大容量** | [エクスプロージョン 3kg](https://store.shopping.yahoo.co.jp/x-plosion/wpcfl-yo.html)（¥3,927/kg・初期費用約¥1.1万） |
+| **1kg・知名度・バランス（Amazon可）** | [HIGH CLEAR さっぱりヨーグルト](https://www.amazon.co.jp/dp/B07P1K8PV1)（¥4,970/kg・Amazon/Yahoo!で価格一致） |
+| **1kg単位で最安・コスパ最優先** | [ボディウイング ヨーグルト](https://www.amazon.co.jp/dp/B083WH9548)（¥4,280〜4,580/kg） |
+| **溶け・味・信頼性のバランス** | [ザプロ THE PROTEIN](https://www.amazon.co.jp/dp/B0CC9DBCRV)（¥5,180/kg・製薬会社製造） |
 
 ---
 
-*調査チャネル: Yahoo!ショッピング（ライブ価格検証）/ Amazon・楽天（リンクのみ・価格は要確認）/ jp.iherb.com（廃番）*
-*確認日: 2026-06-24。価格・在庫は変動します。Amazon/楽天のライブ価格は本環境で取得不可のため、購入前に必ず各ページで確認してください。*
-*正確なAmazon/楽天価格を機械取得するには、Amazon PA-API（商品広告API）・Keepa・楽天商品検索API等の正規データソース接続が必要です（現状の WebFetch では遮断されます）。*
+*調査チャネル: Yahoo!ショッピング（ライブ価格）/ Amazon・楽天（kakaku等集約サイト経由・⚠️要確認）/ jp.iherb.com（廃番）*
+*確認日: 2026-06-24。価格・在庫は変動します。集約サイト経由(⚠️)の価格は購入前に各ページで確認してください。GronG・エクスプロージョンのAmazon価格は高騰局面のため非採用。*
+*一次ページ価格を機械的に正確取得するには Amazon PA-API / Keepa / 楽天商品検索 API 等の正規データソース接続が必要です。*
