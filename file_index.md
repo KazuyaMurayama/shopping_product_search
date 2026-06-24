@@ -90,6 +90,16 @@
 | reports/search_20260604_1200_probiotic_high_cfu_v1.txt | 楽天市場 乳酸菌サプリ 高菌数（1,000億CFU以上）調査 TOP3+参考3件 v1 | 2026-06-04 | 高 |
 | reports/search_20260604_lactobacillus_1000billion_final.md | 乳酸菌 1日1,000億個 コスパ最強 最終版（Amazon/楽天/iHerb/市販品 全チャネル横断・ピルクル含む） | 2026-06-04 | 中 |
 | reports/search_20260604_lactobacillus_1000billion_final-v2.md | 乳酸菌 1日1,000億個 コスパ最強 改訂版 v2（ファクトチェック反映・生菌CFU/死菌2軸・Yahoo!追加・mermaid図＋付録:科学的エビデンス[効果量/有効用量/効果発現期間/安全性・論文22本] | 2026-06-04 | 高 |
+| reports/search_20260607_3wheel_ebike_child2_v1.md | 3輪・4輪 子ども2人乗せ電動アシスト自転車 調査レポート v1（⚠️ bikke POLAR e 3輪誤記あり・v2で修正済み） | 2026-06-07 | 低 |
+| reports/search_20260607_3wheel_ebike_child2_v2.md | 3輪・4輪 子ども2人乗せ電動アシスト自転車 調査レポート v2【正式版】（v1修正・商品リンク列追加・3輪唯一品＝ふたごじてんしゃアシスト確定・ギュット比較スコア100点） | 2026-06-08 | 高 |
+| reports/search_20260608_childseat_cushion_v1.md | 自転車チャイルドシート用 振動吸収クッション 調査レポート v1（3チャネル横断・段差衝撃吸収・LABOCLE GEL+/MARUTO CCK-Y02/socca CSC-SA02 TOP3） | 2026-06-08 | 高 |
+| reports/search_20260617_voice_to_text_tools_v1.md | 音声テキスト変換ツール 比較調査レポート v1（PC+iPhone両対応・日本語精度重視・Typeless/AquaVoice/Notta/MacWhisper/Google Docs/Apple標準 6ツール100点スコア比較） | 2026-06-17 | 高 |
+| reports/search_20260620_cordless_vacuum_v1.md | コードレス掃除機 比較調査レポート v1（ダイソン除く・5年耐久・メンテ重視・Shark BOOST+/マキタCL182/日立PV-BH900SL/CL107/Shark NEO II 5製品100点スコア比較） | 2026-06-20 | 高 |
+| reports/search_20260620_cordless_vacuum_v2.md | コードレス掃除機 比較調査レポート v2（v1配点改訂・第⑤軸をトータルコスト25点に再定義/性能二重評価を排除・マキタCL107首位/マキタCL182/Shark NEO II TOP3・6製品100点スコア比較） | 2026-06-20 | 高 |
+| reports/search_20260621_cordless_vacuum.md | コードレス掃除機 比較調査レポート【最終版】（ダイソン除く・ファクトチェック済・トータルコスト25点配点・マキタCL107/CL182/SharkBOOST+ TOP3・Shark NEO II SOLD OUT確認・全6製品100点スコア） | 2026-06-21 | 高 |
+| reports/search_20260621_cordless_vacuum-v2.md | コードレス掃除機 市場全体スキャン比較レポート v2【最終版】（日本市場網羅スキャン・14製品100点スコア・Roborock H5/マキタCL107/Dreame X1 Slim TOP3・除外製品15社網羅） | 2026-06-21 | 高 |
+| reports/search_20260621_cordless_vacuum-v3.md | コードレス掃除機 市場全体スキャン比較レポート【最終版】（日本市場14製品100点スコア・商品リンク付き・Roborock H5/マキタCL107/Dreame X1 Slim TOP3・除外製品16件明記） | 2026-06-22 | 高 |
+| reports/search_20260623_whey_protein_yogurt.md | ホエイプロテイン ヨーグルト味 比較レポート（Amazon・楽天・iHerb横断・8製品100点スコア・GronGベーシック/マイプロテイン/GronG WPI TOP3・iHerbは廃番確認） | 2026-06-23 | 高 |
 
 <!-- ブランチマージで追加 2026-05-11 -->
 - reports/search_20260507_1200_triple_combo_skincare_v1.md

@@ -68,6 +68,22 @@
 2026-06-04 18:00 | 髪質改善成分 市販品・購入ルート・1日コスト評価（アカデミックリサーチAgent連携）v1 | reports/search_20260604_hair_ingredients_market_v1.md
 2026-06-04 20:00 | 髪質改善成分 市販品・購入ルート・コスパ評価【検証版v2】（5系統並行ファクトチェック・INCI実成分確認・実践費用対効果ランキング再構築。v1の価格/成分誤りを全面修正） | reports/search_20260604_hair_ingredients_market_v2.md
 
+2026-06-08 12:00 | 自転車チャイルドシート用 振動吸収クッション 調査レポート v1（Amazon/楽天/Yahoo!3チャネル横断・段差衝撃吸収・プラスチックシート固定方法確認済み・TOP3比較） | reports/search_20260608_childseat_cushion_v1.md
+
+2026-06-17 12:00 | 音声テキスト変換ツール 比較調査レポート v1（PC+iPhone両対応・日本語精度重視・Typeless/AquaVoice/Notta/MacWhisper/Google Docs/Apple標準 6ツール100点スコア比較） | reports/search_20260617_voice_to_text_tools_v1.md
+
+2026-06-20 12:00 | コードレス掃除機 比較調査レポート v1（ダイソン除く・5年耐久・メンテ重視・Shark BOOST+/マキタCL182/日立PV-BH900SL/CL107/Shark NEO II 5製品100点スコア比較） | reports/search_20260620_cordless_vacuum_v1.md
+
+2026-06-20 15:00 | コードレス掃除機 比較調査レポート v2（v1配点改訂・第⑤軸をトータルコスト25点に再定義/性能二重評価を排除・マキタCL107首位/マキタCL182/Shark NEO II TOP3・6製品100点スコア比較） | reports/search_20260620_cordless_vacuum_v2.md
+
+2026-06-21 12:00 | コードレス掃除機 比較調査レポート【最終版】（ダイソン除く・ファクトチェック済・トータルコスト25点配点・マキタCL107/CL182/SharkBOOST+ TOP3・Shark NEO II SOLD OUT確認・全6製品100点スコア） | reports/search_20260621_cordless_vacuum.md
+
+2026-06-21 18:00 | コードレス掃除機 市場全体スキャン比較レポート v2【最終版】（日本市場網羅スキャン・14製品100点スコア・Roborock H5/マキタCL107/Dreame X1 Slim TOP3・Dreame X1 Air/R10 Pure サクラ除外・Tineco全除外・除外製品15社網羅） | reports/search_20260621_cordless_vacuum-v2.md
+
+2026-06-22 12:00 | コードレス掃除機 市場全体スキャン比較レポート【最終版】（日本市場14製品100点スコア・全製品スコア表に商品リンク付き・Roborock H5/マキタCL107/Dreame X1 Slim TOP3・除外製品16件明記・ダイソンV8ベンチ） | reports/search_20260621_cordless_vacuum-v3.md
+
+2026-06-23 12:00 | ホエイプロテイン ヨーグルト味 比較レポート（Amazon・楽天・iHerb横断・8製品100点スコア・GronGベーシック/マイプロテイン/GronG WPI TOP3・iHerbは廃番確認） | reports/search_20260623_whey_protein_yogurt.md
+
 == インデックス終端 ==
 search_20260507_1200_triple_combo_skincare_v1.md
 search_20260508_1200_diclofenac_topical_costcomp_v1.md
