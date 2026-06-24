@@ -2,7 +2,7 @@
 
 新規ファイル作成時は即座にこのインデックスを更新すること。
 
-最終更新: 2026-06-04
+最終更新: 2026-06-09
 
 ---
 
@@ -11,8 +11,8 @@
 | パス | 説明 | 最終更新 | 優先度 |
 |---|---|---|---|
 | CLAUDE.md | リポジトリ運用ガイド（軽量コア） | 2026-04-19 | 高 |
-| tasks.md | タスク管理（完了/進行中/バックログ） | 2026-06-04 | 高 |
-| file_index.md | このファイル。全ファイル一覧 | 2026-06-04 | 高 |
+| tasks.md | タスク管理（完了/進行中/バックログ） | 2026-06-09 | 高 |
+| file_index.md | このファイル。全ファイル一覧 | 2026-06-09 | 高 |
 | .gitignore | Git 除外設定 | - | 低 |
 
 ---
@@ -59,7 +59,7 @@
 
 | パス | 説明 | 最終更新 | 優先度 |
 |---|---|---|---|
-| reports/index.txt | レポート履歴インデックス | 2026-06-04 | 高 |
+| reports/index.txt | レポート履歴インデックス | 2026-06-09 | 高 |
 | reports/TEMPLATE.txt | プレーンテキストレポート雛形 | - | 中 |
 | reports/dog_breed_comparison_20260413.md | 犬種比較レポート（柴犬/コーギー/スピッツ/ボーダー/ハスキー） | 2026-04-13 | 中 |
 | reports/hair_removal_guide_20260417.md | 脱毛ガイド（眉毛 Kenon + 渋谷美容外科 / VIO SBC） | 2026-04-17 | 中 |
@@ -85,14 +85,25 @@
 | reports/search_20260518_usb_earphone_meeting_v1.md | Windows PC用 USB/USB-C 接続イヤホン TOP3 最終版（楽天+Yahoo!+Amazon 3チャネル） | 2026-05-18 | 高 |
 | reports/search_20260518_2200_socks_grey_v2.md | メンズ靴下 グレー無地・27-29cm・ハーフ丈・口ゆったり 改訂版 v2 最終版（楽天+Yahoo!+Amazon 3チャネル・TOP5） | 2026-05-18 | 高 |
 | reports/search_20260519_notebook_pc_v1.md | カフェ作業用 軽量ノートPC TOP3 最終版（楽天+Yahoo!+Amazon 3チャネル横断）v1 | 2026-05-19 | 高 |
+| reports/search_20260522_1000_mens_waterrepellent_uv_parka_v1.txt | メンズ 撥水・UVカット パーカー TOP3（Amazon.co.jp 専属・サクラチェッカー検証済み） | 2026-05-22 | 高 |
+| reports/search_20260522_1000_mens_waterrepellent_uv_parka_rakuten_v1.txt | メンズ 撥水・UVカット パーカー 楽天市場専属調査 v1 | 2026-05-22 | 高 |
+| reports/search_20260522_1000_mens_waterrepellent_uv_parka_yahoo_v1.txt | メンズ 撥水・UVカット パーカー Yahoo!ショッピング専属調査 v1 | 2026-05-22 | 高 |
+| reports/search_20260522_mens_waterrepellent_uv_parka_v1.md | メンズ 撥水・UVカット パーカー TOP3 最終版（Amazon+楽天+Yahoo! 3チャネル横断）v1 | 2026-05-22 | 高 |
 | reports/research_20260531_movicol_otc_alternatives_v1.md | モビコール・類似品 処方なし入手方法 調査レポート v1（OTC代替・オンライン診療・iHerb MiraLax・個人輸入代行 4ルート比較） | 2026-05-31 | 高 |
 | reports/search_20260604_1200_lactobacillus_highcfu_v1.txt | 乳酸菌サプリ 高菌数（1,000億CFU以上）Amazon.co.jp 専属調査 v1（TOP3+参考候補・サクラ除外4件） | 2026-06-04 | 高 |
 | reports/search_20260604_1200_probiotic_high_cfu_v1.txt | 楽天市場 乳酸菌サプリ 高菌数（1,000億CFU以上）調査 TOP3+参考3件 v1 | 2026-06-04 | 高 |
 | reports/search_20260604_lactobacillus_1000billion_final.md | 乳酸菌 1日1,000億個 コスパ最強 最終版（Amazon/楽天/iHerb/市販品 全チャネル横断・ピルクル含む） | 2026-06-04 | 中 |
 | reports/search_20260604_lactobacillus_1000billion_final-v2.md | 乳酸菌 1日1,000億個 コスパ最強 改訂版 v2（ファクトチェック反映・生菌CFU/死菌2軸・Yahoo!追加・mermaid図＋付録:科学的エビデンス[効果量/有効用量/効果発現期間/安全性・論文22本] | 2026-06-04 | 高 |
+| reports/research_20260604_cooling_wear_womens_v1.md | 気温35度の屋外で涼しく過ごすウェア・装備 総合リサーチ（女性向け）— 科学的指標定義・6カテゴリ横断比較 | 2026-06-04 | 高 |
+| reports/research_20260604_cooling_wear_womens_v2.md | 同上 v2 — ファクトチェック追加・GU/しまむら/ミズノ/デサント/アームカバー/冷感スプレー新収録・優先順位付きランキング | 2026-06-04 | 高 |
+| reports/research_20260604_cooling_wear_womens_v3.md | 同上【決定版v3】— 科学的根拠で評価軸再設計（輻射遮断/蒸発主軸）・日傘新規追加・加重スコアリング・品質レビュー済 | 2026-06-04 | 高 |
 | reports/search_20260607_3wheel_ebike_child2_v1.md | 3輪・4輪 子ども2人乗せ電動アシスト自転車 調査レポート v1（⚠️ bikke POLAR e 3輪誤記あり・v2で修正済み） | 2026-06-07 | 低 |
 | reports/search_20260607_3wheel_ebike_child2_v2.md | 3輪・4輪 子ども2人乗せ電動アシスト自転車 調査レポート v2【正式版】（v1修正・商品リンク列追加・3輪唯一品＝ふたごじてんしゃアシスト確定・ギュット比較スコア100点） | 2026-06-08 | 高 |
+| reports/search_20260608_1400_wood_round_rod_v1.txt | 木の丸棒（長さ120〜140cm・直径10〜30mm・木製・¥5,000以下）Amazon.co.jp 専属調査 v1（確認済み1件・注意フラグ1件・3件目なし） | 2026-06-08 | 高 |
 | reports/search_20260608_childseat_cushion_v1.md | 自転車チャイルドシート用 振動吸収クッション 調査レポート v1（3チャネル横断・段差衝撃吸収・LABOCLE GEL+/MARUTO CCK-Y02/socca CSC-SA02 TOP3） | 2026-06-08 | 高 |
+| reports/search_20260608_wood_round_rod_v1.md | 木の丸棒 最終版 v1（Amazon+楽天+Yahoo! 3チャネル横断・TOP3確定：Yahoo!¥1,885/Amazon¥2,020/楽天¥410〜+カット） | 2026-06-08 | 高 |
+| reports/search_20260609_1000_tsuppari_bo_v1.txt | つっぱり棒 Amazon.co.jp 専属調査 中間ファイル（NSW-5¥793確認済み） | 2026-06-09 | 中 |
+| reports/search_20260609_wood_rod_tsuppari_v1.md | 木の丸棒+つっぱり棒 4本¥4,000以内 最終版 v1（2ルート横断・予算再検索） | 2026-06-09 | 高 |
 | reports/search_20260617_voice_to_text_tools_v1.md | 音声テキスト変換ツール 比較調査レポート v1（PC+iPhone両対応・日本語精度重視・Typeless/AquaVoice/Notta/MacWhisper/Google Docs/Apple標準 6ツール100点スコア比較） | 2026-06-17 | 高 |
 | reports/search_20260620_cordless_vacuum_v1.md | コードレス掃除機 比較調査レポート v1（ダイソン除く・5年耐久・メンテ重視・Shark BOOST+/マキタCL182/日立PV-BH900SL/CL107/Shark NEO II 5製品100点スコア比較） | 2026-06-20 | 高 |
 | reports/search_20260620_cordless_vacuum_v2.md | コードレス掃除機 比較調査レポート v2（v1配点改訂・第⑤軸をトータルコスト25点に再定義/性能二重評価を排除・マキタCL107首位/マキタCL182/Shark NEO II TOP3・6製品100点スコア比較） | 2026-06-20 | 高 |

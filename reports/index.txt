@@ -54,6 +54,19 @@
 2026-05-19 10:00 | ノートPC（軽量・Ryzen5/Core i5第12世代以降）Yahoo!ショッピング専属調査 v1（全条件充足品ゼロ・準合格3件） | reports/search_20260519_1000_notebook_pc_yahoo_v1.txt
 2026-05-19 10:00 | ノートPC（軽量・14インチ・Ryzen5）楽天市場専属調査 v1（合格候補3件・価格要確認） | reports/search_20260519_1000_notebook_pc_rakuten_v1.txt
 2026-05-19 11:00 | カフェ作業用 軽量ノートPC TOP3 最終版（Amazon+楽天+Yahoo! 3チャネル横断）v1 | reports/search_20260519_notebook_pc_v1.md
+2026-05-22 10:00 | メンズ 撥水・UVカット パーカー（¥10,000以内）Amazon.co.jp 専属調査 v1 | reports/search_20260522_1000_mens_waterrepellent_uv_parka_v1.txt
+2026-05-22 10:00 | メンズ 撥水・UVカット パーカー（¥10,000以内）楽天市場専属調査 v1 | reports/search_20260522_1000_mens_waterrepellent_uv_parka_rakuten_v1.txt
+2026-05-22 10:00 | メンズ 撥水・UVカット パーカー（¥10,000以内）Yahoo!ショッピング専属調査 v1 | reports/search_20260522_1000_mens_waterrepellent_uv_parka_yahoo_v1.txt
+2026-05-22 10:00 | メンズ 撥水・UVカット パーカー TOP3 最終版（Amazon+楽天+Yahoo! 3チャネル横断）v1 | reports/search_20260522_mens_waterrepellent_uv_parka_v1.md
+
+2026-06-04 12:00 | 気温35度の屋外で涼しく過ごすウェア・装備 総合リサーチ（女性向け）— 科学的指標（Q-max/UPF/clo/WBGT）定義・ワークマン/ユニクロ/Amazon/楽天/Sony/ニトリ/カインズ/ドンキ/コーナンPRO横断 | reports/research_20260604_cooling_wear_womens_v1.md
+2026-06-04 14:00 | 気温35度の屋外で涼しく過ごすウェア・装備 総合リサーチ v2（女性向け）— ファクトチェック追加・GU/しまむら/ミズノ/デサント/アームカバー/冷感スプレー新収録・優先順位付き最終ランキング | reports/research_20260604_cooling_wear_womens_v2.md
+2026-06-04 16:00 | 気温35度の屋外で涼しく過ごすウェア・装備 総合リサーチ【決定版v3】（女性向け）— 科学的根拠で評価軸再設計（輻射遮断30%+蒸発30%主軸・Q-max格下げ）・日傘新規追加（環境省実測）・加重スコアリング・品質レビュー済 | reports/research_20260604_cooling_wear_womens_v3.md
+
+2026-06-08 14:00 | 木の丸棒（長さ120〜140cm・直径10〜30mm・木製・円柱形・¥5,000以下）Amazon.co.jp 専属調査 v1（確認済み1件・注意フラグ1件・3件目なし・市場構造分析付き） | reports/search_20260608_1400_wood_round_rod_v1.txt
+2026-06-08 15:00 | 木の丸棒（長さ120〜140cm・直径10〜30mm・木製・円柱形・¥5,000以下）最終版（Amazon+楽天+Yahoo! 3チャネル横断・3ゲート検証・TOP3確定：Yahoo!¥1,885/Amazon¥2,020/楽天¥410〜+カット） | reports/search_20260608_wood_round_rod_v1.md
+
+2026-06-09 10:00 | 木の棒+つっぱり棒 4本¥4,000以内 予算再検索（Amazon+楽天+Yahoo! 2ルート横断・前回TOP1販売停止確認・NSW-5¥793/楽天カット無料¥684/Yahoo¥360） | reports/search_20260609_wood_rod_tsuppari_v1.md
 
 2026-05-31 12:00 | モビコール・類似品 処方なし入手方法 調査レポート v1（OTC代替品・オンライン診療・iHerb MiraLax・個人輸入代行 4ルート比較） | reports/research_20260531_movicol_otc_alternatives_v1.md
 
