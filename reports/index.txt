@@ -8,6 +8,7 @@
 
 -- 履歴 --
 
+2026-06-24 | 前乗せチャイルドシート用レインカバー 頭上空間拡大（ギュット）かさ上げ＋ハイルーフ 全3チャネル v1 | reports/search_20260624_front-raincover-headroom_v1.md
 2026-06-23 | 幼児（女の子）あせも対策肌着 100cm以上・女児最適化 最終版 v2 | reports/search_20260623_kids_innerwear_v2.md
 2026-06-23 | 幼児向けあせも対策肌着（90/100/110cm・吸汗速乾/通気メッシュ）全3チャネル v1 | reports/search_20260623_kids_innerwear_v1.md
 2026-04-08 10:46 | 財布用超小型位置情報トラッカー（AirTag 代替） | reports/search_20260408_1046.txt
