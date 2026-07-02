@@ -40,6 +40,7 @@ $ARGUMENTS
 4. `reports/search_YYYYMMDD_HHMM.txt` に保存
 5. `reports/index.txt` に履歴 1 行追記
 6. 保存パスをユーザーに提示
+7. 保存前に fact-check-reviewer（ゲート 4）の承認を得ること
 
 ## 出力禁止事項
 

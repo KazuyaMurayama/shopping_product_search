@@ -137,3 +137,16 @@ From 24 failure memories:
 Run the command. Read the output. THEN claim the result.
 
 This is non-negotiable.
+
+## This Repository's Verification Commands（本リポ固有・必須）
+
+レポート・調査成果物の完了を主張する前に、以下を実際に実行して出力を確認する:
+
+| Claim | Verification |
+|-------|--------------|
+| 比較レポート完成 | `python3 scripts/check_comparison_report.py reports/<file>.md` → exit 0 |
+| リサーチレポート完成 | `python3 scripts/check_research_report.py reports/<file>.md` → exit 0 |
+| レビュー済み | fact-check-reviewer の判定が「承認」であるログ／「検証記録」節の存在 |
+| URL 有効 | 全リンクに禁止パターンなし＋主要 URL の WebFetch/検索での実在確認 |
+| push 完了 | `git log origin/<branch> -1` に当該コミットが存在 |
+| 成果物リンク有効 | GitHub API（contents API, ref=実ブランチ）で 200 を確認してから報告 |
