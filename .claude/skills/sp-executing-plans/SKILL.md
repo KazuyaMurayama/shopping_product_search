@@ -68,3 +68,21 @@ After all tasks complete and verified:
 - **superpowers:using-git-worktrees** - Ensures isolated workspace (creates one or verifies existing)
 - **superpowers:writing-plans** - Creates the plan this skill executes
 - **superpowers:finishing-a-development-branch** - Complete development after all tasks
+
+## This Repository（本リポ適用）
+
+各タスク完了時の verification には、`.claude/skills/sp-verification-before-completion/SKILL.md`
+の「This Repository's Verification Commands」節にある本リポ固有検証コマンド表を用いる
+（`scripts/check_comparison_report.py` / `scripts/check_research_report.py` の exit 0、
+fact-check-reviewer の承認ログ、URL 実在確認、push 済みコミットの確認 等）。
+
+レポート系タスク（`reports/` 配下への保存を伴うタスク）は、以下の両方が揃って初めて
+「完了」とみなす（Step 2 の各タスク完了マークの条件）：
+
+1. 該当リンター（`check_comparison_report.py` / `check_research_report.py`）が exit 0
+2. `fact-check-reviewer`（ゲート 4・`docs/rules-research.md` §3）の判定が「承認」
+   （または「条件付き承認」で指摘を本文に反映済み）
+
+CLAUDE.md §5 の既定（main へ直接コミット）により、本リポでは
+`superpowers:using-git-worktrees` / `superpowers:finishing-a-development-branch` の
+ブランチ運用はユーザーが明示指示した場合のみ適用する。

@@ -150,3 +150,21 @@ After saving the plan, offer execution choice:
 **If Inline Execution chosen:**
 - **REQUIRED SUB-SKILL:** Use superpowers:executing-plans
 - Batch execution with checkpoints for review
+
+## This Repository（本リポ適用）
+
+計画の保存先は本リポでは `docs/plans/<TOPIC>_YYYYMMDD.md`（`CLAUDE.md` §8 の
+ドキュメント命名ルールに従う。ハイフンなし日付・同日追加更新は `-v2`/`-v3`）。
+上記の `docs/superpowers/plans/YYYY-MM-DD-<feature-name>.md` という既定パスは
+本リポでは使用しない。
+
+調査・リサーチ系の計画（商品検索・比較・情報収集を含むタスク）には、必ず
+以下をタスクとして計画に含める：
+
+- 着手直後のタスクとして観点マトリクス作成（`docs/rules-research.md` §1.1・
+  `.claude/skills/coverage-planning/SKILL.md`）と `coverage-critic` の監査
+- 納品前タスクとして **ゲート 4**（`fact-check-reviewer` サブエージェントによる
+  独立ファクトチェック。`docs/rules-research.md` §3）を必ず計画に入れる。
+  レポート系タスクの完了条件には `scripts/check_research_report.py`（research
+  レポート）または `scripts/check_comparison_report.py`（比較レポート）が
+  exit 0 になることも含める

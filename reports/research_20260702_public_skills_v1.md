@@ -108,7 +108,26 @@
 
 ## 5. 導入結果
 
-Task 12（E3・R1レポート完了後）で採用判断が行われる予定。本節は Task 12 実施後に追記する（本レポート作成時点では未実施）。
+Task 12（E3・担当）にて、上記「2. 導入推奨 TOP3」の 3 件を採用した。見送り対象は
+「3. 見送り理由リスト」（本レポート内・既存節）を参照（本節では追加の見送り判断は発生していない）。
+
+| # | 採用スキル | ファイルパス | 適合内容の要約 |
+|---|---|---|---|
+| 1 | dispatching-parallel-agents（obra/superpowers, MIT） | `.claude/skills/sp-dispatching-parallel-agents/SKILL.md` | 原文の章立て（When to Use／The Pattern／Agent Prompt Structure／Common Mistakes／Verification）を踏襲し日本語化。本リポの 6 チャネル scout（amazon-scout / rakuten-scout / yahoo-shopping-scout / iherb-scout / mercari-scout / osakado-scout）を並列ディスパッチの実例として追加し、`coverage-critic` と `fact-check-reviewer` を並列化してよい局面／してはいけない局面（両ゲートの想定順序は変更しない）を明記。統合ステップに `scripts/check_comparison_report.py` / `scripts/check_research_report.py` の機械検証を組み込んだ |
+| 2 | skill-creator（Anthropic 公式, Apache-2.0） | `.claude/skills/skill-creator/SKILL.md` | 原文は `scripts/init_skill.py` 等の同梱スクリプト・自動ベンチマークを前提とするため WebFetch では要約のみ取得（frontmatter は verbatim 確認）。本リポには同梱スクリプトが無いため、スクリプトなし・Markdown 完結型の簡易ワークフロー（意図把握→ヒアリング→執筆→目視でのトリガー精度確認→改善）として再構成。本リポ既存スキルの frontmatter 形式（`name`/`description` のみ）・出典コメント明記ルールとの一貫性維持を「This Repository」節に明記 |
+| 3 | requesting-code-review（obra/superpowers, MIT） | `.claude/skills/sp-requesting-code-review/SKILL.md` | 原文が参照する別ファイル `code-reviewer.md` は本リポでは作成対象外のため、レビュー依頼テンプレートを本ファイル内にインライン化。対象を「コード・設定の正しさ」（`scripts/*.py`・`.claude/hooks/*.sh`・`.claude/agents/*.md`）に限定し、レポート内容の事実検証を担当する `fact-check-reviewer`（ゲート4）とは対象が異なり重複しないことを明記。本リポに専用 `code-reviewer` サブエージェントが無いため `general-purpose` サブエージェントへのディスパッチ手順とした |
+
+**原典取得可否**: dispatching-parallel-agents・requesting-code-review は WebFetch
+（`raw.githubusercontent.com`）で原文全文を verbatim 取得できた。skill-creator は
+frontmatter のみ verbatim 取得でき、本文は WebFetch の要約結果に基づく再構成（自作）である
+旨を各 SKILL.md 冒頭のコメントに明記した。
+
+`.claude/skills/sp-brainstorming/SKILL.md` / `sp-writing-plans/SKILL.md` /
+`sp-executing-plans/SKILL.md` の 3 件には、本リポの `docs/rules-research.md`（観点マトリクス・
+ゲート4）と接続する「## This Repository（本リポ適用）」節を追記し、既存構造は変更していない
+（`docs/plans/PLAN_QUALITY_UPGRADE_20260702.md` Task 11）。
+
+`CLAUDE.md` §10 のスキル表への登録は本レポート・本タスクの担当外（後続 E4 が実施）。
 
 ---
 

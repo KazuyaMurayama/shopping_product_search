@@ -162,3 +162,15 @@ A question about a UI topic is not automatically a visual question. "What does p
 
 If they agree to the companion, read the detailed guide before proceeding:
 `skills/brainstorming/visual-companion.md`
+
+## This Repository（本リポ適用）
+
+調査・比較系の依頼では、ブレインストーミングの一部として観点マトリクス
+（`docs/rules-research.md` §1.1 の 6 軸: 選択肢空間／評価軸／ユーザー文脈／
+チャネル・情報源の多様性／時間軸／反証視点）を作成し、`coverage-critic`
+サブエージェント（`.claude/agents/coverage-critic.md`）の監査を受けてから
+設計を確定する。観点マトリクスの作成手順そのものは
+`.claude/skills/coverage-planning/SKILL.md` に定義されているため、本スキルの
+「Ask clarifying questions」〜「Present design」の間に coverage-planning を
+挟み込む形で運用する（比較・ランキング系の依頼ではブランド地図も同時に作成し、
+`docs/rules-search-product.md` §4.0/4.5 の着手時ゲートと整合させる）。
