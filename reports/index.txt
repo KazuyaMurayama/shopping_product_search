@@ -100,6 +100,8 @@
 
 2026-06-24 20:00 | ホエイプロテイン ヨーグルト味 比較レポート（価格検証版）。Amazon/楽天の一次ページは本環境で取得不可(503/遮断)と判明→Yahoo!ライブ価格でスコア、Amazon/楽天は集約サイト経由＋⚠️。HIGH CLEAR/ボディウイング等を新規追加し市場スキャン拡大。エクスプロージョン/HIGH CLEAR/ボディウイング TOP3。価格出典表をリンター(scripts/check_comparison_report.py)＋PostToolUseフックで機械検証 | reports/search_20260623_whey_protein_yogurt.md
 
+2026-06-29 12:00 | タンパク質コスパ比較レポート（タンパク質100gあたり単価×健康スコア10段階・コスパ順）。食品カテゴリ横断で高タンパク食品23件を市場スキャン→大表に全件掲載。単価最安は業務用パスタ¥155/大豆¥209/木綿豆腐¥238/大容量WPC¥289。実用ベストは鶏むね・サバ缶・納豆・卵・大豆製品。価格は2026-06公開価格調査の代表値（生鮮は小売物価統計）。価格出典表をリンターで機械検証 | reports/search_20260629_protein_cospa_v1.md
+
 == インデックス終端 ==
 search_20260507_1200_triple_combo_skincare_v1.md
 search_20260508_1200_diclofenac_topical_costcomp_v1.md
