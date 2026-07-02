@@ -2,7 +2,7 @@
 
 新規ファイル作成時は即座にこのインデックスを更新すること。
 
-最終更新: 2026-06-09
+最終更新: 2026-07-02
 
 ---
 
@@ -22,8 +22,10 @@
 | パス | 説明 | 最終更新 | 優先度 |
 |---|---|---|---|
 | docs/rules-search-product.md | 商品検索詳細ルール（失敗パターン・3ゲート検証・ワークフロー） | 2026-04-19 | 高 |
+| docs/rules-research.md | 調査・リサーチ共通ルール（網羅性ゲート6軸・出典規律・ゲート4） | 2026-07-02 | 高 |
 | docs/channels.md | チャネル仕様（Amazon/メルカリ/楽天/iHerb/オオサカ堂/Yahoo） | - | 高 |
 | docs/used-market-rules.md | 中古市場ルール・中古対象外カテゴリ定義 | - | 中 |
+| docs/plans/PLAN_QUALITY_UPGRADE_20260702.md | 調査網羅性・ハルシネーション対策・スキル拡張 実装計画 | 2026-07-02 | 中 |
 
 ---
 
@@ -40,6 +42,8 @@
 | .claude/agents/url-validator.md | ゲート1 URL 検証エージェント | - | 高 |
 | .claude/agents/condition-checker.md | ゲート3 条件充足検証エージェント | - | 高 |
 | .claude/agents/report-writer.md | レポート生成エージェント | - | 高 |
+| .claude/agents/coverage-critic.md | 調査観点・ブランド地図の抜け漏れ監査エージェント（網羅性ゲート） | 2026-07-02 | 高 |
+| .claude/agents/fact-check-reviewer.md | ゲート4 独立ファクトチェックエージェント（レポート単位の最終検証） | 2026-07-02 | 高 |
 
 ---
 
@@ -55,14 +59,26 @@
 
 ---
 
+## スキル定義（.claude/skills/）
+
+| パス | 説明 | 最終更新 | 優先度 |
+|---|---|---|---|
+| .claude/skills/coverage-planning/SKILL.md | 調査着手時の観点マトリクス作成手順（6軸）＋coverage-critic監査への橋渡し | 2026-07-02 | 高 |
+| .claude/skills/sp-dispatching-parallel-agents/SKILL.md | 複数の独立タスクの並列サブエージェント分担（obra/superpowers, MIT） | 2026-07-02 | 中 |
+| .claude/skills/sp-requesting-code-review/SKILL.md | コード・設定変更のコミット/マージ前レビュー（obra/superpowers, MIT） | 2026-07-02 | 中 |
+| .claude/skills/skill-creator/SKILL.md | 新規スキル作成・既存スキル改訂・トリガー精度見直し（Anthropic, Apache-2.0） | 2026-07-02 | 中 |
+
+---
+
 ## 機械的強制（フック・スクリプト・設定）
 
 | パス | 説明 | 最終更新 | 優先度 |
 |---|---|---|---|
 | .claude/settings.json | フック設定（SessionStart=着手ゲート注入 / PostToolUse=比較レポート保存時にリンター実行） | 2026-06-24 | 高 |
-| .claude/hooks/session_start_gate.sh | 比較タスク着手ゲート＋価格取得制約を毎セッション注入 | 2026-06-24 | 高 |
+| .claude/hooks/session_start_gate.sh | 比較タスク着手ゲート＋価格取得制約を毎セッション注入（網羅性ゲート・ハルシネーション3原則を追記） | 2026-07-02 | 高 |
 | .claude/hooks/check_report.sh | reports/*.md 保存時にリンターを起動し違反を exit2 で差し戻すラッパ | 2026-06-24 | 高 |
 | scripts/check_comparison_report.py | 比較レポート機械検証リンター（価格出典・確認日・除外一覧・件数・禁止URL） | 2026-06-24 | 高 |
+| scripts/check_research_report.py | リサーチレポート機械検証リンター（禁止URL・H1メタデータ・出典節・リンク本数・確認日） | 2026-07-02 | 高 |
 
 ---
 
@@ -122,6 +138,7 @@
 | reports/search_20260621_cordless_vacuum-v2.md | コードレス掃除機 市場全体スキャン比較レポート v2【最終版】（日本市場網羅スキャン・14製品100点スコア・Roborock H5/マキタCL107/Dreame X1 Slim TOP3・除外製品15社網羅） | 2026-06-21 | 高 |
 | reports/search_20260621_cordless_vacuum-v3.md | コードレス掃除機 市場全体スキャン比較レポート【最終版】（日本市場14製品100点スコア・商品リンク付き・Roborock H5/マキタCL107/Dreame X1 Slim TOP3・除外製品16件明記） | 2026-06-22 | 高 |
 | reports/search_20260623_whey_protein_yogurt.md | ホエイプロテイン ヨーグルト味 比較レポート（価格検証版・Yahoo!ライブ価格でスコア／Amazon・楽天は集約サイト経由＋⚠️・エクスプロージョン/HIGH CLEAR/ボディウイング TOP5・HIGH CLEAR等新規追加・ザバス製造終了・価格出典表で機械検証） | 2026-06-24 | 高 |
+| reports/research_20260702_public_skills_v1.md | 公開スキル・ハルシネーション対策ベストプラクティス調査（候補17件・導入推奨TOP3: sp-dispatching-parallel-agents/skill-creator/sp-requesting-code-review・見送り12件全件理由付き） | 2026-07-02 | 高 |
 
 <!-- ブランチマージで追加 2026-05-11 -->
 - reports/search_20260507_1200_triple_combo_skincare_v1.md

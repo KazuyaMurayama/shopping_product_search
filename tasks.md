@@ -6,6 +6,8 @@
 
 ## 完了済みタスク
 
+- [x] リポ運用強化: 網羅性ゲート・ハルシネーション3層防御・スキル拡張（2026-07-02）
+  - 成果物: docs/rules-research.md / docs/plans/PLAN_QUALITY_UPGRADE_20260702.md / coverage-planning・coverage-critic / fact-check-reviewer（ゲート4）・scripts/check_research_report.py / 公開スキル3件導入（sp-dispatching-parallel-agents, sp-requesting-code-review, skill-creator）/ reports/research_20260702_public_skills_v1.md
 - [x] 商品検索: 前乗せチャイルドシート用レインカバー 頭上空間拡大（ギュット）（2026-06-24）
   - 要望: レインカバー装着時の頭上を5〜10cm広く保つ
   - 結論: ①かさ上げ単体=HIRO こどもヘッド7（+5/10cm固定・唯一の該当品）②ハイルーフ買替=norokka/OGKルーフミニ（ギュット適合明記）
@@ -200,3 +202,4 @@
 
 - [ ] 商品検索ルールの定期レビュー（失敗パターン更新時）
 - [ ] エージェント定義のバージョン管理（.claude/agents/ 以下）
+- [ ] ゲート4（fact-check-reviewer）運用の実効性レビュー（初回運用3件後）

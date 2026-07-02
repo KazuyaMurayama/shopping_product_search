@@ -1,6 +1,6 @@
 # FILE INDEX - shopping_product_search
 
-> 最終更新: 2026-05-07 | ファイル数: 63
+> 最終更新: 2026-07-02 | ファイル数: 73
 
 ## ディレクトリ構造 (depth=4)
 
@@ -10,6 +10,8 @@
 │   ├── agents/
 │   │   ├── amazon-scout.md
 │   │   ├── condition-checker.md
+│   │   ├── coverage-critic.md
+│   │   ├── fact-check-reviewer.md
 │   │   ├── iherb-scout.md
 │   │   ├── mercari-scout.md
 │   │   ├── osakado-scout.md
@@ -17,12 +19,21 @@
 │   │   ├── report-writer.md
 │   │   ├── url-validator.md
 │   │   └── yahoo-shopping-scout.md
-│   └── commands/
-│       ├── add-channel.md
-│       ├── check-conditions.md
-│       ├── generate-report.md
-│       ├── search-product.md
-│       └── verify-url.md
+│   ├── commands/
+│   │   ├── add-channel.md
+│   │   ├── check-conditions.md
+│   │   ├── generate-report.md
+│   │   ├── search-product.md
+│   │   └── verify-url.md
+│   └── skills/
+│       ├── coverage-planning/
+│       │   └── SKILL.md
+│       ├── skill-creator/
+│       │   └── SKILL.md
+│       ├── sp-dispatching-parallel-agents/
+│       │   └── SKILL.md
+│       └── sp-requesting-code-review/
+│           └── SKILL.md
 ├── .gitignore
 ├── CLAUDE.md
 ├── FILE_INDEX.md
@@ -30,6 +41,9 @@
 ├── Timeout_Prevention.md
 ├── docs/
 │   ├── channels.md
+│   ├── plans/
+│   │   └── PLAN_QUALITY_UPGRADE_20260702.md
+│   ├── rules-research.md
 │   ├── rules-search-product.md
 │   └── used-market-rules.md
 ├── file_index.md
@@ -41,6 +55,7 @@
 │   ├── research_20260428_fake_reviews_ec_comparison_v1.md
 │   ├── research_20260428_fake_reviews_yahoo_ec.txt
 │   ├── research_20260428_rakuten_fake_reviews_v1.md
+│   ├── research_20260702_public_skills_v1.md
 │   ├── search_20260408_1046.txt
 │   ├── search_20260408_1046_final.md
 │   ├── search_20260408_1046_v2.md
@@ -73,19 +88,23 @@
 │   ├── search_20260506_1000_socks_grey_v1.txt
 │   ├── search_20260506_1200_uv_face_cover_parka_v1.txt
 │   └── search_20260506_uv_face_cover_parka_v1.md
+├── scripts/
+│   └── check_research_report.py
 └── tasks.md
 ```
 
 ## カテゴリ別ファイル一覧
 
-### Documentation (62件)
+### Documentation (71件)
 
-<details><summary>62件</summary>
+<details><summary>71件</summary>
 
 | ファイルパス | サイズ(bytes) | SHA |
 |---|---|---|
 | `.claude/agents/amazon-scout.md` | 6533 | d46ddb4 |
 | `.claude/agents/condition-checker.md` | 2652 | a7747a0 |
+| `.claude/agents/coverage-critic.md` | 4170 | f5a9a1e |
+| `.claude/agents/fact-check-reviewer.md` | 5100 | 0d0c290 |
 | `.claude/agents/iherb-scout.md` | 2670 | d8abb66 |
 | `.claude/agents/mercari-scout.md` | 3401 | 38fa1fa |
 | `.claude/agents/osakado-scout.md` | 2740 | d005727 |
@@ -98,8 +117,14 @@
 | `.claude/commands/generate-report.md` | 1245 | 9419d30 |
 | `.claude/commands/search-product.md` | 2673 | 1ce1cd5 |
 | `.claude/commands/verify-url.md` | 1308 | 1d79779 |
+| `.claude/skills/coverage-planning/SKILL.md` | 6398 | 593809c |
+| `.claude/skills/skill-creator/SKILL.md` | 7881 | 6920474 |
+| `.claude/skills/sp-dispatching-parallel-agents/SKILL.md` | 10079 | df58c52 |
+| `.claude/skills/sp-requesting-code-review/SKILL.md` | 7058 | ffec430 |
 | `CLAUDE.md` | 5025 | 0424392 |
 | `docs/channels.md` | 3938 | a737441 |
+| `docs/plans/PLAN_QUALITY_UPGRADE_20260702.md` | 36146 | 4f438d2 |
+| `docs/rules-research.md` | 11210 | 92c4047 |
 | `docs/rules-search-product.md` | 12844 | eabd2fe |
 | `docs/used-market-rules.md` | 2035 | 15cf73d |
 | `file_index.md` | 8160 | 5637ff9 |
@@ -111,6 +136,7 @@
 | `reports/research_20260428_fake_reviews_ec_comparison_v1.md` | 9604 | 4c16834 |
 | `reports/research_20260428_fake_reviews_yahoo_ec.txt` | 18579 | 12fbd46 |
 | `reports/research_20260428_rakuten_fake_reviews_v1.md` | 12312 | 1fa2bc8 |
+| `reports/research_20260702_public_skills_v1.md` | 24305 | fc4244d |
 | `reports/search_20260408_1046_final.md` | 6483 | 819584e |
 | `reports/search_20260408_1046_v2.md` | 25377 | c7d2a19 |
 | `reports/search_20260408_1046_v2.txt` | 23904 | bffffb1 |
@@ -148,6 +174,12 @@
 | `Timeout_Prevention.md` | 4989 | d690243 |
 
 </details>
+
+### Scripts (1件)
+
+| ファイルパス | サイズ(bytes) | SHA |
+|---|---|---|
+| `scripts/check_research_report.py` | 3461 | ee57d2a |
 
 ### Config (1件)
 

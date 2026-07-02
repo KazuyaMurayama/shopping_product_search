@@ -36,12 +36,14 @@ Amazon / 楽天 / Yahoo!ショッピング / iHerb / メルカリ / Osakado
 | `condition-checker.md` | 商品状態確認 |
 | `url-validator.md` | URL 検証 |
 | `report-writer.md` | 比較レポート生成 |
+| `coverage-critic.md` | 調査観点・ブランド地図の抜け漏れ監査＝網羅性ゲート |
+| `fact-check-reviewer.md` | ゲート4・レポート単位の独立ファクトチェック |
 
 ### コマンド（`.claude/commands/`）
 `search-product` / `generate-report` / `verify-url` / `check-conditions` / `add-channel`
 
 ### ドキュメント（`docs/`）
-`channels.md` / `rules-search-product.md` / `used-market-rules.md`
+`channels.md` / `rules-search-product.md` / `used-market-rules.md` / `rules-research.md`
 
 ---
 
@@ -139,6 +141,8 @@ Amazon / 楽天 / Yahoo!ショッピング / iHerb / メルカリ / Osakado
    過去にこの手順逆転でSOLD OUT商品がTOP5に含まれる失敗をしている。**二度と繰り返さない**。
    詳細は `docs/rules-search-product.md` 第0.5章 ルールD 参照。
 
+全調査タスク共通の網羅性・ハルシネーション対策は `docs/rules-research.md` を参照（着手時: 観点マトリクス＋coverage-critic ／ 納品前: fact-check-reviewer＝ゲート4）。
+
 ---
 
 ## 8. ドキュメント命名・日付ルール（v2.0 / 2026-06-03 改訂）
@@ -187,6 +191,10 @@ README / CLAUDE.md / FILE_INDEX / file_index / tasks.md / CHANGELOG / LICENSE / 
 | 計画に沿った実行 | `.claude/skills/sp-executing-plans/SKILL.md` |
 | 図表・比較図生成 | `.claude/skills/mermaid-agents365/SKILL.md` |
 | 成果物の納品・コミット前チェック | `.claude/skills/sp-verification-before-completion/SKILL.md` |
+| 調査・検索・比較タスクの着手時（網羅性設計） | `.claude/skills/coverage-planning/SKILL.md` |
+| 複数の独立タスクの並列サブエージェント分担 | `.claude/skills/sp-dispatching-parallel-agents/SKILL.md` |
+| コード・設定変更のコミット/マージ前レビュー | `.claude/skills/sp-requesting-code-review/SKILL.md` |
+| 新規スキル作成・既存スキル改訂 | `.claude/skills/skill-creator/SKILL.md` |
 
 > 追加ルール（`.claude/` 配下）: `quality-rules.md`（品質）/ `cross-repo.md`（関連リポ連携）も必要時に参照。
 
